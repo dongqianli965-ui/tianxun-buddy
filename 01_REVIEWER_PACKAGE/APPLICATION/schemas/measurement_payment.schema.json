@@ -1,0 +1,35 @@
+{
+  "title": "计量支付资料字段Schema",
+  "type": "object",
+  "required": [
+    "period",
+    "item_code",
+    "approved_quantity",
+    "source_ref"
+  ],
+  "properties": {
+    "period": {
+      "type": "string"
+    },
+    "item_code": {
+      "type": "string"
+    },
+    "approved_quantity": {
+      "type": "number"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "measurement_date": {
+      "type": "string"
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "source_ref": {
+      "type": "string"
+    }
+  },
+  "x-confidence-threshold": 0.95,
+  "x-human-confirmation-required": true
+}

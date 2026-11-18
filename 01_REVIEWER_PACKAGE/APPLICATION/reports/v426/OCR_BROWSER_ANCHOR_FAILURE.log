@@ -1,0 +1,86 @@
+[WebServer] (node:37016) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 22:01:24 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] INFO:     Started server process [29372]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8016 (Press CTRL+C to quit)
+
+Running 2 tests using 1 worker
+
+(node:16048) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] OCR_WRITE_REFUSED page_id=ocr-5b8a5d066b784ec575ee96ab53322a1d-p1 issues=['ASSET_ANCHOR_MISSING']
+  x  1 e2e\governance.spec.ts:6:1 › OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限 (1.8s)
+(node:10820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] OCR_WRITE_REFUSED page_id=ocr-5b8a5d066b784ec575ee96ab53322a1d-p3 issues=['ASSET_ANCHOR_MISSING']
+  x  2 e2e\ocr-roles.spec.ts:5:1 › OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容 (1.8s)
+
+
+  1) e2e\governance.spec.ts:6:1 › OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限 ──────────────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 200
+    Received: 409
+
+      20 |   await page.getByTestId('ocr-corrected-text').fill(revised);await page.getByTestId('ocr-fields').fill('{"test_only":true,"purpose":"浏览器接口验证"}');
+      21 |   await page.getByTestId('ocr-reason').fill('TEST_ONLY 隔离运行库验证');await expect(page.getByTestId('ocr-diff')).toContainText('TEST_ONLY');
+    > 22 |   const saving=page.waitForResponse(r=>r.url().endsWith('/reviews')&&r.request().method()==='POST');await page.getByTestId('ocr-save').click();const saved=await saving;expect(saved.status()).toBe(200);
+         |                                                                                                                                                                                                ^
+      23 |   const revision=await saved.json();expect(revision.original_text).toBe(original);expect(revision.reviewer_id).toBe('alice');expect(revision.version).toBe(1);expect(revision.history_chain_valid).toBeTruthy();
+      24 |   await expect(page.getByTestId('ocr-history')).toContainText('TEST_ONLY');await expect(page.getByTestId('ocr-version')).toHaveText('版本 1');
+      25 |   await page.screenshot({path:join(shots,'02-ocr-saved-history.png'),fullPage:true});
+        at F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\frontend\e2e\governance.spec.ts:22:192
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\reports\v425\playwright-artifacts\governance-OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\reports\v425\playwright-artifacts\governance-OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\reports\v425\playwright-artifacts\governance-OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\reports\v425\playwright-artifacts\governance-OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) e2e\ocr-roles.spec.ts:5:1 › OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容 ───────────────────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 200
+    Received: 409
+
+      17 |     const waiting=page.waitForResponse(r=>r.url().endsWith(suffix)&&r.request().method()==='POST');
+      18 |     await page.getByTestId(button).click();const response=await waiting;
+    > 19 |     expect(response.status()).toBe(200);const body=await response.json();
+         |                               ^
+      20 |     evidence.push({suffix,status:response.status(),page_id:body.page_id,version:body.version,
+      21 |       content_sha256:body.content_sha256,submitted_version:body.submitted_version,review_status:body.review_status});return body;
+      22 |   }
+        at action (F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\frontend\e2e\ocr-roles.spec.ts:19:31)
+        at F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\frontend\e2e\ocr-roles.spec.ts:27:63
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\reports\v425\playwright-artifacts\ocr-roles-OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\reports\v425\playwright-artifacts\ocr-roles-OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\reports\v425\playwright-artifacts\ocr-roles-OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\reports\v425\playwright-artifacts\ocr-roles-OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    e2e\governance.spec.ts:6:1 › OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限 ───────────────────────────────────
+    e2e\ocr-roles.spec.ts:5:1 › OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容 ────────────────────────────────────────

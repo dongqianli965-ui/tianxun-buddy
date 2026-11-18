@@ -1,0 +1,32 @@
+{
+  "title": "送审结算书字段Schema",
+  "type": "object",
+  "required": [
+    "submission_version",
+    "total_amount",
+    "round_no",
+    "source_ref"
+  ],
+  "properties": {
+    "submission_version": {
+      "type": "string"
+    },
+    "total_amount": {
+      "type": "number"
+    },
+    "round_no": {
+      "type": "integer"
+    },
+    "contract_id": {
+      "type": "string"
+    },
+    "change_register_ref": {
+      "type": "string"
+    },
+    "source_ref": {
+      "type": "string"
+    }
+  },
+  "x-confidence-threshold": 0.95,
+  "x-human-confirmation-required": true
+}

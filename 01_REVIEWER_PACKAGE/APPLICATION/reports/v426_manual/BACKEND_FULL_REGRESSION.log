@@ -1,0 +1,89 @@
+{"phase": "final", "exit_code": 1, "tests": 1042, "failures": 9, "errors": 0, "skipped": 0, "log": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426_manual\\regression\\FINAL_BACKEND.log", "isolated_copy": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\_CODEX_V426\\final_20261117T031813147432", "isolated_postgresql_database": "txbuddy_v425_test_v426_final_20261117t031813147432", "source_unchanged_during_run": true, "working_source_matches_tested_copy": true, "production_accepted": false, "accuracy_E": "BLOCKED"}
+..................................................FFF...F............... [  6%]
+..................F..................................................... [ 13%]
+........................................................................ [ 20%]
+........................................................................ [ 27%]
+........................................................................ [ 34%]
+..........................F............................................. [ 41%]
+........................................................................ [ 48%]
+........................................................................ [ 55%]
+........................................................................ [ 62%]
+........................................................................ [ 69%]
+........................................................................ [ 76%]
+........................................................................ [ 82%]
+........................................................................ [ 89%]
+........................................................................ [ 96%]
+..............................FF.F                                       [100%]
+================================== FAILURES ===================================
+_________________________ test_l1_end_to_end_pipeline _________________________
+tests\test_l1_integration.py:75: in test_l1_end_to_end_pipeline
+    assert r.json()["status"] == "DONE", r.text
+           ^^^^^^^^^^^^^^^^^^
+E   KeyError: 'status'
+_________________ test_client_report_rejected_in_strict_mode __________________
+tests\test_p0_04_gate_binding.py:68: in test_client_report_rejected_in_strict_mode
+    assert any(f["rule_id"] == "G4.SOURCE" for f in out["failed_rules"]), out
+E   AssertionError: {'advisory': False, 'authoritative': True, 'authority': {'failure_rules': [{'condition': '无 job_record(kind=report) 或 ..., 'table': 'job'}, {'authoritative': True, 'count': 6, 'detail': '已判定门禁记录（用于前置门禁与顺序校验）', 'table': 'gate_record'}], ...}
+E   assert False
+E    +  where False = any(<generator object test_client_report_rejected_in_strict_mode.<locals>.<genexpr> at 0x000001F352D48860>)
+________________ test_server_report_with_binding_passes_strict ________________
+tests\test_p0_04_gate_binding.py:82: in test_server_report_with_binding_passes_strict
+    assert gate(jid, "G4")["result"] == "PASS"
+E   AssertionError: assert 'FAIL' == 'PASS'
+E     
+E     - PASS
+E     + FAIL
+____________________ test_compat_mode_keeps_legacy_records ____________________
+tests\test_p0_04_gate_binding.py:117: in test_compat_mode_keeps_legacy_records
+    assert gate(jid, "G4")["result"] == "PASS"
+E   AssertionError: assert 'FAIL' == 'PASS'
+E     
+E     - PASS
+E     + FAIL
+_ test_all_37_frontend_endpoints_resolve_and_extended_post_routes_are_classified _
+tests\test_v24_endpoint_mapping.py:17: in test_all_37_frontend_endpoints_resolve_and_extended_post_routes_are_classified
+    assert len(entries)==37
+E   AssertionError: assert 38 == 37
+E    +  where 38 = len([('health', 'GET', '/health'), ('precision', 'GET', '/v1/precision'), ('rules', 'GET', '/v1/rules'), ('rulesValidate', 'POST', '/v1/rules/validate'), ('basisValidate', 'POST', '/v1/basis/validate'), ('jobCreate', 'POST', '/v1/job'), ...])
+___________________ test_v423_synthetic_project_full_chain ____________________
+tests\test_v423_e2e.py:245: in test_v423_synthetic_project_full_chain
+    approved = _ok(client.post(f"/v1/task/{tid}/approve", json={
+tests\test_v423_e2e.py:29: in _ok
+    assert response.status_code == code, response.text
+E   AssertionError: {"detail":{"code":"TASK_ACTOR_MISMATCH","message":"审批人必须与当前登录身份一致"}}
+E   assert 403 == 200
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+______________________ test_task_lifecycle_with_approval ______________________
+tests\test_workflow.py:38: in test_task_lifecycle_with_approval
+    assert bad.status_code == 422 and "SEAL_NOT_ALLOWED" in bad.text
+E   assert (403 == 422)
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+________________ test_approve_node_requires_licensed_engineer _________________
+tests\test_workflow.py:49: in test_approve_node_requires_licensed_engineer
+    assert bad.status_code == 422 and "资格" in bad.text
+E   assert (403 == 422)
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+______________________ test_illegal_transition_rejected _______________________
+tests\test_workflow.py:67: in test_illegal_transition_rejected
+    assert r.status_code == 422 and "SUMMARY_REVIEW_FAILED" in r.text
+E   assert (403 == 422)
+E    +  where 403 = <Response [403 Forbidden]>.status_code
+============================== warnings summary ===============================
+..\..\..\TianxunBuddy_V4_Execution_Starter\backend\.venv\Lib\site-packages\fastapi\testclient.py:1
+  F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\backend\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\reports\v426_manual\regression\FINAL_BACKEND.xml -
+=========================== short test summary info ===========================
+FAILED tests/test_l1_integration.py::test_l1_end_to_end_pipeline - KeyError: ...
+FAILED tests/test_p0_04_gate_binding.py::test_client_report_rejected_in_strict_mode
+FAILED tests/test_p0_04_gate_binding.py::test_server_report_with_binding_passes_strict
+FAILED tests/test_p0_04_gate_binding.py::test_compat_mode_keeps_legacy_records
+FAILED tests/test_v24_endpoint_mapping.py::test_all_37_frontend_endpoints_resolve_and_extended_post_routes_are_classified
+FAILED tests/test_v423_e2e.py::test_v423_synthetic_project_full_chain - Asser...
+FAILED tests/test_workflow.py::test_task_lifecycle_with_approval - assert (40...
+FAILED tests/test_workflow.py::test_approve_node_requires_licensed_engineer
+FAILED tests/test_workflow.py::test_illegal_transition_rejected - assert (403...
+9 failed, 1033 passed, 1 warning in 1331.44s (0:22:11)
+

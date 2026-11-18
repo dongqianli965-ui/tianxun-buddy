@@ -1,0 +1,4 @@
+data_id,file_name,original_source,collection_time,region,period,human_review
+TD-001,土建清单,TEST_DATA/L1_GoldenSet_001,2026-11-17,河南/西峡,原项目期次,NO
+TD-002,安装清单,TEST_DATA/L1_GoldenSet_001,2026-11-17,河南/西峡,原项目期次,NO
+TD-003,郑州Q3价格PDF,TEST_DATA/L1_GoldenSet_001,2026-11-17,郑州四环以内,2026-Q3,NO

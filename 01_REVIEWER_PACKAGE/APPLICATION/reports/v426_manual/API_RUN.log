@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "name": "����/���ֽ�ɫ/��ʵǩ������Token",
+      "status": "PASS",
+      "detail": {
+        "roles": 5,
+        "wrong_password": 401,
+        "valid_signature_expired_token": 401
+      }
+    },
+    {
+      "name": "OCR��ʵҳͼ/��λ��/�ܾ�ԽȨ/רҵ�ʸ��Ž�",
+      "status": "PASS",
+      "detail": {
+        "pages": 8,
+        "image_sha256": "dfbcc06719e9934f51a6a2650095adf966f34b46a9c3bc1b86e0ca1a2953891e",
+        "history_chain_valid": true,
+        "negative_cases": 4,
+        "human_review_count": 0
+      }
+    },
+    {
+      "name": "�����ڴ�/����/������ʷ/�ظ�����/��Դ׷��",
+      "status": "FAIL",
+      "error": ""
+    },
+    {
+      "name": "��ʵ�嵥�ϴ�����/148�����ֶε�������/δ��Ȩ��Ŀ",
+      "status": "PASS",
+      "detail": {
+        "reference_rows": 148,
+        "civil_rows": 50,
+        "installation_rows": 98,
+        "every_exported_field_compared": true,
+        "independently_calculated": false
+      }
+    },
+    {
+      "name": "ʵ�ʻ�������/��ʽ�ɹ�����Ž�/��ֹǰ���ƹ�",
+      "status": "PASS",
+      "detail": {
+        "health_environment": "TEST_ONLY",
+        "formal_deliverable_status": 422,
+        "formal_status": "BLOCKED",
+        "no_formal_artifact_created": true
+      }
+    },
+    {
+      "name": "�˳���¼����Token",
+      "status": "PASS",
+      "detail": "�ѳ������Ʋ��ܸ���"
+    }
+  ],
+  "passed": 5,
+  "failures": 1,
+  "request_count": 42,
+  "environment": "TEST_ONLY",
+  "production_accepted": false,
+  "accuracy_E": "BLOCKED",
+  "session": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\_CODEX_V426\\manual\\TEST_ONLY-20261117T020550-40aa6d",
+  "started_at": "2026-11-17T02:10:10.501075+08:00",
+  "finished_at": "2026-11-17T02:10:31.238976+08:00",
+  "source_unchanged": true,
+  "requests_sha256": "166f7f087d80cac87efcab5e1c480dc7f0d906d90e9991d4fd2156721ed46bc1"
+}

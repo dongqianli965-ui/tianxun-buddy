@@ -1,0 +1,30 @@
+{
+  "environment": "TEST_ONLY",
+  "version": "V4.2.6",
+  "session": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\_CODEX_V426\\manual\\TEST_ONLY-20261117T094226-d226ae",
+  "launch_source_sha256": {
+    "RUN_V426_FRONTEND_MANUAL.cmd": "50b22027fe086e099f809912d6695b3b99c5e9810a2c35e6bc1e107960f01523",
+    "STOP_V426_FRONTEND_MANUAL.cmd": "eee92a1862939885c5747652bbc72378ab977990095609ba86a41ce33c86709f",
+    "CHECK_V426_FRONTEND_MANUAL.cmd": "768ed2e35e8e9e62394f01d561f80507fd44680abbdbba5b424c194a6c8f6d8a",
+    "scripts/v426_manual_runtime.py": "4eb14f150a141bba8e6e26a1be97bd2605dcaa220f79ccdd17c8475689ff3496",
+    "FRONTEND_MANUAL_TEST_GUIDE.md": "1efb953127a3ef7ea5a9e4b1cb87a58751d5ce7fd959858c89b87a365d05970f"
+  },
+  "health": {
+    "passed": true,
+    "original_data_unchanged": true,
+    "postgres_isolation_verified": true
+  },
+  "stop": {
+    "passed": true,
+    "original_data_unchanged": true
+  },
+  "isolation": {
+    "passed": true,
+    "source_role_write_denied": true,
+    "source_pg_readonly_snapshot_unchanged": true,
+    "human_reviews_created": 0,
+    "professional_signoffs_created": 0
+  },
+  "production_accepted": false,
+  "accuracy_E": "BLOCKED"
+}

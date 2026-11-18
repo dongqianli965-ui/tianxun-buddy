@@ -1,0 +1,18 @@
+[WebServer] (node:47524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 22:04:14 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] INFO:     Started server process [39008]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8016 (Press CTRL+C to quit)
+
+Running 2 tests using 1 worker
+
+(node:8176) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\governance.spec.ts:6:1 › OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限 (3.5s)
+  ok 2 e2e\ocr-roles.spec.ts:5:1 › OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容 (4.5s)
+
+  2 passed (29.6s)

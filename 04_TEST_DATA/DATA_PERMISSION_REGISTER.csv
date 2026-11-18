@@ -1,0 +1,4 @@
+data_id,rights_holder,authorization_status,internal_test,external_delivery,redistribution
+TD-001,待业务方确认,UNVERIFIED,YES,NO,NO
+TD-002,待业务方确认,UNVERIFIED,YES,NO,NO
+TD-003,待业务方确认,PARTIAL,YES,NO,NO

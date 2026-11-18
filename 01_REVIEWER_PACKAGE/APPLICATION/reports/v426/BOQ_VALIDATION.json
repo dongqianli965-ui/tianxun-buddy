@@ -1,0 +1,978 @@
+{
+  "workbooks": [
+    {
+      "file": "西峡教师周转宿舍项目_土建_工程量清单.xlsx",
+      "sha256_before": "4d722f882e5b1afc6325a62c4aa5ee0977ce9a1607ec19f3243c6f43acb9660b",
+      "sha256_after": "4d722f882e5b1afc6325a62c4aa5ee0977ce9a1607ec19f3243c6f43acb9660b",
+      "rows": 50,
+      "errors": [],
+      "mismatches": [],
+      "skipped_rows": [
+        {
+          "sheet": "扉-1 工程量清单扉页",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-01 总说明",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 4,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 5,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 6,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 18,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 19,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 20,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 21,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 22,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 23,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 24,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 25,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 32,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 33,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 37,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 38,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 39,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 40,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 41,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 42,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 43,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 44,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 45,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 46,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 50,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 51,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 54,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 55,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 56,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 57,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 58,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 59,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 60,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 61,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 65,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 66,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 73,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 74,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 77,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 78,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 79,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 80,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 81,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 82,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 83,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 84,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 86,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 87,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 89,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 90,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 112,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 113,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 114,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 115,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-11 总价措施项目清单与计价汇总表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12 其他项目清单与计价汇总表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-1 暂列金额明细表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-2 材料(工程设备)暂估价及调整表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-3 专业工程暂估价及结算价表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-4 计日工表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-5 总承包服务费计价表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-13 规费、税金项目计价表",
+          "reason": "HEADER_UNMAPPED"
+        }
+      ]
+    },
+    {
+      "file": "西峡教师周转宿舍项目_安装_工程量清单.xlsx",
+      "sha256_before": "0ec6886429caae9078d1925547b21b0393700579486f9b8374d663fa22606e77",
+      "sha256_after": "0ec6886429caae9078d1925547b21b0393700579486f9b8374d663fa22606e77",
+      "rows": 98,
+      "errors": [],
+      "mismatches": [],
+      "skipped_rows": [
+        {
+          "sheet": "扉-1 工程量清单扉页",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-01 总说明",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 4,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 5,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 6,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 18,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 19,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 20,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 21,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 22,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 23,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 24,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 25,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 27,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 28,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 40,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 41,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 42,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 43,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 44,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 45,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 46,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 47,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 52,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 53,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 54,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 56,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 57,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 58,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 59,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 60,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 61,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 62,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 63,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 69,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 70,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 71,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 72,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 73,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 74,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 75,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 76,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 81,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 84,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 85,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 86,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 87,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 88,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 89,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 90,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 91,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 94,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 100,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 101,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 102,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 103,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 104,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 105,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 106,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 107,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 108,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 109,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 110,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 116,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 117,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 118,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 119,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 120,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 121,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 122,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 123,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 131,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 132,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 133,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 134,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 135,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 136,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 137,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 138,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 148,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 149,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 150,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 151,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 152,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 153,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 154,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 155,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 160,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 165,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 166,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 167,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 168,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 169,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 170,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 171,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 172,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 182,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 183,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 184,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 185,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 186,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 187,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 188,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 189,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 191,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 196,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 197,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 204,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 205,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 208,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 209,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 210,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 211,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 212,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 213,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 214,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 215,
+          "reason": "REPEATED_HEADER"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 216,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 217,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 247,
+          "reason": "SUMMARY"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 248,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 249,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-08 分部分项工程和单价措施项目清单与计价表",
+          "row": 250,
+          "reason": "STRUCTURAL"
+        },
+        {
+          "sheet": "表-11 总价措施项目清单与计价汇总表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12 其他项目清单与计价汇总表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-1 暂列金额明细表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-2 材料(工程设备)暂估价及调整表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-3 专业工程暂估价及结算价表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-4 计日工表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-12-5 总承包服务费计价表",
+          "reason": "HEADER_UNMAPPED"
+        },
+        {
+          "sheet": "表-13 规费、税金项目计价表",
+          "reason": "HEADER_UNMAPPED"
+        }
+      ]
+    }
+  ],
+  "total_rows": 148,
+  "data_role": "B_REFERENCE",
+  "independently_calculated": false,
+  "accuracy_verification": "BLOCKED"
+}

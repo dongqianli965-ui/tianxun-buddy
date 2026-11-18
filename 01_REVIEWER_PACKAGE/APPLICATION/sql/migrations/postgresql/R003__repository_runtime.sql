@@ -1,0 +1,15 @@
+-- R003: 回滚 003_repository_runtime_postgresql.sql（应用运行时表，9 张表）
+--
+-- 003 全部是 CREATE TABLE IF NOT EXISTS + CREATE INDEX IF NOT EXISTS；
+-- DROP TABLE 会连带删除该表的索引，因此无需单独 DROP INDEX。
+-- 运行时表之间不建外键（见 003 头部取舍说明），这里仍按依赖倒序排列以便人工复核。
+
+DROP TABLE IF EXISTS gate_record CASCADE;
+DROP TABLE IF EXISTS job_record CASCADE;
+DROP TABLE IF EXISTS job_task CASCADE;
+DROP TABLE IF EXISTS job_document CASCADE;
+DROP TABLE IF EXISTS job CASCADE;
+DROP TABLE IF EXISTS idem CASCADE;
+DROP TABLE IF EXISTS audit_log CASCADE;
+DROP TABLE IF EXISTS calc_run CASCADE;
+DROP TABLE IF EXISTS evidence CASCADE;

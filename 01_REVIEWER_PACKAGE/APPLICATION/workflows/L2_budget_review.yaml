@@ -1,0 +1,12 @@
+line: L2
+name: 预算审核
+status: PHASE_1_5
+steps:
+  - {id: L2-01, actor: PROJECT_OWNER, input: [submitted_budget, review_scope, contract_basis], output: [review_job, frozen_snapshot], failure: [scope_missing_to_G1_FAIL]}
+  - {id: L2-02, actor: DOCUMENT_AGENT, input: [budget, drawings, basis_docs], output: [normalized_boq, source_map], failure: [unparseable_to_TASKBOOK]}
+  - {id: L2-03, actor: REVIEW_AGENT, input: [normalized_boq, review_scope], output: [sampling_plan, rationale], failure: [low_coverage_to_HUMAN_APPROVAL]}
+  - {id: L2-04, actor: QTY_ENGINE, input: [boq, components, locked_basis], output: [independent_qty], failure: [basis_missing_to_G0_BLOCK]}
+  - {id: L2-05, actor: QUOTA_PRICE_ENGINE, input: [independent_qty, quota_pack, price_period], output: [independent_price], failure: [missing_source_to_BASIS_ITEM_MISSING]}
+  - {id: L2-06, actor: REVIEW_ENGINE, input: [submitted_values, independent_values], output: [qty_price_item_fee_diffs], failure: [identity_broken_to_SUMMARY_REVIEW_FAILED]}
+  - {id: L2-07, actor: REVIEWER, input: [diff_report, evidence], output: [review_opinion], failure: [unresolved_to_WAITING_HUMAN]}
+  - {id: L2-08, actor: APPROVER, input: [review_opinion, sampling_disclosure], output: [approved_review], failure: [missing_approval_to_WAITING_HUMAN]}

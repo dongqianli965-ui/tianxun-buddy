@@ -1,0 +1,9 @@
+line: L4
+name: 结算审核
+status: PHASE_2
+steps:
+  - {id: L4-01, actor: PROJECT_OWNER, input: [submitted_settlement, review_round, prior_snapshot], output: [review_job, frozen_round], failure: [round_missing_to_G1_BLOCK]}
+  - {id: L4-02, actor: DOCUMENT_AGENT, input: [contract, as_built, change_visas, payment_records], output: [review_bundle], failure: [prior_round_missing_to_HUMAN]}
+  - {id: L4-03, actor: REVIEW_ENGINE, input: [submission, independent_recalc], output: [diffs, duplicate_visa_candidates], failure: [identity_broken_to_SUMMARY_REVIEW_FAILED]}
+  - {id: L4-04, actor: REVIEWER, input: [diff_report, dispute_items], output: [dispute_state, negotiation_record], failure: [unauthorized_concession_to_BLOCK]}
+  - {id: L4-05, actor: APPROVER, input: [review_result, evidence], output: [approved_review], failure: [invalid_transition_to_BLOCK]}

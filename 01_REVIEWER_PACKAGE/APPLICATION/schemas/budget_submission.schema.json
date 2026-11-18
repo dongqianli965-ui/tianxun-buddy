@@ -1,0 +1,32 @@
+{
+  "title": "送审预算书字段Schema",
+  "type": "object",
+  "required": [
+    "submission_version",
+    "total_amount",
+    "line_items_ref",
+    "source_ref"
+  ],
+  "properties": {
+    "submission_version": {
+      "type": "string"
+    },
+    "total_amount": {
+      "type": "number"
+    },
+    "line_items_ref": {
+      "type": "string"
+    },
+    "pricing_basis_ref": {
+      "type": "string"
+    },
+    "tax_mode": {
+      "type": "string"
+    },
+    "source_ref": {
+      "type": "string"
+    }
+  },
+  "x-confidence-threshold": 0.95,
+  "x-human-confirmation-required": true
+}

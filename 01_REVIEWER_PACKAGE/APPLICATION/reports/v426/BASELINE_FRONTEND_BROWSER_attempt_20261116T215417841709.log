@@ -1,0 +1,71 @@
+
+> tianxun-buddy-workbench@0.1.0 test:e2e
+> playwright test --config playwright.v425.config.ts
+
+[WebServer] (node:42504) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 21:50:13 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] 21:50:14 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] 21:50:15 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] INFO:     Started server process [40244]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8016 (Press CTRL+C to quit)
+
+Running 3 tests using 1 worker
+
+(node:23004) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\auth-ui.spec.ts:2:1 › 登录错误、会话保持、真实失效和登出 (1.2s)
+  ok 2 e2e\governance.spec.ts:6:1 › OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限 (3.3s)
+  x  3 e2e\sample-pilot.spec.ts:9:1 › 真实原件→结构化→清单→价格及勘误→来源→流程→导出→权限拒绝 (49.9s)
+
+
+  1) e2e\sample-pilot.spec.ts:9:1 › 真实原件→结构化→清单→价格及勘误→来源→流程→导出→权限拒绝 ────────────────────────────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByTestId('price-results')
+    Expected substring: "492.34"
+    Received string:    "材料 / 规格单位含税价不含税价版本来源"
+    Timeout: 30000ms
+
+    Call log:
+      - Expect "toContainText" getByTestId('price-results') with timeout 30000ms
+      - waiting for getByTestId('price-results')
+        62 × locator resolved to <table data-v-4a2d28df="" data-testid="price-results">…</table>
+           - unexpected value "材料 / 规格单位含税价不含税价版本来源"
+
+
+      30 |   await page.getByTestId('offline-ocr').click();await expect(page.getByTestId('structured-result')).toContainText('NEEDS_EXPERT_REVIEW',{timeout:60000});
+      31 |   await page.screenshot({path:join(shots,'02b-offline-ocr.png'),fullPage:true});
+    > 32 |   await page.getByTestId('query-prices').click();await expect(page.getByTestId('price-results')).toContainText('492.34');await expect(page.getByTestId('price-results')).toContainText('已勘误');
+         |                                                                                                  ^
+      33 |   await page.getByRole('button',{name:'查看来源',exact:true}).first().click();await expect(page.getByTestId('source-detail')).toContainText('sha256');await page.screenshot({path:join(shots,'03-price-source.png'),fullPage:true});
+      34 |   await page.getByTestId('price-region').selectOption('410300');await page.getByTestId('query-prices').click();await expect(page.getByTestId('pilot-error')).toContainText('其他地区缺少依据');
+      35 |   await page.getByTestId('price-region').selectOption('410100-INNER-4RING');await page.getByTestId('price-period').selectOption('2026-Q4');await page.getByTestId('query-prices').click();await expect(page.getByTestId('pilot-error')).toContainText('缺少数据');
+        at F:\ZHU-FISH\TIANXUN_BUDDY_V4\_CODEX_V426\baseline_20261116T213836591174\frontend\e2e\sample-pilot.spec.ts:32:98
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\reports\v425\playwright-artifacts\sample-pilot-真实原件→结构化→清单→价格及勘误→来源→流程→导出→权限拒绝\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\reports\v425\playwright-artifacts\sample-pilot-真实原件→结构化→清单→价格及勘误→来源→流程→导出→权限拒绝\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\reports\v425\playwright-artifacts\sample-pilot-真实原件→结构化→清单→价格及勘误→来源→流程→导出→权限拒绝\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\reports\v425\playwright-artifacts\sample-pilot-真实原件→结构化→清单→价格及勘误→来源→流程→导出→权限拒绝\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e\sample-pilot.spec.ts:9:1 › 真实原件→结构化→清单→价格及勘误→来源→流程→导出→权限拒绝 ─────────────────────────────────
+  2 passed (1.1m)

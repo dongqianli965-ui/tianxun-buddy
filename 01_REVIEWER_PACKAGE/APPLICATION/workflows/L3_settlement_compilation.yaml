@@ -1,0 +1,10 @@
+line: L3
+name: 结算编制
+status: PHASE_2
+steps:
+  - {id: L3-01, actor: PROJECT_OWNER, input: [contract, completion_info, settlement_scope], output: [job, contract_mode], failure: [mode_unclear_to_HUMAN]}
+  - {id: L3-02, actor: DOCUMENT_AGENT, input: [as_built_drawings, change_visas, payment_records], output: [source_index, missing_list], failure: [missing_signatures_to_G1_BLOCK]}
+  - {id: L3-03, actor: QUANTITY_ENGINEER, input: [as_built_drawings, measurement_records], output: [completed_quantities, source_priority], failure: [conflict_to_HUMAN]}
+  - {id: L3-04, actor: CONTRACT_AGENT, input: [contract_clauses, change_visas], output: [variation_candidates, claims], failure: [clause_unclear_to_HUMAN]}
+  - {id: L3-05, actor: QTY_QUOTA_PRICE_ENGINE, input: [confirmed_quantities, quota, prices], output: [settlement_amount, adjustments], failure: [unsupported_item_to_PRICE_GATE_NOT_READY]}
+  - {id: L3-06, actor: COST_ENGINEER, input: [settlement_amount, evidence], output: [confirmed_settlement], failure: [unconfirmed_adjustment_to_G3a_BLOCK]}

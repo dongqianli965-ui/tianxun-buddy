@@ -1,0 +1,90 @@
+line: L1
+name: 预算编制
+status: MVP_TARGET
+version: 1
+description: |
+  L1 预算编制工作流：11 个业务节点，真实由 txbuddy.core.workflow_yaml 加载执行。
+  depends_on 显式声明依赖；approval 声明人工审批暂停点（未通过则后继节点不执行）。
+steps:
+  - id: L1-01
+    name: 项目受理
+    actor: PROJECT_OWNER
+    depends_on: []
+    input: [contract_or_entrustment, project_profile]
+    output: [job_record, contract_snapshot]
+    failure: [missing_contract_to_G1_FAIL]
+  - id: L1-02
+    name: 资料解析
+    actor: DOCUMENT_AGENT
+    depends_on: [L1-01]
+    input: [drawing_set, design_description, finish_schedule, tender_docs]
+    output: [document_index, extracted_fields, missing_list]
+    failure: [low_confidence_to_HUMAN_CONFIRM]
+  - id: L1-03
+    name: 构件识别
+    actor: DRAWING_WORKER
+    depends_on: [L1-02]
+    input: [approved_drawing_versions]
+    output: [component_candidates, drawing_evidence]
+    failure: [unsupported_format_to_TASKBOOK]
+  - id: L1-04
+    name: 构件核对确认
+    actor: COST_ENGINEER
+    depends_on: [L1-03]
+    approval: true
+    input: [component_candidates, source_refs]
+    output: [verified_components]
+    failure: [unverified_geometry_to_G2_BLOCK]
+  - id: L1-05
+    name: 算量
+    actor: QTY_ENGINE
+    depends_on: [L1-04]
+    input: [verified_components, boq_items, basis_pack]
+    output: [qty_boq, qty_quota, calc_evidence]
+    failure: [missing_rule_to_BASIS_ITEM_MISSING]
+  - id: L1-06
+    name: 定额匹配
+    actor: QUOTA_ENGINE
+    depends_on: [L1-05]
+    input: [boq_items, quota_pack, quota_notes]
+    output: [quota_candidates, conversion_plan]
+    failure: [FORBID_to_BLOCK]
+  - id: L1-07
+    name: 定额确认
+    actor: COST_ENGINEER
+    depends_on: [L1-06]
+    approval: true
+    input: [quota_candidates, conversion_plan]
+    output: [confirmed_quota_items]
+    failure: [unsigned_to_G3a_BLOCK]
+  - id: L1-08
+    name: 计价
+    actor: PRICE_ENGINE
+    depends_on: [L1-05, L1-07]
+    input: [confirmed_quota_items, price_period, fee_policy, contract_snapshot]
+    output: [unit_prices, project_total, price_evidence]
+    failure: [missing_basis_to_BASIS_ITEM_MISSING]
+  - id: L1-09
+    name: 复核
+    actor: REVIEWER
+    depends_on: [L1-08]
+    input: [qty_evidence, price_evidence]
+    output: [findings, rework_orders]
+    failure: [unexplained_diff_to_REWORK]
+  - id: L1-10
+    name: 审定
+    actor: APPROVER
+    depends_on: [L1-09]
+    approval:
+      roles: [REVIEWER, PRINCIPAL]
+      license: REGISTERED_COST_ENGINEER
+    input: [reviewed_budget, evidence_bundle]
+    output: [approved_budget]
+    failure: [missing_approval_to_WAITING_HUMAN]
+  - id: L1-11
+    name: 成果输出
+    actor: REPORT_WORKER
+    depends_on: [L1-10]
+    input: [approved_budget, evidence_bundle]
+    output: [budget_book, calculation_book, archive_package]
+    failure: [evidence_incomplete_to_REPORT_GATE_NOT_READY]

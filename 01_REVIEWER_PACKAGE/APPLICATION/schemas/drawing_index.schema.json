@@ -1,0 +1,36 @@
+{
+  "title": "图纸目录字段Schema",
+  "type": "object",
+  "required": [
+    "drawing_no",
+    "discipline",
+    "revision",
+    "issue_date",
+    "file_ref"
+  ],
+  "properties": {
+    "drawing_no": {
+      "type": "string"
+    },
+    "discipline": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "string"
+    },
+    "issue_date": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "file_ref": {
+      "type": "string"
+    },
+    "supersedes": {
+      "type": "string"
+    }
+  },
+  "x-confidence-threshold": 0.95,
+  "x-human-confirmation-required": true
+}

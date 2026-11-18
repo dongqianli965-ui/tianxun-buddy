@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="5" time="31.644" timestamp="2026-11-16T21:43:29.137124+08:00" hostname="rui"><testcase classname="tests.test_v426_business" name="test_real_boq_features_match_original_cells" time="2.622"><failure message="AssertionError: ('西峡教师周转宿舍项目_土建_工程量清单.xlsx', 7)&#10;assert '' == '1.混凝土种类:商品砼\n2.混凝土强度等级:C30'&#10;  &#10;  - 1.混凝土种类:商品砼&#10;  - 2.混凝土强度等级:C30">backend\tests\test_v426_business.py:23: in test_real_boq_features_match_original_cells
+    assert item['feature']==str(original or ''), (path.name,item['row'])
+E   AssertionError: ('西峡教师周转宿舍项目_土建_工程量清单.xlsx', 7)
+E   assert '' == '1.混凝土种类:商品砼\n2.混凝土强度等级:C30'
+E     
+E     - 1.混凝土种类:商品砼
+E     - 2.混凝土强度等级:C30</failure></testcase><testcase classname="tests.test_v426_business" name="test_missing_invalid_boq_fields_are_retained_with_raw_cells" time="0.108"><failure message="assert 1 == 5">backend\tests\test_v426_business.py:40: in test_missing_invalid_boq_fields_are_retained_with_raw_cells
+    assert result['count']==5
+E   assert 1 == 5</failure></testcase><testcase classname="tests.test_v426_business" name="test_api_export_preserves_every_real_boq_field" time="9.796"><failure message="AssertionError: assert '项目特征' in {'SHA256': 5, 'Sheet': 6, '单位': 2, '单元格': 8, ...}">backend\tests\test_v426_business.py:69: in test_api_export_preserves_every_real_boq_field
+    assert '项目特征' in columns
+E   AssertionError: assert '项目特征' in {'SHA256': 5, 'Sheet': 6, '单位': 2, '单元格': 8, ...}</failure></testcase><testcase classname="tests.test_v426_business" name="test_exact_price_selection_rejects_missing_conditions_and_duplicates" time="10.982"><failure message="ImportError: cannot import name 'resolve_price' from 'txbuddy.pilot.service' (F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\backend\txbuddy\pilot\service.py)">backend\tests\test_v426_business.py:82: in test_exact_price_selection_rejects_missing_conditions_and_duplicates
+    from txbuddy.pilot.service import resolve_price
+E   ImportError: cannot import name 'resolve_price' from 'txbuddy.pilot.service' (F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\backend\txbuddy\pilot\service.py)</failure></testcase><testcase classname="tests.test_v426_business" name="test_exact_price_preserves_both_taxes_and_three_errata" time="0.001"><failure message="ImportError: cannot import name 'resolve_price' from 'txbuddy.pilot.service' (F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\backend\txbuddy\pilot\service.py)">backend\tests\test_v426_business.py:94: in test_exact_price_preserves_both_taxes_and_three_errata
+    from txbuddy.pilot.service import resolve_price
+E   ImportError: cannot import name 'resolve_price' from 'txbuddy.pilot.service' (F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\backend\txbuddy\pilot\service.py)</failure></testcase></testsuite></testsuites>

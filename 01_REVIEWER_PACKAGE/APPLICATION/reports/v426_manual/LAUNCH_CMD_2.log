@@ -1,0 +1,20 @@
+[V4.2.6 TEST_ONLY] start manual acceptance environment
+核对原始资料、SQLite 与 PostgreSQL 只读快照...
+只读完整性检查：auth.sqlite3
+只读完整性检查：business.sqlite3
+只读完整性检查：governance.sqlite3
+只读完整性检查：txbuddy-dev.sqlite3
+只读 PostgreSQL 快照检查...
+使用 pg_dump/pg_restore 创建独立 TEST_ONLY 数据库和最小权限账号...
+复制真实资料和 OCR 页图到会话，建立五种临时身份（不授予专业资质）...
+只读完整性检查：auth.sqlite3
+只读完整性检查：business.sqlite3
+只读完整性检查：governance.sqlite3
+只读完整性检查：txbuddy-dev.sqlite3
+只读 PostgreSQL 快照检查...
+前端：http://127.0.0.1:5173  后端：http://127.0.0.1:8010
+状态：RUNNING / TEST_ONLY / production_accepted=false / accuracy_E=BLOCKED
+本机私有账号说明：F:\ZHU-FISH\TIANXUN_BUDDY_V4\_CODEX_V426\manual\TEST_ONLY-20261117T020550-40aa6d\TEST_ACCOUNTS.private.md
+真实资料副本：F:\ZHU-FISH\TIANXUN_BUDDY_V4\_CODEX_V426\manual\TEST_ONLY-20261117T020550-40aa6d\source-copies
+自动接口/错误日志：F:\ZHU-FISH\TIANXUN_BUDDY_V4\_CODEX_V426\manual\TEST_ONLY-20261117T020550-40aa6d\logs
+请使用 STOP_V426_FRONTEND_MANUAL.cmd 安全停止；不要提交本机私有文件。

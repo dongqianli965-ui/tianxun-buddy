@@ -1,0 +1,40 @@
+{
+  "version": "V4.2.6",
+  "status": "TECHNICAL_VALIDATION_COMPLETE_BUSINESS_BLOCKED",
+  "production_accepted": false,
+  "accuracy_E": "BLOCKED",
+  "last_updated": "2026-11-17T00:04:41.922034+08:00",
+  "evidence": {
+    "backend": "reports/v426/FINAL_RESULT.json",
+    "frontend": "reports/v426/FINAL_FRONTEND_RESULT.json",
+    "inventory": "reports/v426/FINAL_DATA_INVENTORY.json",
+    "business": "reports/v426/MATERIAL_PRICE_VALIDATION.json",
+    "boq": "reports/v426/BOQ_VALIDATION.json",
+    "ocr": "reports/v426/OCR_HUMAN_REVIEW_READINESS.json",
+    "packaging": "reports/v426/PACKAGE_TESTS.xml",
+    "delivery": "release/v426/LATEST_DELIVERY.json",
+    "file_index": "reports/v426/DELIVERY_FILE_INDEX.json"
+  },
+  "blocked": [
+    "OCR_HUMAN_REVIEW",
+    "PROFESSIONAL_SIGNOFF",
+    "CURRENT_FORMAL_PRICE",
+    "CROSS_REGION",
+    "INDEPENDENT_QUANTITY_ACCURACY",
+    "FORMAL_COST_CLOSURE",
+    "PRODUCTION_POSTGRES_MIGRATION"
+  ],
+  "backend_tests": 1036,
+  "frontend_browser_tests": 4,
+  "packaging_tests": 21,
+  "original_files_unchanged": true,
+  "sqlite_databases_logically_unchanged": true,
+  "source_matches_tested_copy": true,
+  "package_policy": {
+    "never_overwrite_existing_release": true,
+    "security_archive_pattern": "release/TianxunBuddy_V4.2.5.1_SecurityFix_*.zip",
+    "business_archive_pattern": "release/TianxunBuddy_V4.2.6_BusinessValidation_*.zip",
+    "external_verification_is_final_delivery_gate": true,
+    "authoritative_receipt": "release/v426/LATEST_DELIVERY.json"
+  }
+}

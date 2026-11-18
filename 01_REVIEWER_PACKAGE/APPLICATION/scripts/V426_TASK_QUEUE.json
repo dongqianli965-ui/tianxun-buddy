@@ -1,0 +1,14 @@
+{
+  "version": "V4.2.6",
+  "tasks": [
+    {"id": "V426-01-SECURITY-FIX", "status": "VERIFIED", "acceptance_passed": true, "evidence": "docs/V4.2.5.1_安全缺陷修复报告.md"},
+    {"id": "V426-02-BACKEND-REGRESSION", "status": "VERIFIED", "acceptance_passed": true, "evidence": "reports/v426/FINAL_RESULT.json"},
+    {"id": "V426-03-FRONTEND-REGRESSION", "status": "VERIFIED", "acceptance_passed": true, "evidence": "reports/v426/FINAL_FRONTEND_RESULT.json"},
+    {"id": "V426-04-DATA-INVENTORY", "status": "VERIFIED", "acceptance_passed": true, "evidence": "reports/v426/FINAL_DATA_INVENTORY.json"},
+    {"id": "V426-05-BUSINESS-VALIDATION", "status": "CHECKPOINTED", "acceptance_passed": true, "evidence": "reports/v426/MATERIAL_PRICE_VALIDATION.json"},
+    {"id": "V426-06-BOQ-REFERENCE", "status": "CHECKPOINTED", "acceptance_passed": true, "evidence": "reports/v426/BOQ_VALIDATION.json"},
+    {"id": "V426-07-OCR-HUMAN-REVIEW", "status": "BLOCKED", "acceptance_passed": false, "evidence": "reports/v426/OCR_HUMAN_REVIEW_READINESS.json"},
+    {"id": "V426-08-PRODUCTION-CUTOVER", "status": "BLOCKED", "acceptance_passed": false, "evidence": "docs/V4.2.6_业务能力边界报告.md"},
+    {"id": "V426-09-SECURE-PACKAGES", "status": "VERIFIED", "acceptance_passed": true, "evidence": "release/v426/"}
+  ]
+}

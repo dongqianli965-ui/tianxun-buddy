@@ -1,0 +1,13 @@
+test_id,module,objective,expected_status,actual_status,evidence,defect_id,reviewer,test_time
+TC-01-001,环境与启动,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-02-001,登录与权限,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-03-001,项目与资料管理,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-04-001,OCR,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-05-001,清单导入,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-06-001,材料价格,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-07-001,工程量计算,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-08-001,定额与组价,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-09-001,复核审批,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-10-001,成果输出,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-11-001,证据审计,独立执行并记录证据,PASS或BLOCKED,,,,,
+TC-12-001,异常与恢复,独立执行并记录证据,PASS或BLOCKED,,,,,

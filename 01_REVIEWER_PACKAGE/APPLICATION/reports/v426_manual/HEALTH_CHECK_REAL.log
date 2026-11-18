@@ -1,0 +1,76 @@
+只读完整性检查：auth.sqlite3
+只读完整性检查：business.sqlite3
+只读完整性检查：governance.sqlite3
+只读完整性检查：txbuddy-dev.sqlite3
+只读 PostgreSQL 快照检查...
+{
+  "checked_at": "2026-11-17T02:08:07.643412+08:00",
+  "session": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\_CODEX_V426\\manual\\TEST_ONLY-20261117T020550-40aa6d",
+  "status": "RUNNING",
+  "processes": {
+    "backend": {
+      "pid": 45448,
+      "identity_matches": true,
+      "recorded_children": [
+        {
+          "pid": 32104,
+          "identity_matches": true
+        },
+        {
+          "pid": 21184,
+          "identity_matches": true
+        }
+      ]
+    },
+    "frontend": {
+      "pid": 36504,
+      "identity_matches": true,
+      "recorded_children": [
+        {
+          "pid": 15228,
+          "identity_matches": true
+        }
+      ]
+    },
+    "chrome": {
+      "pid": 27944,
+      "identity_matches": true,
+      "recorded_children": [
+        {
+          "pid": 39380,
+          "identity_matches": true
+        }
+      ]
+    },
+    "observer": {
+      "pid": 42064,
+      "identity_matches": true,
+      "recorded_children": [
+        {
+          "pid": 26496,
+          "identity_matches": true
+        }
+      ]
+    }
+  },
+  "production_accepted": false,
+  "accuracy_E": "BLOCKED",
+  "backend_health": {
+    "status": "ok",
+    "service": "txbuddy-core",
+    "version": "4.2.6",
+    "mode": "data-governance-sample",
+    "environment": "TEST_ONLY",
+    "test_only": true,
+    "production_accepted": false,
+    "accuracy_E": "BLOCKED",
+    "rules_loaded": 6,
+    "precision": "P-V1"
+  },
+  "frontend_health": {
+    "status": "ok"
+  },
+  "original_data_unchanged": true,
+  "postgres_isolation_verified": true,
+  "passed": true
+}
