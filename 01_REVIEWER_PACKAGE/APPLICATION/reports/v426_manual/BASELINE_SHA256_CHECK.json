@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-11-17T00:25:59.505268+08:00",
+  "archive": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\release\\TianxunBuddy_V4.2.6_BusinessValidation_20261117T000704759681.zip",
+  "archive_sha256": "6ca2ea85568a4a80f583f81be22a2d57444db857cfd91061d3262ea8ae8e62ca",
+  "tested_source_count": 267,
+  "worktree_mismatch": [],
+  "passed": true,
+  "production_accepted": false,
+  "accuracy_E": "BLOCKED"
+}

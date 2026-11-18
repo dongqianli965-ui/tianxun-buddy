@@ -1,0 +1,65 @@
+{
+  "fixture": "TEST_ONLY disposable browser runtime",
+  "human_review_of_real_documents": false,
+  "production_accepted": false,
+  "evidence": [
+    {
+      "suffix": "/reviews",
+      "status": 200,
+      "page_id": "ocr-5b8a5d066b784ec575ee96ab53322a1d-p3",
+      "version": 1,
+      "content_sha256": "f54856f8fd0405a8b19c695efa40b1804254b8abec0c41188d0069e055a624fe",
+      "submitted_version": null,
+      "review_status": "IN_REVIEW"
+    },
+    {
+      "suffix": "/submit",
+      "status": 200,
+      "page_id": "ocr-5b8a5d066b784ec575ee96ab53322a1d-p3",
+      "version": 2,
+      "content_sha256": "f54856f8fd0405a8b19c695efa40b1804254b8abec0c41188d0069e055a624fe",
+      "submitted_version": 2,
+      "review_status": "IN_REVIEW"
+    },
+    {
+      "action": "editor_forged_approval",
+      "status": 403
+    },
+    {
+      "suffix": "/decisions",
+      "status": 200,
+      "page_id": "ocr-5b8a5d066b784ec575ee96ab53322a1d-p3",
+      "version": 3,
+      "content_sha256": "f54856f8fd0405a8b19c695efa40b1804254b8abec0c41188d0069e055a624fe",
+      "submitted_version": 2,
+      "review_status": "REVIEWED"
+    },
+    {
+      "suffix": "/reviews",
+      "status": 200,
+      "page_id": "ocr-5b8a5d066b784ec575ee96ab53322a1d-p3",
+      "version": 4,
+      "content_sha256": "ffc8e9d6986dc5cec319451378cebe5229f7260e122e6fb62c220bf77c73c0cf",
+      "submitted_version": null,
+      "review_status": "IN_REVIEW"
+    },
+    {
+      "suffix": "/submit",
+      "status": 200,
+      "page_id": "ocr-5b8a5d066b784ec575ee96ab53322a1d-p3",
+      "version": 5,
+      "content_sha256": "ffc8e9d6986dc5cec319451378cebe5229f7260e122e6fb62c220bf77c73c0cf",
+      "submitted_version": 5,
+      "review_status": "IN_REVIEW"
+    },
+    {
+      "suffix": "/decisions",
+      "status": 200,
+      "page_id": "ocr-5b8a5d066b784ec575ee96ab53322a1d-p3",
+      "version": 6,
+      "content_sha256": "ffc8e9d6986dc5cec319451378cebe5229f7260e122e6fb62c220bf77c73c0cf",
+      "submitted_version": 5,
+      "review_status": "RETURNED"
+    }
+  ]
+}

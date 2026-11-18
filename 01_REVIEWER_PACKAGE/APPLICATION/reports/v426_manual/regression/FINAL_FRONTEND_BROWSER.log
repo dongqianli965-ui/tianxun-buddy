@@ -1,0 +1,30 @@
+
+> tianxun-buddy-workbench@4.2.6 test:e2e
+> playwright test --config playwright.v425.config.ts
+
+[WebServer] (node:49332) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 09:47:01 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] 09:47:02 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] INFO:     Started server process [27524]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8016 (Press CTRL+C to quit)
+
+Running 7 tests using 1 worker
+
+(node:33040) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\auth-ui.spec.ts:2:1 › 登录错误、会话保持、真实失效和登出 (3.4s)
+  ok 2 e2e\governance.spec.ts:6:1 › OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限 (3.7s)
+  ok 3 e2e\manual-shell.spec.ts:29:1 › 人工验收壳层显示真实环境与请求观察状态 (716ms)
+  ok 4 e2e\manual-shell.spec.ts:57:1 › 项目创建后同步 Job ID，并在登出时清理活动项目 (704ms)
+  ok 5 e2e\manual-shell.spec.ts:88:1 › 无效材料条件清空旧价格并保留可理解错误 (697ms)
+  ok 6 e2e\ocr-roles.spec.ts:5:1 › OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容 (4.9s)
+  ok 7 e2e\sample-pilot.spec.ts:9:1 › 真实原件→结构化→清单→价格及勘误→来源→流程→导出→权限拒绝 (33.1s)
+
+  7 passed (1.1m)

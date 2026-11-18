@@ -1,0 +1,2065 @@
+{
+  "generated_at": "2026-11-17T00:06:42.376725+08:00",
+  "project_root": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter",
+  "scope": "All existing source/evidence payload files selected by gather before adding the index. Generated profile and index files are covered by archive SHA256SUMS. Final archives and external verification receipts are listed in release/v426/LATEST_DELIVERY.json.",
+  "files": [
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\EXECUTION_STATE.md",
+      "relative_path": "EXECUTION_STATE.md",
+      "bytes": 14636,
+      "sha256": "a3d6172d79d932d701432df2934f6fbbf98507198160ffea114bd7ed51cbdd94"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\V426_EXECUTION_STATE.json",
+      "relative_path": "V426_EXECUTION_STATE.json",
+      "bytes": 1550,
+      "sha256": "6938216bb73434d6860ca6186a933055c103eef7da6eb33e34fd76163a2557e4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\pyproject.toml",
+      "relative_path": "backend/pyproject.toml",
+      "bytes": 402,
+      "sha256": "06c9183380a0ae59aea77b495ad4bcf55a8a3f82ebed8d32be95b5eebdb17ac7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\requirements-v424-tested.txt",
+      "relative_path": "backend/requirements-v424-tested.txt",
+      "bytes": 1162,
+      "sha256": "9779d7cb7c00af942dcec4d55a570fc028966c7b4854ecf66ab9a31d6a2e96a1"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\requirements.txt",
+      "relative_path": "backend/requirements.txt",
+      "bytes": 333,
+      "sha256": "c2f32352d19668f39d5db8597ddc490f6483b00885b886ebce7c5e35b8e49488"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\scripts\\idem_concurrency_evidence.py",
+      "relative_path": "backend/scripts/idem_concurrency_evidence.py",
+      "bytes": 8002,
+      "sha256": "6cfb30a71a27e8c54bc3cc30d33fe642a5e0deff9e3fedd25cffbc4814270372"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\__init__.py",
+      "relative_path": "backend/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\authenticated_client.py",
+      "relative_path": "backend/tests/authenticated_client.py",
+      "bytes": 2153,
+      "sha256": "1b133115745ba2f3d90b9d3c438dcdb617d43a3c0c94d8c856f12b8cd817fb6e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_api_v41.py",
+      "relative_path": "backend/tests/test_api_v41.py",
+      "bytes": 3462,
+      "sha256": "a49b3716b035f3147ad02dded872f155a194a69615e1759fc44193695ff92e20"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_boq.py",
+      "relative_path": "backend/tests/test_boq.py",
+      "bytes": 2374,
+      "sha256": "8058b9745321071a074ad197f7e5517f0513c3f32a6d4209141c15bbd68593a1"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_calcrun.py",
+      "relative_path": "backend/tests/test_calcrun.py",
+      "bytes": 2172,
+      "sha256": "e94508b9f72bec13e0390023603b65812a0cb008c79514a163959d6a0472561d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_core.py",
+      "relative_path": "backend/tests/test_core.py",
+      "bytes": 4218,
+      "sha256": "821cb7515c7f801df175409721daea43d34948ab8a414b46caa11efa3649f05c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_gates_v41.py",
+      "relative_path": "backend/tests/test_gates_v41.py",
+      "bytes": 4885,
+      "sha256": "7530a70a4f1d8579f0b7e9003875c33aac2d85215fbc019ad52bf40222b39507"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_goldenset.py",
+      "relative_path": "backend/tests/test_goldenset.py",
+      "bytes": 2272,
+      "sha256": "712d34aca6a1313400a493fdb1d98d44b4beb756b94e92e8e70e55de6adb8180"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_l1_integration.py",
+      "relative_path": "backend/tests/test_l1_integration.py",
+      "bytes": 6752,
+      "sha256": "466246399f089f7de7de3830a91753cc8ff66d8f16e1b65adb9806d8d53413ef"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_p0_04_gate_binding.py",
+      "relative_path": "backend/tests/test_p0_04_gate_binding.py",
+      "bytes": 6256,
+      "sha256": "29a3ee50af405fec45f4c06d8b6bfc89f0d53b17aaf362923c9df28c1f09b2e7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_p0_repro.py",
+      "relative_path": "backend/tests/test_p0_repro.py",
+      "bytes": 4728,
+      "sha256": "40aadae281b2cd2480b78788a713b373ce21135ea7babfe02d146175c4081dea"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_pg_integration.py",
+      "relative_path": "backend/tests/test_pg_integration.py",
+      "bytes": 2742,
+      "sha256": "5ea70beac344e2ab59c62eb8ac50963bc78d9b7acdc51964ebd97819b2f00710"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_rules.py",
+      "relative_path": "backend/tests/test_rules.py",
+      "bytes": 4892,
+      "sha256": "c34301631d8448640186a917042364a4a2df58c12dc619f8ca9c9effd473fd71"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_acl_wire.py",
+      "relative_path": "backend/tests/test_v24_acl_wire.py",
+      "bytes": 2416,
+      "sha256": "b461a0cfcbb79738443e2ef3bd69e2595f2f3d7b3a629d6bae5a76b73a7507eb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_api_auth.py",
+      "relative_path": "backend/tests/test_v24_api_auth.py",
+      "bytes": 3511,
+      "sha256": "f9c04532107acca5126e8c613c8df029de6cefb57c3889f46a89bd2cd4c7ae7f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_corpus_bind.py",
+      "relative_path": "backend/tests/test_v24_corpus_bind.py",
+      "bytes": 1653,
+      "sha256": "d5773e210bf8cbb731d5e724591afea27ed92347d9e333bc708ee700673fee12"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_corpus_sample_pilot.py",
+      "relative_path": "backend/tests/test_v24_corpus_sample_pilot.py",
+      "bytes": 2560,
+      "sha256": "4628c597b7820718296189872565b3b9d889df7adcb04b6b5fa72a589cf9a712"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_deliver_api.py",
+      "relative_path": "backend/tests/test_v24_deliver_api.py",
+      "bytes": 516,
+      "sha256": "21fba1891abb10652fce7ad59fdfc36c3cb1cbe213f76f081da7e2d7fdcdcc04"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_endpoint_mapping.py",
+      "relative_path": "backend/tests/test_v24_endpoint_mapping.py",
+      "bytes": 1647,
+      "sha256": "610582c3ce5e5bd0fcbf11cca590ed00b96d16d3296e38e7b6e22be984decb3e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_files_upload.py",
+      "relative_path": "backend/tests/test_v24_files_upload.py",
+      "bytes": 1143,
+      "sha256": "e37fe0dfbd8b31dc4aff91e1a52a91082a0459f3578a5692eb68d16bc0c40aeb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_goldenset.py",
+      "relative_path": "backend/tests/test_v24_goldenset.py",
+      "bytes": 327,
+      "sha256": "33e1dd17e444775a7b98e4a8a9d0033aa6ac01c2afdfdb7c7d241b54930b64c9"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_html_parse.py",
+      "relative_path": "backend/tests/test_v24_html_parse.py",
+      "bytes": 1171,
+      "sha256": "1c1376faa9965b2890d90f7d9e07e2c7a72014492123ddb410d24da1e7d47dd9"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_internal_token.py",
+      "relative_path": "backend/tests/test_v24_internal_token.py",
+      "bytes": 1737,
+      "sha256": "3129c7fac9f546012a21f042f55002da840a4eb718100ca0ea8262680294b4f6"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_jobs_list.py",
+      "relative_path": "backend/tests/test_v24_jobs_list.py",
+      "bytes": 482,
+      "sha256": "d80169e2751772db1f428499ff34f60314ee6732dce8f4035fbe93041251393f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_ocr_path.py",
+      "relative_path": "backend/tests/test_v24_ocr_path.py",
+      "bytes": 745,
+      "sha256": "2b166b592fbb209c1a791298ab4a151c3436e01c3259955a9360620dffdeb581"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_package_safety.py",
+      "relative_path": "backend/tests/test_v24_package_safety.py",
+      "bytes": 1606,
+      "sha256": "91c6ccc481d7d2fe68c680847e7c7603b08e7e8e5bcd97e24aef748a798ce309"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_parse_api.py",
+      "relative_path": "backend/tests/test_v24_parse_api.py",
+      "bytes": 1611,
+      "sha256": "e9ce9bbdbe3ae0c2935f85fd3d4f1a0865ba5d26f8cf1fed64e8d06aebc62a3c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_price_lib.py",
+      "relative_path": "backend/tests/test_v24_price_lib.py",
+      "bytes": 2753,
+      "sha256": "97e26105283e0f1e5246dbc5b82e88cbe06fc009e4250e83e922f534035538c4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_quota_lib.py",
+      "relative_path": "backend/tests/test_v24_quota_lib.py",
+      "bytes": 2904,
+      "sha256": "f814ffc35050ac66724133e7e8aaac89c4f96906191ca7daec86f6ccbb4fba89"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_real_l1.py",
+      "relative_path": "backend/tests/test_v24_real_l1.py",
+      "bytes": 407,
+      "sha256": "2352a26a653b4b6bd010fd9a15fa67a77fc38fd3abe91f70f1cb549b0232dfe9"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v24_xlsx_structure.py",
+      "relative_path": "backend/tests/test_v24_xlsx_structure.py",
+      "bytes": 1364,
+      "sha256": "4bb3b372d5acc9b4cf1e4ffe27bfa0d6fd3df6758ed8c7d2c8d1a24f130e2d92"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v421_hardening.py",
+      "relative_path": "backend/tests/test_v421_hardening.py",
+      "bytes": 11670,
+      "sha256": "7b7a8f5e2c4151241ce455ffcace44f2706318b49f18d3de6bbf9c26e1e16f1f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_acl.py",
+      "relative_path": "backend/tests/test_v423_acl.py",
+      "bytes": 35436,
+      "sha256": "ffe83f3631023621a0dcb1591775f45a2193a12a73aa7a62096c5610cd29f1ab"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_admission_uniform.py",
+      "relative_path": "backend/tests/test_v423_admission_uniform.py",
+      "bytes": 21681,
+      "sha256": "52ee1c0eda743383601c846af080e354241007a7f5add73a81a72e8a13981ec4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_auth.py",
+      "relative_path": "backend/tests/test_v423_auth.py",
+      "bytes": 23759,
+      "sha256": "7bc537ab88e8bbdffa97cb193d9e3d7f7e47f92a566cb8a6d32b80521a4f3ba1"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_deliverables.py",
+      "relative_path": "backend/tests/test_v423_deliverables.py",
+      "bytes": 18326,
+      "sha256": "a1bf779371b21e1305aa5052dd32bb9d555bf766e8841f7b763a1f1bb5801deb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_e2e.py",
+      "relative_path": "backend/tests/test_v423_e2e.py",
+      "bytes": 17892,
+      "sha256": "927867bd723e09c91222978687b42697e7c3f16ae70d3b6df4a7183b2843ed43"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_evidence_binding.py",
+      "relative_path": "backend/tests/test_v423_evidence_binding.py",
+      "bytes": 11057,
+      "sha256": "32c35496882e753e6ab69c2bc755b519e2d50f787ced58288ff142251e845777"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_filestore.py",
+      "relative_path": "backend/tests/test_v423_filestore.py",
+      "bytes": 20626,
+      "sha256": "17a6f292f9d2f153116e83ab23f05a5e7454e158cc94cc26d6830a64cf7650dd"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_gates_authority.py",
+      "relative_path": "backend/tests/test_v423_gates_authority.py",
+      "bytes": 21453,
+      "sha256": "47c78d103aeeee53395b536fe8730f796e44ac170c851cf709752635a8eec938"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_idem_semantics.py",
+      "relative_path": "backend/tests/test_v423_idem_semantics.py",
+      "bytes": 11162,
+      "sha256": "57655d8bd6a0fdd60c3d10ebbaf4673440a73d3066a585099dd8df88e0dfcc7f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_jgates.py",
+      "relative_path": "backend/tests/test_v423_jgates.py",
+      "bytes": 18776,
+      "sha256": "3c158a2ce0bed0eed47382fb9b6d4c0ab0bdc6776e68ffa629087f751d875080"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_job_model.py",
+      "relative_path": "backend/tests/test_v423_job_model.py",
+      "bytes": 20924,
+      "sha256": "e81edae292b4adbc815f0569448f4b75ecba6550b497a4341da817b450e41ba3"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_l1_yaml.py",
+      "relative_path": "backend/tests/test_v423_l1_yaml.py",
+      "bytes": 16140,
+      "sha256": "ddd82600df790c98a297960a604a7d1d4e6928329835cadf1dca3bf278c7253c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_migration.py",
+      "relative_path": "backend/tests/test_v423_migration.py",
+      "bytes": 26401,
+      "sha256": "3823ccd9021a45414f76b9d8816668e4831441ca9a1169e364d1d05b0dcb130b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_numeric_all_engines.py",
+      "relative_path": "backend/tests/test_v423_numeric_all_engines.py",
+      "bytes": 32006,
+      "sha256": "35f9fd125710393b2cb440bf4d0c5e59fefafed2a0f57e158169579e094409bd"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_parsing.py",
+      "relative_path": "backend/tests/test_v423_parsing.py",
+      "bytes": 20178,
+      "sha256": "63fc997adfa1c1b2577d52c10e5fec3f394c94941c6c2007259611ca811bd92f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_pg_repository.py",
+      "relative_path": "backend/tests/test_v423_pg_repository.py",
+      "bytes": 34791,
+      "sha256": "d7301a1e9f8cfb00b070832f36aac778ab008a0d54c6a55e2c6fb933180d071e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_recalc.py",
+      "relative_path": "backend/tests/test_v423_recalc.py",
+      "bytes": 18349,
+      "sha256": "829756d8e81ead2d80ee58f7228914799c76d99d00c98cfe335cc3a5c62d6f6b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_sqlite_repository.py",
+      "relative_path": "backend/tests/test_v423_sqlite_repository.py",
+      "bytes": 27760,
+      "sha256": "f97ca17af95c1630e2099d0b99b65d55f18170de0109eb7430db91df8ba2ac89"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v423_tx_recovery.py",
+      "relative_path": "backend/tests/test_v423_tx_recovery.py",
+      "bytes": 16359,
+      "sha256": "19cd9a42dd83fe176e908b037ff51d7faecb5877714a974e2cc82ab602176f4b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v425_catalog.py",
+      "relative_path": "backend/tests/test_v425_catalog.py",
+      "bytes": 9077,
+      "sha256": "94996dd6a33da175a2312b6c6e37a708c106d9cd64ed78fca23efba30c48f7fc"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v425_file_parsers.py",
+      "relative_path": "backend/tests/test_v425_file_parsers.py",
+      "bytes": 17756,
+      "sha256": "9c0a4ef503b5c89cc7d9efa0c2e6150a21924bb20d4d58268fe6499080b68f02"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v425_legacy_source_acl.py",
+      "relative_path": "backend/tests/test_v425_legacy_source_acl.py",
+      "bytes": 545,
+      "sha256": "261dc27cb4fd2a34d13fdf710b9071f0f6b7f03833733576fe877649391218ee"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v425_migration.py",
+      "relative_path": "backend/tests/test_v425_migration.py",
+      "bytes": 11713,
+      "sha256": "baba353cf509b7b85934b40f2a301101e73eef2f830ab9fd10f7374d31f76da8"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v425_ocr_review.py",
+      "relative_path": "backend/tests/test_v425_ocr_review.py",
+      "bytes": 11146,
+      "sha256": "5af3c1ab6fc5ce80d9c20de9ae0bb82b3844ae470bc40d9fea9c2fda40ab2fed"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v426_business.py",
+      "relative_path": "backend/tests/test_v426_business.py",
+      "bytes": 7954,
+      "sha256": "0a794d66a22730f1fb2e20797314a85e73a6c1cf2cffcdae5d69f6150083d72e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v426_ocr_acl.py",
+      "relative_path": "backend/tests/test_v426_ocr_acl.py",
+      "bytes": 12936,
+      "sha256": "f2a6fe63793615b6a6d9cb4dce24e88dc533dbf6acaac3154ccbdfb0f86b3466"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_v426_ocr_store.py",
+      "relative_path": "backend/tests/test_v426_ocr_store.py",
+      "bytes": 7419,
+      "sha256": "6a745afb82ff51a5f0b8835b1fbcbab46c544f0223aea516be76fc691957dfaa"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\test_workflow.py",
+      "relative_path": "backend/tests/test_workflow.py",
+      "bytes": 3442,
+      "sha256": "b9ecc97b5fd155e07a3a8bc4f188062a3656e3aa6af2b7c995c9437fb36111e3"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\tests\\v24_fixtures.py",
+      "relative_path": "backend/tests/v24_fixtures.py",
+      "bytes": 639,
+      "sha256": "b12e5bd19b94cb1c9aeb7631e71911082144b72c1c09a74c9ac043164612c1a1"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\__init__.py",
+      "relative_path": "backend/txbuddy/__init__.py",
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\api.py",
+      "relative_path": "backend/txbuddy/api.py",
+      "bytes": 42549,
+      "sha256": "2edb6899d02b2f786614be03783b0b616a12e59d6524a3b6d5e803b0e2f47eba"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\api_models.py",
+      "relative_path": "backend/txbuddy/api_models.py",
+      "bytes": 4277,
+      "sha256": "58ca0f024767b9ae36b07942a2c275397249de873b8c76864f37e3b8b9dc6bc7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\__init__.py",
+      "relative_path": "backend/txbuddy/core/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\admission.py",
+      "relative_path": "backend/txbuddy/core/admission.py",
+      "bytes": 9166,
+      "sha256": "9124101a3a8059e9f21f0e82f16cb91c8433109b75ebe4458c76f26b670dee62"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\basis.py",
+      "relative_path": "backend/txbuddy/core/basis.py",
+      "bytes": 1847,
+      "sha256": "c0dfa826d4a81b55de57f7fef554c65cd84264de9600fc3c68f55ec83a715faa"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\boq.py",
+      "relative_path": "backend/txbuddy/core/boq.py",
+      "bytes": 7152,
+      "sha256": "46f8dd8478b386b02ecf42edbc997f3298466315382b4d3b5955deb740ed7006"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\calcrun.py",
+      "relative_path": "backend/txbuddy/core/calcrun.py",
+      "bytes": 15149,
+      "sha256": "4e2964462e03cdc67f81cbf6c61f156fe38450e167431b1e34ac951b01f548c8"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\evidence.py",
+      "relative_path": "backend/txbuddy/core/evidence.py",
+      "bytes": 17941,
+      "sha256": "6c5d537b796a6035b28c556c77a3c024e3a39e35c27388a305e36a3d70ea80d4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\gates.py",
+      "relative_path": "backend/txbuddy/core/gates.py",
+      "bytes": 31608,
+      "sha256": "ed4a8726345e1814747bf03b89a13fb8a995aebdd006851b6caef8b900cacb07"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\gates_service.py",
+      "relative_path": "backend/txbuddy/core/gates_service.py",
+      "bytes": 19043,
+      "sha256": "56b1d6d03008c4ff60d88a4cfe86a3afe764274df6b09f8a3aca7c4bdcc97417"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\goldenset.py",
+      "relative_path": "backend/txbuddy/core/goldenset.py",
+      "bytes": 8459,
+      "sha256": "c6a1cb8aeabb59772b546381b750f97acac2976eddb1543e8aff0a45282931dd"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\numeric.py",
+      "relative_path": "backend/txbuddy/core/numeric.py",
+      "bytes": 13139,
+      "sha256": "400fafd4a2528ad296bde964efaedb17fc846831e208e791472f1ccab5cbb32f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\precision.py",
+      "relative_path": "backend/txbuddy/core/precision.py",
+      "bytes": 3963,
+      "sha256": "868984345cfb37b72e7e9e271d65b72cc7ec3fc1e41ccee60f027517ac02a7af"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\pricing.py",
+      "relative_path": "backend/txbuddy/core/pricing.py",
+      "bytes": 8410,
+      "sha256": "801cc585d259c006e8abe1ebe78de6c1ffd8eb5917f3dc90919cc1a444dc2df6"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\quantity.py",
+      "relative_path": "backend/txbuddy/core/quantity.py",
+      "bytes": 3531,
+      "sha256": "b04c0a0ec9bbbb83aa9f0da1ac70d2c929271f8bf1eb9bfed086d2fe5abc08a5"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\quota.py",
+      "relative_path": "backend/txbuddy/core/quota.py",
+      "bytes": 7126,
+      "sha256": "44af6b685475377df0f130b1f4f49b9541fd073b49393d6d2c69dd5ce1108542"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\record_writer.py",
+      "relative_path": "backend/txbuddy/core/record_writer.py",
+      "bytes": 3690,
+      "sha256": "542449aefd7b84b6dcc8b7ec9265f4c13df9bb4638fb2b9f253051d51805e3af"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\rules.py",
+      "relative_path": "backend/txbuddy/core/rules.py",
+      "bytes": 17092,
+      "sha256": "4bced6a0d5c032fe0a002809ad4f6aa603cb92186015f0a9409ed24776dc5b19"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\workflow.py",
+      "relative_path": "backend/txbuddy/core/workflow.py",
+      "bytes": 5696,
+      "sha256": "d9c6fc60fba2e6e8bae13612c78b460cdad05bf5837b0574eb3f3eb4fe9adf51"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\core\\workflow_yaml.py",
+      "relative_path": "backend/txbuddy/core/workflow_yaml.py",
+      "bytes": 27269,
+      "sha256": "c359367686ef4dda49082de2bb2664d4c2df1b4de9e22d4428ccbd3ec656999d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\__init__.py",
+      "relative_path": "backend/txbuddy/deliverables/__init__.py",
+      "bytes": 982,
+      "sha256": "09c8b0050fa8d7c3d43b1d9ece9e998e366827a691f5079e65c48ce3490131b6"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\common.py",
+      "relative_path": "backend/txbuddy/deliverables/common.py",
+      "bytes": 2294,
+      "sha256": "548ac792a3b653cfc8dd897f36c31ab2278344533e92e6d94c85dd47c665fa8d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\generators_budget.py",
+      "relative_path": "backend/txbuddy/deliverables/generators_budget.py",
+      "bytes": 5237,
+      "sha256": "6ef9e5a7860912148340feb3daf708614be080e53bb0be53d620d3ac10b2cea0"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\generators_detail.py",
+      "relative_path": "backend/txbuddy/deliverables/generators_detail.py",
+      "bytes": 7632,
+      "sha256": "47e2be75f984ad831e9040e1d48b4b6ca75ff91b36091f7ec71aefc9c7cb3b3f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\generators_pricing.py",
+      "relative_path": "backend/txbuddy/deliverables/generators_pricing.py",
+      "bytes": 8612,
+      "sha256": "08204215e4459488a8ec93ab0a83b84e5b382269a6350c5ad6feac1f8e72eec4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\model.py",
+      "relative_path": "backend/txbuddy/deliverables/model.py",
+      "bytes": 11687,
+      "sha256": "d1b43dbcdb3e8f1e016536e719ff4590ae62e8e32324e597bdffee70308502d7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\pdf.py",
+      "relative_path": "backend/txbuddy/deliverables/pdf.py",
+      "bytes": 9576,
+      "sha256": "ecdb1fb4444d4d854e1f3b1144fb77fa0f879cc83e265866ac99b446743dc98c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\service.py",
+      "relative_path": "backend/txbuddy/deliverables/service.py",
+      "bytes": 6979,
+      "sha256": "bfc4e23a7a5fe957550d2a77c6db03cbb4ec9485f0ed3f0f40c86ebd2e89d791"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\specs.py",
+      "relative_path": "backend/txbuddy/deliverables/specs.py",
+      "bytes": 2065,
+      "sha256": "dea395970359507e59dd01509ef32e00c2fc370d324e37a1d065fb4ef8b7c761"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\deliverables\\xlsx_util.py",
+      "relative_path": "backend/txbuddy/deliverables/xlsx_util.py",
+      "bytes": 5209,
+      "sha256": "62ad86ff8113caba1ecad0b7337ec515d14ae37edea5595aefd0dea65a8ea1b4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\governance\\__init__.py",
+      "relative_path": "backend/txbuddy/governance/__init__.py",
+      "bytes": 57,
+      "sha256": "0107cf57d8bf382095d3318c5899ede7bff1e582168f86d037dbb5ee722f4152"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\governance\\api.py",
+      "relative_path": "backend/txbuddy/governance/api.py",
+      "bytes": 11203,
+      "sha256": "dc3a97ad79c25b92eb1601a05a5ebdefba11593a1bd3023b7cb55d87a3ec9e80"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\governance\\catalog.py",
+      "relative_path": "backend/txbuddy/governance/catalog.py",
+      "bytes": 3011,
+      "sha256": "d6b8ede7cebd5b4fd5e7b887402e226bbe073c43f5df480e1f73db4219f80163"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\governance\\migration.py",
+      "relative_path": "backend/txbuddy/governance/migration.py",
+      "bytes": 21689,
+      "sha256": "cd98118956112d27ccf996822f7131ec0c38c48091010ca10a55dce080f28aef"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\governance\\ocr_review.py",
+      "relative_path": "backend/txbuddy/governance/ocr_review.py",
+      "bytes": 34104,
+      "sha256": "b204590d4a53dfcb7f77ad6ef95e9776b9e6eda3e516cfdb13cc360459f34a3a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\models.py",
+      "relative_path": "backend/txbuddy/models.py",
+      "bytes": 12248,
+      "sha256": "f4c8f0d0111c79509dd728b0b7a71d5c574e68a570fb58950c1c342208ffebe2"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\__init__.py",
+      "relative_path": "backend/txbuddy/parsing/__init__.py",
+      "bytes": 1246,
+      "sha256": "36e0f976d66c9c3347e5a615fb205d95dee51bd09a54b32bf8abd26257453882"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\archive_adapter.py",
+      "relative_path": "backend/txbuddy/parsing/archive_adapter.py",
+      "bytes": 22634,
+      "sha256": "73273dec46a5f2f81d5e491f1726488416c5d2cd645e3a384d6d0e8d1ef137f2"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\base.py",
+      "relative_path": "backend/txbuddy/parsing/base.py",
+      "bytes": 6925,
+      "sha256": "0dd9db4f642d0fdcfa943c970eb48c124b8f2ce31bcf77f364911ea3a10a8c0d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\doc_adapter.py",
+      "relative_path": "backend/txbuddy/parsing/doc_adapter.py",
+      "bytes": 8618,
+      "sha256": "b7f839a9e4c0116da831fbc411023493e2664d0e8c38d58285623f77590a8973"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\docx_parser.py",
+      "relative_path": "backend/txbuddy/parsing/docx_parser.py",
+      "bytes": 3968,
+      "sha256": "bdb11f011117754c69c21f0820e14ad80b3aeefc68f66bffef44ad0d26dbc1b0"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\dwg_adapter.py",
+      "relative_path": "backend/txbuddy/parsing/dwg_adapter.py",
+      "bytes": 10347,
+      "sha256": "d773c2eca8c44755628289984553e6ce426f304670077d08495a0132c2d095f7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\dxf_parser.py",
+      "relative_path": "backend/txbuddy/parsing/dxf_parser.py",
+      "bytes": 4008,
+      "sha256": "790d3674fad868f3767ddf16567484c6d453ef10feb05f52b9651715596af67c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\html_parser.py",
+      "relative_path": "backend/txbuddy/parsing/html_parser.py",
+      "bytes": 3719,
+      "sha256": "9c717b0c1a9e2037aec6e7194ba199bee85f0319d4d67046a1b631bb7399513c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\member_worker.py",
+      "relative_path": "backend/txbuddy/parsing/member_worker.py",
+      "bytes": 2071,
+      "sha256": "a9ad38a4011ce32d58e02d95f504410194f99a3f6bfee9924b74ce15783fd3e1"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\ocr.py",
+      "relative_path": "backend/txbuddy/parsing/ocr.py",
+      "bytes": 4110,
+      "sha256": "f24d77bd9e819d3dfad381504b7d21d55362ac0ee3a50eefa4f8994076272dd4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\pdf_parser.py",
+      "relative_path": "backend/txbuddy/parsing/pdf_parser.py",
+      "bytes": 3850,
+      "sha256": "8f60535b9e9068d61b7d23755ce911c72e7f2ba1a0f2edbd5e03fa5a23b7d5ca"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\process_limits.py",
+      "relative_path": "backend/txbuddy/parsing/process_limits.py",
+      "bytes": 6812,
+      "sha256": "bcae14ba977a9a4086ede7770845380310430a8586772f8f512e0963fd155eeb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\rar_metadata_worker.py",
+      "relative_path": "backend/txbuddy/parsing/rar_metadata_worker.py",
+      "bytes": 1165,
+      "sha256": "794f5d402e00bf0d3e85e06d35a80b2b10b29264c957f238d1120d1c33d69e17"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\registry.py",
+      "relative_path": "backend/txbuddy/parsing/registry.py",
+      "bytes": 3072,
+      "sha256": "837af16846dbfcad5e6a3f9381ced44e9b2247aecb788a4a0bdf6af44363a42e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\text_parser.py",
+      "relative_path": "backend/txbuddy/parsing/text_parser.py",
+      "bytes": 1874,
+      "sha256": "a1160c1bb896391d4eb4f36037f115752c483e1d43b97ecfc6e98e9485442fca"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\parsing\\xlsx_parser.py",
+      "relative_path": "backend/txbuddy/parsing/xlsx_parser.py",
+      "bytes": 5560,
+      "sha256": "462c1bc6af84c977c3adba05732c86bbcde8e35e1548f95dfde8b17c28ecba35"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\pilot\\__init__.py",
+      "relative_path": "backend/txbuddy/pilot/__init__.py",
+      "bytes": 133,
+      "sha256": "4d45067d6693ee144b9dc3330a2ddfd0ecab5e18856bd26e5fca48d3ed881bcf"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\pilot\\api.py",
+      "relative_path": "backend/txbuddy/pilot/api.py",
+      "bytes": 14501,
+      "sha256": "303295894bb03fa1a7f5fbed7033de68b732d431afa86a5aa9f9000e0bc4593c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\pilot\\boq.py",
+      "relative_path": "backend/txbuddy/pilot/boq.py",
+      "bytes": 3303,
+      "sha256": "f3f16f8d79aa27841f92a76418c9910338b36a98f9c2579c97eb73f9ac5199dd"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\pilot\\database.py",
+      "relative_path": "backend/txbuddy/pilot/database.py",
+      "bytes": 3420,
+      "sha256": "4f561b6da743ffa0bf246571057877138a6f85e1f1778ffcc74d230afdaaa224"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\pilot\\extraction.py",
+      "relative_path": "backend/txbuddy/pilot/extraction.py",
+      "bytes": 1209,
+      "sha256": "b226ab864e41ce9fa0855d76623ab8d0ce2900e593cf4d06eed428416ed507cf"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\pilot\\importer.py",
+      "relative_path": "backend/txbuddy/pilot/importer.py",
+      "bytes": 8308,
+      "sha256": "89b7a05e6d71d2e8e4940fe7b6d95568156c97e846a399d1e77fabb28779edeb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\pilot\\provenance.py",
+      "relative_path": "backend/txbuddy/pilot/provenance.py",
+      "bytes": 1838,
+      "sha256": "b846c61a2bb432aeb0cb595ef6951dac31f4baf6a695d100ff4a0f1b8d21194c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\pilot\\service.py",
+      "relative_path": "backend/txbuddy/pilot/service.py",
+      "bytes": 10855,
+      "sha256": "75db24209fe0e4304bb127f856ccf76f2d4559a62c385d9c20f1e2d98f7450c6"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\repository\\__init__.py",
+      "relative_path": "backend/txbuddy/repository/__init__.py",
+      "bytes": 3168,
+      "sha256": "2bdfb22eca51465974476d78e47ec1c6a8e1bf202e914480abd3484b06ffd220"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\repository\\base.py",
+      "relative_path": "backend/txbuddy/repository/base.py",
+      "bytes": 12614,
+      "sha256": "dd5ddc820d7e83235232e1dca2af1a6ef1399d7c2f935443ece6612b6ac1e3a5"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\repository\\migrations.py",
+      "relative_path": "backend/txbuddy/repository/migrations.py",
+      "bytes": 29356,
+      "sha256": "74f59610bbdf9350e33532fa5c0b5e532a7625760bd719c93fcf9df271fc164f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\repository\\pg.py",
+      "relative_path": "backend/txbuddy/repository/pg.py",
+      "bytes": 39765,
+      "sha256": "6a89776976f55c85f1f8637709d5adc39fc9f60e7e89343d80ab2fd46281ef57"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\repository\\schema.py",
+      "relative_path": "backend/txbuddy/repository/schema.py",
+      "bytes": 10818,
+      "sha256": "16683147213622f320bb2e8b8a7541498c5c4aee11e054b1afb371d55f8dd442"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\repository\\sqlite.py",
+      "relative_path": "backend/txbuddy/repository/sqlite.py",
+      "bytes": 22295,
+      "sha256": "edd5cd848d271985200aaf3be32a45ffbfca3f7295a47fb4dc5a1acb6c5ec9bb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\repository\\unit_of_work.py",
+      "relative_path": "backend/txbuddy/repository/unit_of_work.py",
+      "bytes": 8795,
+      "sha256": "b814e62a49e524ed8ca5aa80095d887d3fe53944ccc406c3edc606f548dd7290"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\__init__.py",
+      "relative_path": "backend/txbuddy/security/__init__.py",
+      "bytes": 2727,
+      "sha256": "77ce2c716643c0938ff20a0a67d5e5a36a4bbf8ae1fa46a8b0a1ed66863ee52a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\acl.py",
+      "relative_path": "backend/txbuddy/security/acl.py",
+      "bytes": 17377,
+      "sha256": "c87c8cf494cc40cfa647d37315c12a303d71c9788474dedbea83d26c0615adc4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\acl_routes.py",
+      "relative_path": "backend/txbuddy/security/acl_routes.py",
+      "bytes": 6007,
+      "sha256": "be129a92efcc45837799d9bc4f3f7371df910b649e49ba410d7af5660bc22e8c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\app.py",
+      "relative_path": "backend/txbuddy/security/app.py",
+      "bytes": 6471,
+      "sha256": "16cf46994fcae657edcb0da6a49aefe36db5437818706223439c70a0d2e1a632"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\context.py",
+      "relative_path": "backend/txbuddy/security/context.py",
+      "bytes": 7260,
+      "sha256": "52c5f24ff57a7af0170f8ecb6760a898b4f1023fc7bc25fc98b5ba4197f8c5db"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\deps.py",
+      "relative_path": "backend/txbuddy/security/deps.py",
+      "bytes": 5822,
+      "sha256": "e45d30df30314889f9c91521c9f9f5b88ebd24a12bdb365932fd58987bc21ccb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\files.py",
+      "relative_path": "backend/txbuddy/security/files.py",
+      "bytes": 9284,
+      "sha256": "fd47f3cfe05db7ee2f10d8328d4e93894d5fc59c929e4c347f880000bddc449e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\routes.py",
+      "relative_path": "backend/txbuddy/security/routes.py",
+      "bytes": 7819,
+      "sha256": "29f10d25c5a5a6b87ab7005f7e9316ebbc853aa8247b0b3e1ee1e68dc962f430"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\runtime.py",
+      "relative_path": "backend/txbuddy/security/runtime.py",
+      "bytes": 9493,
+      "sha256": "2ee5b12305bd9d97824def9ad612b5dafc095aa944abc4ce9dc959ad102f0eeb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\tokens.py",
+      "relative_path": "backend/txbuddy/security/tokens.py",
+      "bytes": 9068,
+      "sha256": "d834dd85b34cdac5e865b1dc2469ce2cadb3c6211fd2e6b192c422fedb824c65"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\security\\users.py",
+      "relative_path": "backend/txbuddy/security/users.py",
+      "bytes": 4489,
+      "sha256": "04abeae785ecfec51b814b1cab30d0c83152385f7c508b02ee6472eb40c8a208"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\storage\\__init__.py",
+      "relative_path": "backend/txbuddy/storage/__init__.py",
+      "bytes": 983,
+      "sha256": "2cb4b2abd8a05e66df60e6fd9330522d5a5ecf39cf2470357ef799a76e1886bd"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\storage\\filestore.py",
+      "relative_path": "backend/txbuddy/storage/filestore.py",
+      "bytes": 23514,
+      "sha256": "876d3ed68ccd57fe8ab275ab65ef2b7dc2067afbe1fc03f20674f9424ef67082"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\txbuddy\\store.py",
+      "relative_path": "backend/txbuddy/store.py",
+      "bytes": 16402,
+      "sha256": "88cc99aedfdade38f35f2e45e43e5e0fd359612aca94e1a0fc66c548d7456145"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\docs\\V4.2.5.1_安全缺陷修复报告.md",
+      "relative_path": "docs/V4.2.5.1_安全缺陷修复报告.md",
+      "bytes": 3913,
+      "sha256": "bc762f741d41ee55ec34b37b751da27c1cd307ad472497efc75f6ba7401b5859"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\docs\\V4.2.6_下一阶段开发规划.md",
+      "relative_path": "docs/V4.2.6_下一阶段开发规划.md",
+      "bytes": 1533,
+      "sha256": "cd31775297352af3426cee9b248675ed7068347f0efca963fb055a286b993c05"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\docs\\V4.2.6_业务能力边界报告.md",
+      "relative_path": "docs/V4.2.6_业务能力边界报告.md",
+      "bytes": 3490,
+      "sha256": "fc8ad8828d3fea664e697d0ad8f8a4946ed2fae78c5b8759701417aec569e44c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\docs\\V4.2.6_真实业务验证报告.md",
+      "relative_path": "docs/V4.2.6_真实业务验证报告.md",
+      "bytes": 2764,
+      "sha256": "d223e58cb4ce8b5882aef2a06ccf1d5cff07225e9b6880c753688eee0ee3bce9"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\e2e\\auth-ui.spec.ts",
+      "relative_path": "frontend/e2e/auth-ui.spec.ts",
+      "bytes": 1230,
+      "sha256": "a6d92394a238340be1acdaa06218662c43a8d82b5bee7070d8b6dc9f5c697a95"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\e2e\\governance.spec.ts",
+      "relative_path": "frontend/e2e/governance.spec.ts",
+      "bytes": 5829,
+      "sha256": "96de527e8037bed23ceb0bccb9a8fb79a26c656401da58f1293ed0abe67dc941"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\e2e\\ocr-roles.spec.ts",
+      "relative_path": "frontend/e2e/ocr-roles.spec.ts",
+      "bytes": 4926,
+      "sha256": "7eb29abd92b85ab02950198ce067d21a80d3f96dc0456ca820213efa7cd5aef6"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\e2e\\sample-pilot.spec.ts",
+      "relative_path": "frontend/e2e/sample-pilot.spec.ts",
+      "bytes": 5602,
+      "sha256": "458fa3c47106d48914b62d6980601b4ccd7d80c5aa7f1dbd7df9b1289e71e341"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\e2e\\server-v425.mjs",
+      "relative_path": "frontend/e2e/server-v425.mjs",
+      "bytes": 1892,
+      "sha256": "2abeaa843ba46c9ced31416b5c3c78d965c6a77d134f920d86c87554799ab544"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\e2e\\server.mjs",
+      "relative_path": "frontend/e2e/server.mjs",
+      "bytes": 1799,
+      "sha256": "f5390696e6a51cb811d1b0dd42a3af232660db5dbaa693b042f92343df801e82"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\env.d.ts",
+      "relative_path": "frontend/env.d.ts",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\index.html",
+      "relative_path": "frontend/index.html",
+      "bytes": 595,
+      "sha256": "3331918d2ddaae2504fa7d72cc2597e3eaa7b5356fd9444a401b890f7e39342b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\package-lock.json",
+      "relative_path": "frontend/package-lock.json",
+      "bytes": 52474,
+      "sha256": "df80e503d6a13e7c1ddb542f87183f92c6ca4d0501c23bff466e97fe15334e58"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\package.json",
+      "relative_path": "frontend/package.json",
+      "bytes": 520,
+      "sha256": "0202d40fe643bc3a599de84f81c3cc3be7296c85e7a337ce67b989397620b299"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\playwright.config.ts",
+      "relative_path": "frontend/playwright.config.ts",
+      "bytes": 650,
+      "sha256": "af1c1b421208faea5b3dce3aa0b387b07cd5b877dc315e7bc0502a33a728caf4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\playwright.v425.config.ts",
+      "relative_path": "frontend/playwright.v425.config.ts",
+      "bytes": 679,
+      "sha256": "1703ab27bb77185fae670e05af393d53c9c5bd32a853c055de8edb66fad08fa9"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\App.vue",
+      "relative_path": "frontend/src/App.vue",
+      "bytes": 7464,
+      "sha256": "4ec31b6b73f6cd5adcb72f72891958ac893472e8ffcf7cae242c0b218e4cb320"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\api.ts",
+      "relative_path": "frontend/src/api.ts",
+      "bytes": 9031,
+      "sha256": "8bf6af0aae577912b099d90c68f0c1622a55ffddbbbb407d32121adfdeaa3c83"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\auth.ts",
+      "relative_path": "frontend/src/auth.ts",
+      "bytes": 562,
+      "sha256": "6a04af7552f2e056f2cd578495e8913a4082dcbe8685d7c9de32911a967be698"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\components\\EndpointPanel.vue",
+      "relative_path": "frontend/src/components/EndpointPanel.vue",
+      "bytes": 878,
+      "sha256": "f0766c3d798ef45c8116f8ec770f5086567a04ed1a892d27be55f0e1105c05fd"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\components\\JsonField.vue",
+      "relative_path": "frontend/src/components/JsonField.vue",
+      "bytes": 637,
+      "sha256": "38fa9a2b35b7a2a3ff9e1542e390eead365844259f925a91d22fdc804c4435b3"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\components\\LoginPanel.vue",
+      "relative_path": "frontend/src/components/LoginPanel.vue",
+      "bytes": 1565,
+      "sha256": "ee6c05ae1c81831733253bf8e213c0a9e8666b6ec1e344a838e7dd5a5c204ef9"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\components\\PageHeader.vue",
+      "relative_path": "frontend/src/components/PageHeader.vue",
+      "bytes": 290,
+      "sha256": "db484356d8cd670d92f17ddc14abd8f062e6b37e3844fb0c77cb2218d6da5818"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\components\\ResultPanel.vue",
+      "relative_path": "frontend/src/components/ResultPanel.vue",
+      "bytes": 905,
+      "sha256": "fa8ec3dd5c5e5a2b83dc210efbbc0186fcfd1c3bb662958d310b8ec646761f1a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\config.ts",
+      "relative_path": "frontend/src/config.ts",
+      "bytes": 2566,
+      "sha256": "3c167e034bff69a0baf96d2d581ed13feccb257aad6e579e82c8d547186ce0a0"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\endpoints.ts",
+      "relative_path": "frontend/src/endpoints.ts",
+      "bytes": 4031,
+      "sha256": "658e8e90f5440f1d7326f6323ae0372954f1662bc96ac2842d950b5efab6c4c7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\governance.ts",
+      "relative_path": "frontend/src/governance.ts",
+      "bytes": 508,
+      "sha256": "fbbb02ac897f38d99645d6ef17847f9fe3929f68b1b6597c59ebea5253c9f1d7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\main.ts",
+      "relative_path": "frontend/src/main.ts",
+      "bytes": 116,
+      "sha256": "94b703fafecdc89fecf5dea411938d3854d191d3eed8314265a16ce53dfe84b3"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\BoqPage.vue",
+      "relative_path": "frontend/src/pages/BoqPage.vue",
+      "bytes": 6832,
+      "sha256": "dc9844040033039d667b24dbf2903e30e3e8b0f6a1c642d26cd6bb384540142c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\DeliverablePage.vue",
+      "relative_path": "frontend/src/pages/DeliverablePage.vue",
+      "bytes": 6460,
+      "sha256": "f8440b83a949710c2b01d869a84b1c897246f27fc41609cfd628a9733337f5b3"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\DocumentsPage.vue",
+      "relative_path": "frontend/src/pages/DocumentsPage.vue",
+      "bytes": 4723,
+      "sha256": "4c20c673a364806251a401de55d7a77646c21fcd5e09547d33fecacd6f0c6375"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\EvidencePage.vue",
+      "relative_path": "frontend/src/pages/EvidencePage.vue",
+      "bytes": 5699,
+      "sha256": "1bbb62d820ff8e4fe75fca69ba10bb574165e1463a7a5513bb008e869c08e645"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\OcrReviewPage.vue",
+      "relative_path": "frontend/src/pages/OcrReviewPage.vue",
+      "bytes": 14677,
+      "sha256": "bddb3f677feff5d256449a0d02014dc0bda66c43cb5b725436676dd9351e491e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\PricingPage.vue",
+      "relative_path": "frontend/src/pages/PricingPage.vue",
+      "bytes": 5543,
+      "sha256": "ec7cf77d76029bb8d6672208860dbbf1bc7820fd2fb0e2dd5acca2233e10ca84"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\ProjectPage.vue",
+      "relative_path": "frontend/src/pages/ProjectPage.vue",
+      "bytes": 6757,
+      "sha256": "9eda81286fb04acb2c529f4375a80a9b23110bf87e5d54b85d2a47ca5cecdeb2"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\ProjectReadinessPage.vue",
+      "relative_path": "frontend/src/pages/ProjectReadinessPage.vue",
+      "bytes": 5344,
+      "sha256": "adc0b195f74ca33127b7ff8134830b69e53465440536af23ea594e2b3a8605b8"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\QuantityPage.vue",
+      "relative_path": "frontend/src/pages/QuantityPage.vue",
+      "bytes": 8476,
+      "sha256": "6126b70a74f62c3046d5a0f7ed37bce881d9d0de21dcedfbb4ad212c7986b6d5"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\QuotaPage.vue",
+      "relative_path": "frontend/src/pages/QuotaPage.vue",
+      "bytes": 4958,
+      "sha256": "3f8c36b45191f3bee22b19e725336f467f90215b79b34b9dc7e12a0887a2ec75"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\ReviewPage.vue",
+      "relative_path": "frontend/src/pages/ReviewPage.vue",
+      "bytes": 8621,
+      "sha256": "51181c98319badd3c023b3586c25ff796b215cee7ab08afc91b78074f0efa69e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\pages\\SamplePilotPage.vue",
+      "relative_path": "frontend/src/pages/SamplePilotPage.vue",
+      "bytes": 10402,
+      "sha256": "4b5a0ffbdf42534eb9dc0698b8293c04c13c082fb2c554c05cf080d90f2c2b25"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\session.ts",
+      "relative_path": "frontend/src/session.ts",
+      "bytes": 4734,
+      "sha256": "53b7efeaddd9b7e4ff21519aed5ea241432b7f1be3069415d9c77c818370a283"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\styles.css",
+      "relative_path": "frontend/src/styles.css",
+      "bytes": 9865,
+      "sha256": "0874d18490338124cdb1abae002622422ebe7c10a995f6b5358b5f88c61bafa8"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\types.ts",
+      "relative_path": "frontend/src/types.ts",
+      "bytes": 3939,
+      "sha256": "d098a54fbb20bbd15ffd7157f07f4c8ae9fb2b7e1e378c039d65fe480fe1101d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\src\\useApi.ts",
+      "relative_path": "frontend/src/useApi.ts",
+      "bytes": 1847,
+      "sha256": "522b4620cfd1c2eb0b87d096b8852c24afe02d8df1c16236b15e9c4ce0a404a7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\tsconfig.json",
+      "relative_path": "frontend/tsconfig.json",
+      "bytes": 448,
+      "sha256": "3fbba6f6d6b80a49a2e8870fef9202e43e9fc271ef4bf5b5908e8efabc5e8fd6"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\vite.config.ts",
+      "relative_path": "frontend/vite.config.ts",
+      "bytes": 559,
+      "sha256": "457ab3659f14f18848eee5e51d0761f10d728ffe8566bfe6de6157578c4481e8"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\ACL_REGRESSION.log",
+      "relative_path": "reports/v426/ACL_REGRESSION.log",
+      "bytes": 624,
+      "sha256": "8408f13e380e8a1f8b9dbea3083dcc67955ca1418bd6a8e7807937b100540804"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_BACKEND.log",
+      "relative_path": "reports/v426/BASELINE_BACKEND.log",
+      "bytes": 1862,
+      "sha256": "5a205583fc18c07d11c12cf839c54deb9320429a4005df7bf1e7fe1433c0fd76"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_BACKEND.xml",
+      "relative_path": "reports/v426/BASELINE_BACKEND.xml",
+      "bytes": 125722,
+      "sha256": "62af15c2fc061aca6722f73ca309a13b85062e2bbda91cfd761b226238e02a7a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_BACKEND_attempt_20261116T214956770717.log",
+      "relative_path": "reports/v426/BASELINE_BACKEND_attempt_20261116T214956770717.log",
+      "bytes": 5336,
+      "sha256": "4e9e16afdf195d06002faad43fba2517182f66d65c8258de6b3e6105230fbfc0"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_BACKEND_attempt_20261116T214956770717.xml",
+      "relative_path": "reports/v426/BASELINE_BACKEND_attempt_20261116T214956770717.xml",
+      "bytes": 129015,
+      "sha256": "6d83b8f5bbdebdfe8949a3596df4b5fdc306e57d902adb23daa8b424b54ceb96"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_CAPTURED.json",
+      "relative_path": "reports/v426/BASELINE_CAPTURED.json",
+      "bytes": 169,
+      "sha256": "f8c6701e45fafb9fe47193c04078228649f6ed89e48500757a40a6991251956f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_DATA_INVENTORY.json",
+      "relative_path": "reports/v426/BASELINE_DATA_INVENTORY.json",
+      "bytes": 83155,
+      "sha256": "225064fbc0dc9363f0770f659225aa114da4fbb968bd7531e4cd4b281fba570a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_FRONTEND_BROWSER.log",
+      "relative_path": "reports/v426/BASELINE_FRONTEND_BROWSER.log",
+      "bytes": 1311,
+      "sha256": "5ee7b6295ec89c799bc547659646a240d2b4a0fb71fdca8a77d6160d48e6efca"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_FRONTEND_BROWSER_attempt_20261116T215417841709.log",
+      "relative_path": "reports/v426/BASELINE_FRONTEND_BROWSER_attempt_20261116T215417841709.log",
+      "bytes": 5889,
+      "sha256": "1c77a9db5a15c4feac80dc7fafd3dc963fbade6b06ca90c4f16353c2ff2e240a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_FRONTEND_BUILD.log",
+      "relative_path": "reports/v426/BASELINE_FRONTEND_BUILD.log",
+      "bytes": 395,
+      "sha256": "525d7ea32f0e4b572a047047313386ae627fad775649e057763336986d4136f0"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_FRONTEND_BUILD_attempt_20261116T215417841709.log",
+      "relative_path": "reports/v426/BASELINE_FRONTEND_BUILD_attempt_20261116T215417841709.log",
+      "bytes": 395,
+      "sha256": "55f8b6cee254f6807cdc4c885d0d68b8179a3ea1dfadd86ddb834ba546715f5d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_FRONTEND_RESULT.json",
+      "relative_path": "reports/v426/BASELINE_FRONTEND_RESULT.json",
+      "bytes": 28739,
+      "sha256": "1ff8ed3067eb4124177708a8446b7c343bca917e8c24431ab7a1036be0d86e82"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_RESULT.json",
+      "relative_path": "reports/v426/BASELINE_RESULT.json",
+      "bytes": 28525,
+      "sha256": "816d05775418d945122c62900b2227538c12dbdc2a1d0c2374983b964455dfd7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_RESULT_attempt_20261116T214956770717.json",
+      "relative_path": "reports/v426/BASELINE_RESULT_attempt_20261116T214956770717.json",
+      "bytes": 28473,
+      "sha256": "c1c6e3fa16b87961fd9258934121984c087a945291ff6a351f5d9e1c4b8f185e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BASELINE_SOURCE_SHA256.json",
+      "relative_path": "reports/v426/BASELINE_SOURCE_SHA256.json",
+      "bytes": 27416,
+      "sha256": "7e1669c6f8541fe554675087a3ee2221ba71c51452d758544e04340450082fc5"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BOQ_VALIDATION.json",
+      "relative_path": "reports/v426/BOQ_VALIDATION.json",
+      "bytes": 32444,
+      "sha256": "367a85535cbeba05f26e8d335a19b5219a4161c342a0a69eb099d665923621a2"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BOQ_VALIDATION.md",
+      "relative_path": "reports/v426/BOQ_VALIDATION.md",
+      "bytes": 571,
+      "sha256": "e2554236b38036502c415eb56018b5947f18b0b4577de0c4dd7fb44a29baaad4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_EXTRA.log",
+      "relative_path": "reports/v426/BUSINESS_EXTRA.log",
+      "bytes": 751,
+      "sha256": "155686e2701571a9a8c3bbd4b56e5829d282aa7b87934235c937e6e3ea12b72a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_EXTRA.xml",
+      "relative_path": "reports/v426/BUSINESS_EXTRA.xml",
+      "bytes": 983,
+      "sha256": "e53fb9b0a76881371e9be8e1acdfdb5ee6e17e9022d4d26a3acde9ce1c1f01ee"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_FINAL.log",
+      "relative_path": "reports/v426/BUSINESS_FINAL.log",
+      "bytes": 752,
+      "sha256": "2c407ba8bd13c2fa5fa1b9f4147647516e659097cfe851f731b0491aeda4dd08"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_FINAL.xml",
+      "relative_path": "reports/v426/BUSINESS_FINAL.xml",
+      "bytes": 2235,
+      "sha256": "b7cac6e6fd46661356488d37996f87c426c2b01730e9e7a5657595984855f59f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_POST_FIX.log",
+      "relative_path": "reports/v426/BUSINESS_POST_FIX.log",
+      "bytes": 1803,
+      "sha256": "b7cd812b4c204a86665a2152fe9c880b9f77488f27d12786d69868360d6d532b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_POST_FIX.xml",
+      "relative_path": "reports/v426/BUSINESS_POST_FIX.xml",
+      "bytes": 1704,
+      "sha256": "3a010d7fe90da23fd253540367bf3e631adc47c0e95e7813475fba3fa2436eed"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_PRE_FIX.log",
+      "relative_path": "reports/v426/BUSINESS_PRE_FIX.log",
+      "bytes": 3295,
+      "sha256": "96066d93c83aa5af02479de62aa6e60ba2731e76ad34362258d2bba7a3e87c3e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_PRE_FIX.xml",
+      "relative_path": "reports/v426/BUSINESS_PRE_FIX.xml",
+      "bytes": 3218,
+      "sha256": "e36a7b5b6af00ce1c54d61d87c517ee610c8fb5aee71b01d3a0bea0be5fc8356"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_REGRESSION.log",
+      "relative_path": "reports/v426/BUSINESS_REGRESSION.log",
+      "bytes": 757,
+      "sha256": "d76695c454807e00f58c6f94eb02e4b42ee9b6fb7a5a7faadf7349983b346369"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\BUSINESS_REGRESSION.xml",
+      "relative_path": "reports/v426/BUSINESS_REGRESSION.xml",
+      "bytes": 2235,
+      "sha256": "1062b66cd07d858790589f8acc111c11c54a36eb3269e040b1c6486340796099"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND.log",
+      "relative_path": "reports/v426/FINAL_BACKEND.log",
+      "bytes": 1941,
+      "sha256": "200373ebb0d13ef57ad40e263ce522cd66de0bca8d222adbf92b8eadc310b3d3"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND.xml",
+      "relative_path": "reports/v426/FINAL_BACKEND.xml",
+      "bytes": 133151,
+      "sha256": "032998c27a579ae9ca6da9e27c8d1cc23aafb5af80a4b360a14c059b88848e4d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND_attempt_20261116T222138353474.log",
+      "relative_path": "reports/v426/FINAL_BACKEND_attempt_20261116T222138353474.log",
+      "bytes": 1941,
+      "sha256": "d628c2b242ea43969d472963adf58540568d82f36967ebaf1403fae75594353c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND_attempt_20261116T222138353474.xml",
+      "relative_path": "reports/v426/FINAL_BACKEND_attempt_20261116T222138353474.xml",
+      "bytes": 133149,
+      "sha256": "adb89ece7d1b44bd53f0074ebce7883b471e185bdb83bf00dcaa71ed800fee18"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND_attempt_20261116T224144101394.log",
+      "relative_path": "reports/v426/FINAL_BACKEND_attempt_20261116T224144101394.log",
+      "bytes": 1941,
+      "sha256": "6af0926c09bdfc3f5df8edb451e2f5b5526a2255dc0442a545fb670eb0e9f895"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND_attempt_20261116T224144101394.xml",
+      "relative_path": "reports/v426/FINAL_BACKEND_attempt_20261116T224144101394.xml",
+      "bytes": 133148,
+      "sha256": "da58a691b1618eadb14280668dcf8da0563040abb7c2539615765175a2dc4036"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND_attempt_20261116T231148249672.log",
+      "relative_path": "reports/v426/FINAL_BACKEND_attempt_20261116T231148249672.log",
+      "bytes": 1941,
+      "sha256": "49f481a96ef2c54fe87bd004f547a55b9180842f9b15c3fa727741766daa72a8"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND_attempt_20261116T231148249672.xml",
+      "relative_path": "reports/v426/FINAL_BACKEND_attempt_20261116T231148249672.xml",
+      "bytes": 133148,
+      "sha256": "0d8a253995c4ffa0e737fed5281b26f6a9852e87de3adc3840602bcf2969ce8a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND_attempt_20261116T233056651149.log",
+      "relative_path": "reports/v426/FINAL_BACKEND_attempt_20261116T233056651149.log",
+      "bytes": 1941,
+      "sha256": "1a94a25e532edf4e3572089d25423c28c4bd87862cbd540d2e7a0fa25d4c2022"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_BACKEND_attempt_20261116T233056651149.xml",
+      "relative_path": "reports/v426/FINAL_BACKEND_attempt_20261116T233056651149.xml",
+      "bytes": 133151,
+      "sha256": "a0b889c0d38e0ce5b701a3eef165bc5fbda9ad8d324fe81e14a555cc18b1f49d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_DATA_INVENTORY.json",
+      "relative_path": "reports/v426/FINAL_DATA_INVENTORY.json",
+      "bytes": 84123,
+      "sha256": "263ab77dcc256ef1b627bd20901d1db56225911b19a4f18459b80fa059c80ef2"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_DATA_INVENTORY_attempt_20261116T2354121022682.json",
+      "relative_path": "reports/v426/FINAL_DATA_INVENTORY_attempt_20261116T2354121022682.json",
+      "bytes": 83419,
+      "sha256": "b5cc701e4b5410eb49b2d4bddacad3312a472b976f5271f2e3dd0e8f0d778cff"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_BROWSER.log",
+      "relative_path": "reports/v426/FINAL_FRONTEND_BROWSER.log",
+      "bytes": 2192,
+      "sha256": "cdcbc33780ec3c74f39fe06c8fe1cc3d9e39fe9bffad13dd62478d557b1d3171"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_BROWSER_attempt_20261116T223425146433.log",
+      "relative_path": "reports/v426/FINAL_FRONTEND_BROWSER_attempt_20261116T223425146433.log",
+      "bytes": 1585,
+      "sha256": "b2ea8ca3f61c2f11cbe3d999df75c23d986834526ffd8bc0385b4efdb60c5aaa"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_BROWSER_attempt_20261116T224753091114.log",
+      "relative_path": "reports/v426/FINAL_FRONTEND_BROWSER_attempt_20261116T224753091114.log",
+      "bytes": 6274,
+      "sha256": "87f59da1952ae26d7904cbdc9458d025f425473247cb8507ae612014beb8d335"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_BROWSER_attempt_20261116T235428089063.log",
+      "relative_path": "reports/v426/FINAL_FRONTEND_BROWSER_attempt_20261116T235428089063.log",
+      "bytes": 1430,
+      "sha256": "f3f7728742b8db30c71cb4e124ede644e338e5a12e7ac033862cf2469b1bde88"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_BUILD.log",
+      "relative_path": "reports/v426/FINAL_FRONTEND_BUILD.log",
+      "bytes": 395,
+      "sha256": "528d4d6155ef6ea1789c6804f918f48053f1c372d18f71d920ed955e0f183a66"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_BUILD_attempt_20261116T223425146433.log",
+      "relative_path": "reports/v426/FINAL_FRONTEND_BUILD_attempt_20261116T223425146433.log",
+      "bytes": 395,
+      "sha256": "049134fd4b4300c4c5c277fa7d621d78de50fd7ede43948c92b67e13b76532f7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_BUILD_attempt_20261116T224753091114.log",
+      "relative_path": "reports/v426/FINAL_FRONTEND_BUILD_attempt_20261116T224753091114.log",
+      "bytes": 395,
+      "sha256": "5b6ce459324373198606cbc32edd90e709862fafe62f05c8867e8c8ca6d3a341"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_BUILD_attempt_20261116T235428089063.log",
+      "relative_path": "reports/v426/FINAL_FRONTEND_BUILD_attempt_20261116T235428089063.log",
+      "bytes": 395,
+      "sha256": "4b2dba271740861eea37a9acbf625f2a57d7a50823b4be33266164178a6241f7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_RESULT.json",
+      "relative_path": "reports/v426/FINAL_FRONTEND_RESULT.json",
+      "bytes": 30121,
+      "sha256": "7b8e5f86407c4283cb75c62d1a545319d09f4e072fab9e2578fc6e1040881de2"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_FRONTEND_RESULT_attempt_20261116T2354121022682.json",
+      "relative_path": "reports/v426/FINAL_FRONTEND_RESULT_attempt_20261116T2354121022682.json",
+      "bytes": 29697,
+      "sha256": "5661d13ec846c528def1904c358a7f59f861eec1afbf0a8894bf3ec6440ee4aa"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_RESULT.json",
+      "relative_path": "reports/v426/FINAL_RESULT.json",
+      "bytes": 29910,
+      "sha256": "5f2f1b1d3e6ce2caf62967ec86b9fff96dfbf8da29bde2873e47a52525959d12"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_RESULT_attempt_20261116T222138353474.json",
+      "relative_path": "reports/v426/FINAL_RESULT_attempt_20261116T222138353474.json",
+      "bytes": 29487,
+      "sha256": "c528e8e6a31555b44327ded80df3e4a68afe0bef5545610f00c14d3707308916"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_RESULT_attempt_20261116T224144101394.json",
+      "relative_path": "reports/v426/FINAL_RESULT_attempt_20261116T224144101394.json",
+      "bytes": 29487,
+      "sha256": "efa6da84a0fd9da548e2c300d03e9ffbb0d30a7df6f243e909b0c5bd09e6b259"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_RESULT_attempt_20261116T231148249672.json",
+      "relative_path": "reports/v426/FINAL_RESULT_attempt_20261116T231148249672.json",
+      "bytes": 29487,
+      "sha256": "74ca349d57ac3b6a48a06834dcf0589f04eef91f4eb460c3edeb5bc142e77d0f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_RESULT_attempt_20261116T233056651149.json",
+      "relative_path": "reports/v426/FINAL_RESULT_attempt_20261116T233056651149.json",
+      "bytes": 29804,
+      "sha256": "9bd32b34b9bc9fea2bcc058961f8528a7c63777f5e1876a393a5fbb41cddba9b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\FINAL_SOURCE_SHA256.json",
+      "relative_path": "reports/v426/FINAL_SOURCE_SHA256.json",
+      "bytes": 28787,
+      "sha256": "f149109683797e050fc8c84a5d4ef285f12e5015093f463bb147e045375f5e84"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\MATERIAL_PRICE_VALIDATION.json",
+      "relative_path": "reports/v426/MATERIAL_PRICE_VALIDATION.json",
+      "bytes": 2101,
+      "sha256": "13a07f6af06d6fdc03e87b8f21ce862cc5e01c07a839693b976e0906b1763493"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\MATERIAL_PRICE_VALIDATION.md",
+      "relative_path": "reports/v426/MATERIAL_PRICE_VALIDATION.md",
+      "bytes": 564,
+      "sha256": "2bd5fd789cec7b33dbe9f221e9459c50d764a08e29e4016b0e29485f17daba31"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\MIGRATION_OWNER.md",
+      "relative_path": "reports/v426/MIGRATION_OWNER.md",
+      "bytes": 258,
+      "sha256": "4539618059beffd1d035bad38349b9e596303bda930aac041a976d682059218b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_ACL_API_CONTRACT.md",
+      "relative_path": "reports/v426/OCR_ACL_API_CONTRACT.md",
+      "bytes": 1169,
+      "sha256": "9e66bff4f753ae69558b6112682a205a748a543028a795c83494baf08a1574a7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_ACL_PROGRESS.md",
+      "relative_path": "reports/v426/OCR_ACL_PROGRESS.md",
+      "bytes": 1432,
+      "sha256": "1d307e4469033215e47deca5cdd268b41e393d91a2e4ce650485a6386dd859b3"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_BROWSER_ANCHOR_FAILURE.log",
+      "relative_path": "reports/v426/OCR_BROWSER_ANCHOR_FAILURE.log",
+      "bytes": 8170,
+      "sha256": "2146e3804386917132a7ec20471175e97a21da5ef348c3db52a9f38d1e2ff05b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_BROWSER_REGRESSION.log",
+      "relative_path": "reports/v426/OCR_BROWSER_REGRESSION.log",
+      "bytes": 1112,
+      "sha256": "4ed48723cf6c6ecab66317b25891b75ab21083b1e8c608fb69ad7df14caa09ec"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_CONTENT_DEDUP.json",
+      "relative_path": "reports/v426/OCR_CONTENT_DEDUP.json",
+      "bytes": 129641,
+      "sha256": "f668ea34c882c0584e66704f5fe8788b2812bfa65892e471166fce495d9a7fed"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_FRONTEND_BUILD.log",
+      "relative_path": "reports/v426/OCR_FRONTEND_BUILD.log",
+      "bytes": 408,
+      "sha256": "3b577427409ae8facbd2d576b2aef00ab05e4cb281c42566bf21aae0b1982858"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_HUMAN_REVIEW_READINESS.json",
+      "relative_path": "reports/v426/OCR_HUMAN_REVIEW_READINESS.json",
+      "bytes": 16147,
+      "sha256": "a6b23d0220ab9aae0e78de04799df0436f063965c1d7fd1ed2eefa90ef9634bb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_HUMAN_REVIEW_READINESS.md",
+      "relative_path": "reports/v426/OCR_HUMAN_REVIEW_READINESS.md",
+      "bytes": 1546,
+      "sha256": "072beac788334129e60e819ba2b7a7b875b4acca8166c1eebcde3f7ebcec6c28"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_MIGRATION_REQUEST.md",
+      "relative_path": "reports/v426/OCR_MIGRATION_REQUEST.md",
+      "bytes": 279,
+      "sha256": "dd33ad0a8ad2de7db0e951a1c2a05d6e75999b4b9b4589409ac6a612ebd795a6"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_ROLE_BROWSER_EVIDENCE.json",
+      "relative_path": "reports/v426/OCR_ROLE_BROWSER_EVIDENCE.json",
+      "bytes": 2025,
+      "sha256": "d894e884999d9f862b25ef0c011b20f9d54997da31649126014b592afa7b0fd1"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_STORE_API_CONTRACT.md",
+      "relative_path": "reports/v426/OCR_STORE_API_CONTRACT.md",
+      "bytes": 1059,
+      "sha256": "05acb2488d532d3c9eadde44d0308a2493ba84cd567de1f652b6f1ba782795d5"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_STORE_FINAL.md",
+      "relative_path": "reports/v426/OCR_STORE_FINAL.md",
+      "bytes": 2619,
+      "sha256": "d5d098f1573dda72e4fcd5a9dc947cfd3a5e80113674180647a19b181c9ef045"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_STORE_IMPLEMENTATION.md",
+      "relative_path": "reports/v426/OCR_STORE_IMPLEMENTATION.md",
+      "bytes": 1118,
+      "sha256": "5b409a23bf902aef175488e293ed054e732bfcf676bb2a6795470f16722be2ed"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_STORE_PROGRESS.json",
+      "relative_path": "reports/v426/OCR_STORE_PROGRESS.json",
+      "bytes": 479,
+      "sha256": "1650a0cef8cb1a149d28c000869bb98416f939c56cc28ea68ad547e7fb37379f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\OCR_STORE_PROGRESS.md",
+      "relative_path": "reports/v426/OCR_STORE_PROGRESS.md",
+      "bytes": 519,
+      "sha256": "66e08d13ad8fa59d551ca51015217253799e5ae85f84b714e1cfd98a70015de7"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\PACKAGE_TESTS.log",
+      "relative_path": "reports/v426/PACKAGE_TESTS.log",
+      "bytes": 220,
+      "sha256": "f35b155caee86fec8292b97b0b351c57ad3ffd19408b331dad24aeffd4e39972"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\PACKAGE_TESTS.xml",
+      "relative_path": "reports/v426/PACKAGE_TESTS.xml",
+      "bytes": 3032,
+      "sha256": "ca8a09f151f4efa2e02c20de04502f5442e557015609feae56b172ceb8c95002"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\SECURITY_REGRESSION.md",
+      "relative_path": "reports/v426/SECURITY_REGRESSION.md",
+      "bytes": 2073,
+      "sha256": "6c43c5219fc2e45a2b4c37dd402998c7d788af2c9df54933d51242b5ebbf6e64"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\TEST_SUMMARY.json",
+      "relative_path": "reports/v426/TEST_SUMMARY.json",
+      "bytes": 1677,
+      "sha256": "5302503c8f7344877ff321884909cb6d966521cff13738b4c973b71fe4816c4c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\acl_pre_fix.log",
+      "relative_path": "reports/v426/acl_pre_fix.log",
+      "bytes": 30617,
+      "sha256": "84e41b073d5f1f8c848dff764cc37df022246a05602cd0ce0daa45837bbe1ae6"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\ocr_combined.log",
+      "relative_path": "reports/v426/ocr_combined.log",
+      "bytes": 2106,
+      "sha256": "672e06ce758de89ee105f6a2331470f1907c3e95101fd02ebaee4c2118163360"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\ocr_combined_final.log",
+      "relative_path": "reports/v426/ocr_combined_final.log",
+      "bytes": 102,
+      "sha256": "3a2df21a2ade50e18d3d4cbddc73474ca013712f0743b708bec01e627948e3ec"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\ocr_store_after.log",
+      "relative_path": "reports/v426/ocr_store_after.log",
+      "bytes": 100,
+      "sha256": "08f54e52b039904d46d1073e62ba2a469b2eeaf5b6b0fdc6c20510ee844f1f7e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\ocr_store_before.log",
+      "relative_path": "reports/v426/ocr_store_before.log",
+      "bytes": 15448,
+      "sha256": "ffb0e8f13d8fde1b18c19040056f92d74e055610e7091342a14f259bcc2c642e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\ocr_store_extended.log",
+      "relative_path": "reports/v426/ocr_store_extended.log",
+      "bytes": 1026,
+      "sha256": "dcca93c01ed9c61c38a96235ca6f7f694b4257deaf386a4ec189d39a889eb1fe"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\schemas\\appraisal_intake.schema.json",
+      "relative_path": "schemas/appraisal_intake.schema.json",
+      "bytes": 723,
+      "sha256": "cd75f72c24dec8bbb98ffc56232acb40b7f65fe0047b563fde13083520f7a2e4"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\schemas\\budget_submission.schema.json",
+      "relative_path": "schemas/budget_submission.schema.json",
+      "bytes": 587,
+      "sha256": "090ffb7f3b66495eaf517731852c92316a89feac8f3096af299ed03e5ccbb202"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\schemas\\change_visa.schema.json",
+      "relative_path": "schemas/change_visa.schema.json",
+      "bytes": 668,
+      "sha256": "ca4c09bab72f76dfdedf1ce4f4bb38577c1e3c15a8e7d2c673e38f1d727a7d70"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\schemas\\contract.schema.json",
+      "relative_path": "schemas/contract.schema.json",
+      "bytes": 633,
+      "sha256": "c4d0bafaeff894ea8da58e723321cde13d9cb837796a0906b01b5b45ac67b2d1"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\schemas\\drawing_index.schema.json",
+      "relative_path": "schemas/drawing_index.schema.json",
+      "bytes": 607,
+      "sha256": "da0b9b36276dc3c81006005e365a296f5453f0991b7d8dd69b7af3035641be2d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\schemas\\measurement_payment.schema.json",
+      "relative_path": "schemas/measurement_payment.schema.json",
+      "bytes": 612,
+      "sha256": "2a4b72bee2365d4c5f95bb86648fb9c664be8fc3067b95f50542ffaafd40c0a9"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\schemas\\settlement_submission.schema.json",
+      "relative_path": "schemas/settlement_submission.schema.json",
+      "bytes": 581,
+      "sha256": "52b1c1c6851f51683c665a0e85748826381be3ee08cd82e81c95737ae265d9a2"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\schemas\\tender_doc.schema.json",
+      "relative_path": "schemas/tender_doc.schema.json",
+      "bytes": 667,
+      "sha256": "0f1e11f75da6e686640142d1f4e304e60196c66cc8c7c4f57b98690103d8b2fa"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\V426_TASK_QUEUE.json",
+      "relative_path": "scripts/V426_TASK_QUEUE.json",
+      "bytes": 1316,
+      "sha256": "f062afd4a1306132030297ed87ed38b982ee36baa7453f893f32ff4efa9189a8"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\package_v424.py",
+      "relative_path": "scripts/package_v424.py",
+      "bytes": 6716,
+      "sha256": "f9fe3bde7891fc92922296ef5e5c5b7f55c77cf0c6850c2c503ca05941924072"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\package_v425.py",
+      "relative_path": "scripts/package_v425.py",
+      "bytes": 8113,
+      "sha256": "768b4ee92c8027b7d5602c0fb400970676e6c390dae6327613e4eab67ea06436"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\package_v426.py",
+      "relative_path": "scripts/package_v426.py",
+      "bytes": 13338,
+      "sha256": "2bdd9d46e9c56a61e9bacc881a0aed91bbf31fada1372f6675dcd1dac866d73a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\tests\\test_v425_package.py",
+      "relative_path": "scripts/tests/test_v425_package.py",
+      "bytes": 2037,
+      "sha256": "9d6882b7836727a6c8a710919ddb23112ef4b189127fdef36e2cbf5b6cfda537"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\tests\\test_v426_package.py",
+      "relative_path": "scripts/tests/test_v426_package.py",
+      "bytes": 8346,
+      "sha256": "80ea36238cf62fb624f5caab0df9bcd05e948daf08b3c523aee45b8099d05950"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v424_endpoint_audit.py",
+      "relative_path": "scripts/v424_endpoint_audit.py",
+      "bytes": 5857,
+      "sha256": "33e34d2861610f4978e34c69091c2b0182cce9189a4d131617d2a3d656cab231"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v424_local_pilot.py",
+      "relative_path": "scripts/v424_local_pilot.py",
+      "bytes": 5954,
+      "sha256": "9092a86a3b461c2374aafbb6d0aca0fd9cad227ddbb8efc6d60887eb36b5e6e1"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v424_ocr_corpus.py",
+      "relative_path": "scripts/v424_ocr_corpus.py",
+      "bytes": 2103,
+      "sha256": "bb473073b8d45736c2bc93727e625f593da0467a278bca688232cb2fc9cf2743"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v424_pilot.py",
+      "relative_path": "scripts/v424_pilot.py",
+      "bytes": 7588,
+      "sha256": "537a07166336abdd4df85e23330449c30aec7e2af3e0dbb122f096e666c037fb"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v424_reports.py",
+      "relative_path": "scripts/v424_reports.py",
+      "bytes": 21057,
+      "sha256": "314fe9195db3ab2cb3be35af47cf32010b78094e5996d70c51434547c7512a0c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v424_verify.py",
+      "relative_path": "scripts/v424_verify.py",
+      "bytes": 3568,
+      "sha256": "e474a646c210dcb1d0b7dad96d45b1e3ebd15af0e93f3e0450696e8204fff0a3"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_acceptance.py",
+      "relative_path": "scripts/v425_acceptance.py",
+      "bytes": 5672,
+      "sha256": "d76663c96dee4dc4974b5f6865c644a6bae4a06638b1f289d7fee7dba611e916"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_browser_verify.py",
+      "relative_path": "scripts/v425_browser_verify.py",
+      "bytes": 3458,
+      "sha256": "4919c04bd407ee1127ea31a05ed60f1d901ae981c1db46597387c17e90175340"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_corpus_governance.py",
+      "relative_path": "scripts/v425_corpus_governance.py",
+      "bytes": 40809,
+      "sha256": "00977e6632e14a192306f567bc4557c2d09ded29964755ab4ecacc4f6a6d4717"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_e2e_seed.py",
+      "relative_path": "scripts/v425_e2e_seed.py",
+      "bytes": 1939,
+      "sha256": "40507b73b811f8f8e00f2ae0a41e32948de2f07083cd382931b246a90882e49c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_integrity.py",
+      "relative_path": "scripts/v425_integrity.py",
+      "bytes": 5554,
+      "sha256": "bf5dc26885e1b30613d03b9615805eacdfa8940a82dafe32ceb5e2622979527a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_local_pilot.py",
+      "relative_path": "scripts/v425_local_pilot.py",
+      "bytes": 3377,
+      "sha256": "17df521e2a6098db4811da4c9b57634accb533c4baf0b3084eedfd145ec7659d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_migration_poc.py",
+      "relative_path": "scripts/v425_migration_poc.py",
+      "bytes": 33661,
+      "sha256": "978220899fda8916a6e093267cb956e7d3eff4b99078be8a2682097b877df206"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_ocr_setup.py",
+      "relative_path": "scripts/v425_ocr_setup.py",
+      "bytes": 2822,
+      "sha256": "7eb9f8983e73dccf56327bbf4521a4a479e7293cb3f50b516e9fe12fabda2809"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_parse_corpus.py",
+      "relative_path": "scripts/v425_parse_corpus.py",
+      "bytes": 7975,
+      "sha256": "1f09bda83c3b5cb2d0130b37d7ad838a9565c944497625607ab8cfde1bbbb3f5"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_reports.py",
+      "relative_path": "scripts/v425_reports.py",
+      "bytes": 14671,
+      "sha256": "59c3c4f0009b31d9a1d85fae80292ef68c9cc9cbbe03ec30ffd5bd4e18a0e234"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_smoke.py",
+      "relative_path": "scripts/v425_smoke.py",
+      "bytes": 2164,
+      "sha256": "58131f86394c9cf2bb34a9c3df1c1a7085072d3b8ccd2472faf6e6ab3c13ae37"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_tasks.py",
+      "relative_path": "scripts/v425_tasks.py",
+      "bytes": 5056,
+      "sha256": "2d099dd6c5500f2b38f43abdf7a60d6ebfbbe8837bd235391662402a5b54c734"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v425_verify.py",
+      "relative_path": "scripts/v425_verify.py",
+      "bytes": 5324,
+      "sha256": "2c4198d21bb11417788eee6203224a35d441cbfc62104d057c8bd335d2bd9903"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v426_business_validation.py",
+      "relative_path": "scripts/v426_business_validation.py",
+      "bytes": 5845,
+      "sha256": "3db9c9d4f865cc0a1d06bfbf9d6554192967838965594fa72a4b435b4a1b45a0"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v426_frontend_verify.py",
+      "relative_path": "scripts/v426_frontend_verify.py",
+      "bytes": 5247,
+      "sha256": "09aa9293caa58b4579c789f884a80d06c1cb9332fa010e0d05abbfd20801a8c2"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v426_inventory.py",
+      "relative_path": "scripts/v426_inventory.py",
+      "bytes": 10112,
+      "sha256": "debf3cd421c003f7acdb9fc9fcf42577c86234642d40b51b8fdbe35ec1434f5f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v426_ocr_dedup.py",
+      "relative_path": "scripts/v426_ocr_dedup.py",
+      "bytes": 3375,
+      "sha256": "7d02e844c2f1c2ca47df9232b09bfb8b00fdd987e4345fd6da9800aa47e49d4d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v426_package_verify.py",
+      "relative_path": "scripts/v426_package_verify.py",
+      "bytes": 5088,
+      "sha256": "70bb40144df5a6206aba21ed7a20ed78d928b40a69d8348a3aeac1324f45e8ba"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\scripts\\v426_verify.py",
+      "relative_path": "scripts/v426_verify.py",
+      "bytes": 5695,
+      "sha256": "60427beff83ab98408362e154d2b722c6648f5dc02d5e4e30bec7265480ae991"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\001_core_schema_postgresql.sql",
+      "relative_path": "sql/001_core_schema_postgresql.sql",
+      "bytes": 9237,
+      "sha256": "ac9b5acdb49b1d02bae25c3d75c787d061510207ecf4eefadfa7eb767602fede"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\002_workflow_and_idem_postgresql.sql",
+      "relative_path": "sql/002_workflow_and_idem_postgresql.sql",
+      "bytes": 2009,
+      "sha256": "5989cf9e4207d83541bb93456c20cdf0e2edda75123188d1182f305becd58030"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\003_repository_runtime_postgresql.sql",
+      "relative_path": "sql/003_repository_runtime_postgresql.sql",
+      "bytes": 5260,
+      "sha256": "8120fee4582a8e673a9945e842f6c2e26518815bae833f41d05718286dccec6b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\004_sample_pilot.sql",
+      "relative_path": "sql/004_sample_pilot.sql",
+      "bytes": 4017,
+      "sha256": "ce0fcec706b2be3387d891841c599ee1a35e1e21578a26aa8a1be30ab555880b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\005_v425_unification_poc.sql",
+      "relative_path": "sql/005_v425_unification_poc.sql",
+      "bytes": 10665,
+      "sha256": "8c24e85a2407c9cfa0fdbe8363863333182433e6d913282c073d19cfe0132df6"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\006_v426_ocr_audit_poc.sql",
+      "relative_path": "sql/006_v426_ocr_audit_poc.sql",
+      "bytes": 2975,
+      "sha256": "3a849eac7f7d1a43912a063b798c1e22b17bc4a56b1427d2c7a90a0ea6177ab9"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\README.md",
+      "relative_path": "sql/migrations/README.md",
+      "bytes": 3188,
+      "sha256": "b86fd349189d27250159f385067f137dc27f7204f576e5f5366c1a96fd7ca0d0"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\postgresql\\R001__core_schema.sql",
+      "relative_path": "sql/migrations/postgresql/R001__core_schema.sql",
+      "bytes": 1368,
+      "sha256": "b6a0d2f69159f4eaeccd9f5cf59243ca89cd50304cc113cb5441ab3337ff4d67"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\postgresql\\R002__workflow_and_idem.sql",
+      "relative_path": "sql/migrations/postgresql/R002__workflow_and_idem.sql",
+      "bytes": 444,
+      "sha256": "3b65aad3f003a54219c26f3dacc250cce6b3e910213f099f49ad7a1f7a14f394"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\postgresql\\R003__repository_runtime.sql",
+      "relative_path": "sql/migrations/postgresql/R003__repository_runtime.sql",
+      "bytes": 721,
+      "sha256": "1d5e258c99221ae9725d494468b6347a6a533c11da6e5cdd18b9a9f0009ef077"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\sqlite\\R001__core_tables.sql",
+      "relative_path": "sql/migrations/sqlite/R001__core_tables.sql",
+      "bytes": 316,
+      "sha256": "d7dae8e1e16d85cecb5ccd6ad725d814a77cae1b93c84909eec19a144b22848f"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\sqlite\\R002__workflow_tables.sql",
+      "relative_path": "sql/migrations/sqlite/R002__workflow_tables.sql",
+      "bytes": 270,
+      "sha256": "7df7d621f4bed49bb344185c48ecd9634ad6c4ec4e50a3e91dc415ca281fcf2c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\sqlite\\R003__record_tables.sql",
+      "relative_path": "sql/migrations/sqlite/R003__record_tables.sql",
+      "bytes": 187,
+      "sha256": "01fcb799f3bf111d4ccbcb50aaccee66f13b6b214f54b858b9623f3d49aed4f3"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\sqlite\\V001__core_tables.sql",
+      "relative_path": "sql/migrations/sqlite/V001__core_tables.sql",
+      "bytes": 831,
+      "sha256": "8cc37bc749b21a96c0e5e52063e079f3518a688010e5a6600ab6bbcde74fda9c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\sqlite\\V002__workflow_tables.sql",
+      "relative_path": "sql/migrations/sqlite/V002__workflow_tables.sql",
+      "bytes": 1376,
+      "sha256": "cfacc8fd61617cd95ee82599cd508ac987b257440b5af2aca4da9096db968648"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\sql\\migrations\\sqlite\\V003__record_tables.sql",
+      "relative_path": "sql/migrations/sqlite/V003__record_tables.sql",
+      "bytes": 544,
+      "sha256": "7f212e0d310b543932affb5dcd771fd77c8b3bc5089015e1abbf75c654ade02b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\workflows\\L1_budget_compilation.yaml",
+      "relative_path": "workflows/L1_budget_compilation.yaml",
+      "bytes": 2933,
+      "sha256": "731e52a4ad83fb38e4267878a1b2cbba1ffa2c4890310b067a208547ef5d538b"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\workflows\\L2_budget_review.yaml",
+      "relative_path": "workflows/L2_budget_review.yaml",
+      "bytes": 1301,
+      "sha256": "2ceed92dbb231ee3df54405b9a264c06d049a176a0976f2dabde876c3915e78e"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\workflows\\L3_settlement_compilation.yaml",
+      "relative_path": "workflows/L3_settlement_compilation.yaml",
+      "bytes": 1056,
+      "sha256": "cdd22994da95eeadaeb5fb11db82881db9b28bce8a5570c2be136bf00ceefe5d"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\workflows\\L4_settlement_review.yaml",
+      "relative_path": "workflows/L4_settlement_review.yaml",
+      "bytes": 859,
+      "sha256": "d853cde71be6b4915041f64ced2eeef4d3d586e61222606ce338f9e1fc069a6a"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\workflows\\L5_tender_bid.yaml",
+      "relative_path": "workflows/L5_tender_bid.yaml",
+      "bytes": 851,
+      "sha256": "b447ebf0909efdbb8e26071c4e63662e54b531109eddd9eea3ff2a745795fa2c"
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\workflows\\L6_appraisal_shadow.yaml",
+      "relative_path": "workflows/L6_appraisal_shadow.yaml",
+      "bytes": 1134,
+      "sha256": "ca2a2bce7f781de5d816a36171e011ac53296a980eedf11d42e975f8cb695e3d"
+    }
+  ],
+  "indexed_files": 339,
+  "production_accepted": false,
+  "accuracy_E": "BLOCKED",
+  "tested_source_files_omitted_from_archive": [
+    "backend/scripts/run.ps1",
+    "backend/scripts/test.ps1",
+    "scripts/RUN_V424_SAMPLE_PILOT.ps1",
+    "scripts/RUN_V424_VERIFY.ps1",
+    "scripts/RUN_V425_GOVERNANCE.ps1",
+    "scripts/V423_COMMON.ps1",
+    "scripts/V423_ENTRY_AUDIT.ps1",
+    "scripts/V423_RESUME.ps1",
+    "scripts/V423_SUPERVISOR.ps1",
+    "scripts/V423_TASK_QUEUE.json",
+    "scripts/V423_WORKER.ps1",
+    "scripts/V424_TASK_QUEUE.json",
+    "scripts/V425_TASK_QUEUE.json",
+    "scripts/acceptance.ps1",
+    "scripts/deploy.ps1",
+    "scripts/package.ps1",
+    "scripts/restore.ps1",
+    "scripts/v425_build_project_matrix.mjs"
+  ],
+  "omission_reason": "Historical PowerShell/cmd operational wrappers, historical queue JSON and prior-period matrix builder are not selected by this Python/source evidence profile; they remain in the workspace and tested manifest. This package is not a standalone installer. Private config, databases, corpus and dependencies must be supplied separately."
+}

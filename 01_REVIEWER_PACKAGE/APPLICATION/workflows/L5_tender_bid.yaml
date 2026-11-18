@@ -1,0 +1,9 @@
+line: L5
+name: 投标预算
+status: PHASE_3
+steps:
+  - {id: L5-01, actor: BID_MANAGER, input: [tender_doc, qualification_docs, deadline], output: [bid_job, tender_snapshot], failure: [deadline_missing_to_BLOCK]}
+  - {id: L5-02, actor: DOCUMENT_AGENT, input: [tender_doc, addenda, bid_forms], output: [redline_matrix, compliance_checklist], failure: [unverified_source_to_HUMAN]}
+  - {id: L5-03, actor: COMPLIANCE_ENGINE, input: [law_rules, tender_rules], output: [law_items, tender_items], failure: [source_type_missing_to_BLOCK]}
+  - {id: L5-04, actor: PRICE_ENGINE, input: [locked_boq, bid_strategy, basis], output: [bid_price_versions], failure: [noncompetitive_fee_changed_to_BID_COMPLIANCE_FAILED]}
+  - {id: L5-05, actor: BID_APPROVER, input: [compliance_report, bid_prices], output: [approved_bid_package], failure: [approval_missing_to_HUMAN]}

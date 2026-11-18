@@ -1,0 +1,13 @@
+
+> tianxun-buddy-workbench@0.1.0 build
+> vue-tsc -b && vite build
+
+vite v6.4.6 building for production...
+transforming...
+✓ 58 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.69 kB │ gzip:  0.50 kB
+dist/assets/index-DRKUYiZc.css   13.05 kB │ gzip:  3.33 kB
+dist/assets/index-B9DDu-TY.js   168.74 kB │ gzip: 59.64 kB
+✓ built in 2.24s

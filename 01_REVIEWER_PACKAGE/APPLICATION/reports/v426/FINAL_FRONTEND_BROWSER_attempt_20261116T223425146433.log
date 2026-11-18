@@ -1,0 +1,20 @@
+
+> tianxun-buddy-workbench@0.1.0 test:e2e
+> playwright test --config playwright.v425.config.ts
+
+[WebServer] Traceback (most recent call last):
+[WebServer]   File "F:\ZHU-FISH\TIANXUN_BUDDY_V4\_CODEX_V426\final_20261116T221251411699\scripts\v425_e2e_seed.py", line 28, in <module>
+[WebServer]     ingest_existing(store,corpus,ROOT/'reports/v424/OCR_CORPUS_RESULTS.json',ROOT/'reports/v424/ocr',projects['projects'])
+[WebServer]   File "F:\ZHU-FISH\TIANXUN_BUDDY_V4\_CODEX_V426\final_20261116T221251411699\scripts\v425_ocr_setup.py", line 15, in ingest_existing
+[WebServer]     original=json.loads(cache.read_text(encoding='utf-8'))
+[WebServer]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[WebServer]   File "C:\Users\15499\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1027, in read_text
+[WebServer]     with self.open(mode='r', encoding=encoding, errors=errors) as f:
+[WebServer]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[WebServer]   File "C:\Users\15499\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+[WebServer]     return io.open(self, mode, buffering, encoding, errors, newline)
+[WebServer]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[WebServer] FileNotFoundError: [Errno 2] No such file or directory: 'F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\_CODEX_V426\\final_20261116T221251411699\\reports\\v424\\ocr\\29718f9dbc98297961dab04ff991bacfb1af1c8cc64ff2bc6d4d92282ab36b0a\\ocr.json'
+[WebServer] 
+Error: Process from config.webServer was not able to start. Exit code: 1
+

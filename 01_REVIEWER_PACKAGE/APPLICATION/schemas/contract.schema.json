@@ -1,0 +1,36 @@
+{
+  "title": "合同字段Schema",
+  "type": "object",
+  "required": [
+    "contract_no",
+    "pricing_mode",
+    "contract_date",
+    "tax_mode",
+    "source_ref"
+  ],
+  "properties": {
+    "contract_no": {
+      "type": "string"
+    },
+    "pricing_mode": {
+      "type": "string"
+    },
+    "contract_date": {
+      "type": "string"
+    },
+    "tax_mode": {
+      "type": "string"
+    },
+    "risk_scope": {
+      "type": "object"
+    },
+    "price_adjustment_clause": {
+      "type": "array"
+    },
+    "source_ref": {
+      "type": "string"
+    }
+  },
+  "x-confidence-threshold": 0.95,
+  "x-human-confirmation-required": true
+}

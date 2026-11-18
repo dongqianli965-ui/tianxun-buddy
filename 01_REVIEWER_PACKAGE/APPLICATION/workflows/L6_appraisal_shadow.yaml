@@ -1,0 +1,10 @@
+line: L6
+name: 造价鉴定
+status: SHADOW_ONLY
+restrictions: [不得自动受理或签发正式鉴定意见, 资质回避和法院委托范围必须人工核验, 证据不足不得形成确定性结论]
+steps:
+  - {id: L6-01, actor: AUTHORIZED_APPRAISAL_LEAD, input: [authorized_entrustment, dispute_scope, parties], output: [intake_draft, conflict_declaration], failure: [authorization_missing_to_BLOCK]}
+  - {id: L6-02, actor: DOCUMENT_AGENT, input: [party_evidence, contract, drawings, payment_records], output: [evidence_catalog, missing_evidence], failure: [broken_source_chain_to_JD_OPINION_OVERREACH]}
+  - {id: L6-03, actor: APPRAISAL_ENGINE, input: [dispute_items, basis_pack], output: [shadow_calculation, alternatives], failure: [survey_incomplete_to_JD_SURVEY_INCOMPLETE]}
+  - {id: L6-04, actor: AUTHORIZED_EXPERT, input: [shadow_calculation, evidence_catalog], output: [opinion_draft, expert_notes], failure: [insufficient_evidence_to_JD_OPINION_OVERREACH]}
+  - {id: L6-05, actor: AUTHORIZED_SIGNATORY, input: [opinion_draft, legal_review], output: [signed_opinion_outside_system], failure: [authority_missing_to_BLOCK]}

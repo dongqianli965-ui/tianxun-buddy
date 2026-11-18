@@ -1,0 +1,82 @@
+
+> tianxun-buddy-workbench@0.1.0 test:e2e
+> playwright test --config playwright.v425.config.ts
+
+[WebServer] (node:37772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 22:35:18 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] 22:35:19 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] 22:35:20 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] 22:35:21 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] 22:35:22 [vite] http proxy error: /health
+[WebServer] Error: connect ECONNREFUSED 127.0.0.1:8016
+[WebServer]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)
+[WebServer] INFO:     Started server process [47396]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8016 (Press CTRL+C to quit)
+
+Running 4 tests using 1 worker
+
+(node:33496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\auth-ui.spec.ts:2:1 › 登录错误、会话保持、真实失效和登出 (1.4s)
+  x  2 e2e\governance.spec.ts:6:1 › OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限 (30.7s)
+(node:2568) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 e2e\ocr-roles.spec.ts:5:1 › OCR角色隔离：编辑提交、复核通过与退回，绑定准确内容 (6.1s)
+  ok 4 e2e\sample-pilot.spec.ts:9:1 › 真实原件→结构化→清单→价格及勘误→来源→流程→导出→权限拒绝 (24.8s)
+
+
+  1) e2e\governance.spec.ts:6:1 › OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限 ──────────────────────────────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByTestId('ocr-total')
+    Expected substring: "40 份"
+    Received string:    "有权访问 80 份"
+    Timeout: 30000ms
+
+    Call log:
+      - Expect "toContainText" getByTestId('ocr-total') with timeout 30000ms
+      - waiting for getByTestId('ocr-total')
+        6 × locator resolved to <span data-v-4cbb6558="" data-testid="ocr-total">有权访问 0 份</span>
+          - unexpected value "有权访问 0 份"
+        56 × locator resolved to <span data-v-4cbb6558="" data-testid="ocr-total">有权访问 80 份</span>
+           - unexpected value "有权访问 80 份"
+
+
+      10 |   async function login(user:string){await page.getByTestId('login-user').fill(user);await page.getByTestId('login-password').fill('E2E-TEST-ONLY-password');await page.getByTestId('login-submit').click();await expect(page.getByTestId('logout')).toBeVisible();}
+      11 |   await page.goto('/');await login('alice');
+    > 12 |   await page.locator('nav button').filter({hasText:'OCR 人工复核'}).click();await expect(page.getByTestId('ocr-total')).toContainText('40 份');
+         |                                                                                                                     ^
+      13 |   await page.getByTestId('ocr-search').fill('173');await page.getByTestId('ocr-refresh').click();
+      14 |   await page.getByTestId('ocr-document').filter({hasText:'官方PDF'}).first().click();
+      15 |   await expect(page.getByTestId('ocr-original-image')).toBeVisible();await expect(page.getByTestId('ocr-original-text')).not.toHaveValue('');
+        at F:\ZHU-FISH\TIANXUN_BUDDY_V4\_CODEX_V426\final_20261116T222138353474\frontend\e2e\governance.spec.ts:12:117
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\reports\v425\playwright-artifacts\governance-OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\reports\v425\playwright-artifacts\governance-OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\reports\v425\playwright-artifacts\governance-OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\reports\v425\playwright-artifacts\governance-OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e\governance.spec.ts:6:1 › OCR真实页图、校对存档、历史、拒绝签认、项目矩阵和跨项目权限 ───────────────────────────────────
+  3 passed (1.6m)

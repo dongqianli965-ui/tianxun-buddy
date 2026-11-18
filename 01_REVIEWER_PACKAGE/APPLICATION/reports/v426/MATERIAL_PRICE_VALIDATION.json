@@ -1,0 +1,71 @@
+{
+  "period_counts": {
+    "2026-09": 939,
+    "2026-Q2": 5026,
+    "2026-Q3": 5024
+  },
+  "total": 10989,
+  "corrections": 3,
+  "unverified_source_count": 0,
+  "source_files": [
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q3/郑州_2026年第3季度建设工程材料价格信息_官方PDF.pdf",
+      "sha256": "9f395cb95be9e0f82a31378c861f530dd3c5caa93c273fef7967b83810175712",
+      "matches": true
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q3/郑建文〔2026〕101号_附件_2026年9月郑州市主要材料价格信息.pdf",
+      "sha256": "0a878454721cceb9fdf2799d637a1300880120981b65621633984f4d98f7599a",
+      "matches": true
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q2/郑建文〔2026〕77号_附件_2026年第2季度郑州市材料价格信息.pdf",
+      "sha256": "a8c7a8ee5258e11795a729fcbb4684c5815b6148b79c2690e2ff5d722f48af0e",
+      "matches": true
+    }
+  ],
+  "regions": {
+    "410100-INNER-4RING": 10989
+  },
+  "duplicate_exact_key": [
+    "三孔插座模块1位",
+    "250V 10A 118型",
+    "个",
+    "2026-Q3",
+    2
+  ],
+  "errata": [
+    [
+      "ZZ-20262-1782",
+      "527.76",
+      "467.04",
+      "492.34",
+      "435.70",
+      137,
+      "a8c7a8ee5258e11795a729fcbb4684c5815b6148b79c2690e2ff5d722f48af0e",
+      "9f395cb95be9e0f82a31378c861f530dd3c5caa93c273fef7967b83810175712"
+    ],
+    [
+      "ZZ-20262-1783",
+      "503.31",
+      "445.41",
+      "470.95",
+      "416.77",
+      137,
+      "a8c7a8ee5258e11795a729fcbb4684c5815b6148b79c2690e2ff5d722f48af0e",
+      "9f395cb95be9e0f82a31378c861f530dd3c5caa93c273fef7967b83810175712"
+    ],
+    [
+      "ZZ-20262-1784",
+      "468.35",
+      "414.47",
+      "439.83",
+      "389.23",
+      137,
+      "a8c7a8ee5258e11795a729fcbb4684c5815b6148b79c2690e2ff5d722f48af0e",
+      "9f395cb95be9e0f82a31378c861f530dd3c5caa93c273fef7967b83810175712"
+    ]
+  ],
+  "cross_region_positive": "BLOCKED: 只有一个实际地域",
+  "current_formal_price": "BLOCKED: 缺少本期依据和专业签认"
+}

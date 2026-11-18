@@ -1,0 +1,19 @@
+.................................................F............           [100%]
+================================== FAILURES ===================================
+_________________ test_status_human_review_and_return_reason __________________
+
+review_client = (<starlette.testclient.TestClient object at 0x0000014E44EE8BF0>, <txbuddy.governance.ocr_review.ReviewStore object at ...ry': [], 'confidence': 0.8, 'content_sha256': '704c4f8ca1c866f39e13cd3ddd4992f5d70a5b38e5b29361d097a047db69da62', ...})
+
+    def test_status_human_review_and_return_reason(review_client):
+        c,s,a,p=review_client;url='/v1/governance/ocr/pages/'+p['page_id']+'/reviews'
+>       assert c.post(url,headers=a,json=body(p,review_status='REVIEWED')).status_code==422
+E       AssertionError: assert 403 == 422
+E        +  where 403 = <Response [403 Forbidden]>.status_code
+E        +    where <Response [403 Forbidden]> = post('/v1/governance/ocr/pages/ocr-b3a9fb25b3842c2aabf0da5a562fa4fe-p1/reviews', headers={'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTQ4NDA4MDcsImlhdCI6MTc5NDgzNzIwNywiaXNzIjo...cyMDcsInByb2plY3RzIjpbXSwicm9sZXMiOlsiZXN0aW1hdG9yIl0sInN1YiI6ImFsaWNlIn0.YfDSMa0D5W3Cdo8fo1d6B8rqaEtSKQhHiReHiaYZC7A'}, json={'corrected_text': 'TEST_ONLY �˹��޶�2', 'expected_version': 0, 'reason': 'TEST_ONLY fixture', 'review_status': 'REVIEWED', ...})
+E        +      where post = <starlette.testclient.TestClient object at 0x0000014E44EE8BF0>.post
+E        +      and   {'corrected_text': 'TEST_ONLY �˹��޶�2', 'expected_version': 0, 'reason': 'TEST_ONLY fixture', 'review_status': 'REVIEWED', ...} = body({'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'content_sha256': '704c4f8ca1c866f39e13cd3ddd4992f5d70a5b38e5b29361d097a047db69da62', ...}, review_status='REVIEWED')
+
+backend\tests\test_v425_ocr_review.py:67: AssertionError
+=========================== short test summary info ===========================
+FAILED backend\tests\test_v425_ocr_review.py::test_status_human_review_and_return_reason
+1 failed, 61 passed in 47.95s

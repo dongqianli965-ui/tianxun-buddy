@@ -1,0 +1,40 @@
+{
+  "title": "签证变更单字段Schema",
+  "type": "object",
+  "required": [
+    "visa_no",
+    "date",
+    "location",
+    "reason",
+    "approval_status",
+    "source_ref"
+  ],
+  "properties": {
+    "visa_no": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "quantity_items": {
+      "type": "array"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "approval_status": {
+      "type": "string"
+    },
+    "source_ref": {
+      "type": "string"
+    }
+  },
+  "x-confidence-threshold": 0.9,
+  "x-human-confirmation-required": true
+}

@@ -1,0 +1,19 @@
+
+> tianxun-buddy-workbench@4.2.6 test:e2e
+> playwright test --config playwright.manual.config.ts
+
+
+Running 8 tests using 1 worker
+
+(node:14544) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 manual-e2e\workbench.spec.ts:21:3 › 全部12入口显示与页面溢出 1920x1080 (2.4s)
+  ok 2 manual-e2e\workbench.spec.ts:21:3 › 全部12入口显示与页面溢出 1366x768 (1.7s)
+  ok 3 manual-e2e\workbench.spec.ts:32:1 › 登录失败、刷新保持、失效会话、退出 (1.1s)
+  ok 4 manual-e2e\workbench.spec.ts:38:1 › 项目创建查询切换、真实样本上传解析、清单148行与导出 (15.3s)
+  ok 5 manual-e2e\workbench.spec.ts:57:1 › OCR真实页图、版本提交审批退回与角色拒绝 (4.0s)
+  ok 6 manual-e2e\workbench.spec.ts:66:1 › 算量、定额、组价、复核、成果及证据真实接口 (2.2s)
+  ok 7 manual-e2e\workbench.spec.ts:79:1 › 定额匹配候选、附注换算与组价 TEST_ONLY 结果 (1.3s)
+  ok 8 manual-e2e\workbench.spec.ts:103:1 › 任务审批与鉴定线影子运行保持后端门禁 (858ms)
+
+  8 passed (30.0s)

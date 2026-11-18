@@ -1,0 +1,228 @@
+FFFFFFFF                                                                 [100%]
+================================== FAILURES ===================================
+_______________ test_damaged_history_rejects_new_writes[event] ________________
+
+review = (<txbuddy.governance.ocr_review.ReviewStore object at 0x0000022DC7D58AA0>, 'ocr-cf3a8b98e93bfbb1951fdfb0eca3a0fe-p1', ...a984e44b8ae98c9292695a07ce8c7db4fe87d80e9cc6', 'tokens': [{'confidence': 0.8, 'page': 1, 'text': 'TEST_ONLY 100 mm'}]})
+damage = 'event'
+
+    @pytest.mark.parametrize('damage', ['event', 'delete_middle', 'delete_tail', 'previous', 'content', 'sequence'])
+    def test_damaged_history_rejects_new_writes(review, damage):
+        store, pageid, *_ = review
+        for value in ('TEST_ONLY 101 mm', 'TEST_ONLY 102 mm', 'TEST_ONLY 103 mm'):
+            save(store, pageid, corrected_text=value)
+        with store.connect() as conn:
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_UPDATE')
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_DELETE')
+            if damage == 'event':
+                conn.execute("UPDATE ocr_review_event SET reason='changed' WHERE page_id=? AND version=1", (pageid,))
+            elif damage == 'delete_middle':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=2', (pageid,))
+            elif damage == 'delete_tail':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=3', (pageid,))
+            elif damage == 'previous':
+                conn.execute("UPDATE ocr_review_event SET previous_event_sha256='wrong' WHERE page_id=? AND version=2", (pageid,))
+            elif damage == 'content':
+                conn.execute("UPDATE ocr_review_event SET corrected_text='forged' WHERE page_id=? AND version=1", (pageid,))
+            else:
+                conn.execute('UPDATE ocr_review_event SET version=4 WHERE page_id=? AND version=3', (pageid,))
+        before = store.page(pageid)['version']
+>       with pytest.raises(ReviewError) as caught:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'txbuddy.governance.ocr_review.ReviewError'>
+
+backend\tests\test_v426_ocr_store.py:61: Failed
+___________ test_damaged_history_rejects_new_writes[delete_middle] ____________
+
+review = (<txbuddy.governance.ocr_review.ReviewStore object at 0x0000022DC7BE7020>, 'ocr-1fb88d5e63bd84f28375f68537509473-p1', ...a984e44b8ae98c9292695a07ce8c7db4fe87d80e9cc6', 'tokens': [{'confidence': 0.8, 'page': 1, 'text': 'TEST_ONLY 100 mm'}]})
+damage = 'delete_middle'
+
+    @pytest.mark.parametrize('damage', ['event', 'delete_middle', 'delete_tail', 'previous', 'content', 'sequence'])
+    def test_damaged_history_rejects_new_writes(review, damage):
+        store, pageid, *_ = review
+        for value in ('TEST_ONLY 101 mm', 'TEST_ONLY 102 mm', 'TEST_ONLY 103 mm'):
+            save(store, pageid, corrected_text=value)
+        with store.connect() as conn:
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_UPDATE')
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_DELETE')
+            if damage == 'event':
+                conn.execute("UPDATE ocr_review_event SET reason='changed' WHERE page_id=? AND version=1", (pageid,))
+            elif damage == 'delete_middle':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=2', (pageid,))
+            elif damage == 'delete_tail':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=3', (pageid,))
+            elif damage == 'previous':
+                conn.execute("UPDATE ocr_review_event SET previous_event_sha256='wrong' WHERE page_id=? AND version=2", (pageid,))
+            elif damage == 'content':
+                conn.execute("UPDATE ocr_review_event SET corrected_text='forged' WHERE page_id=? AND version=1", (pageid,))
+            else:
+                conn.execute('UPDATE ocr_review_event SET version=4 WHERE page_id=? AND version=3', (pageid,))
+        before = store.page(pageid)['version']
+>       with pytest.raises(ReviewError) as caught:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'txbuddy.governance.ocr_review.ReviewError'>
+
+backend\tests\test_v426_ocr_store.py:61: Failed
+____________ test_damaged_history_rejects_new_writes[delete_tail] _____________
+
+review = (<txbuddy.governance.ocr_review.ReviewStore object at 0x0000022DC7BE40B0>, 'ocr-f5859faa4094d12d999946ef2a38408a-p1', ...a984e44b8ae98c9292695a07ce8c7db4fe87d80e9cc6', 'tokens': [{'confidence': 0.8, 'page': 1, 'text': 'TEST_ONLY 100 mm'}]})
+damage = 'delete_tail'
+
+    @pytest.mark.parametrize('damage', ['event', 'delete_middle', 'delete_tail', 'previous', 'content', 'sequence'])
+    def test_damaged_history_rejects_new_writes(review, damage):
+        store, pageid, *_ = review
+        for value in ('TEST_ONLY 101 mm', 'TEST_ONLY 102 mm', 'TEST_ONLY 103 mm'):
+            save(store, pageid, corrected_text=value)
+        with store.connect() as conn:
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_UPDATE')
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_DELETE')
+            if damage == 'event':
+                conn.execute("UPDATE ocr_review_event SET reason='changed' WHERE page_id=? AND version=1", (pageid,))
+            elif damage == 'delete_middle':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=2', (pageid,))
+            elif damage == 'delete_tail':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=3', (pageid,))
+            elif damage == 'previous':
+                conn.execute("UPDATE ocr_review_event SET previous_event_sha256='wrong' WHERE page_id=? AND version=2", (pageid,))
+            elif damage == 'content':
+                conn.execute("UPDATE ocr_review_event SET corrected_text='forged' WHERE page_id=? AND version=1", (pageid,))
+            else:
+                conn.execute('UPDATE ocr_review_event SET version=4 WHERE page_id=? AND version=3', (pageid,))
+        before = store.page(pageid)['version']
+>       with pytest.raises(ReviewError) as caught:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'txbuddy.governance.ocr_review.ReviewError'>
+
+backend\tests\test_v426_ocr_store.py:61: Failed
+______________ test_damaged_history_rejects_new_writes[previous] ______________
+
+review = (<txbuddy.governance.ocr_review.ReviewStore object at 0x0000022DC7D4E120>, 'ocr-c5b032aaf58d2954d58afa3c197131cd-p1', ...a984e44b8ae98c9292695a07ce8c7db4fe87d80e9cc6', 'tokens': [{'confidence': 0.8, 'page': 1, 'text': 'TEST_ONLY 100 mm'}]})
+damage = 'previous'
+
+    @pytest.mark.parametrize('damage', ['event', 'delete_middle', 'delete_tail', 'previous', 'content', 'sequence'])
+    def test_damaged_history_rejects_new_writes(review, damage):
+        store, pageid, *_ = review
+        for value in ('TEST_ONLY 101 mm', 'TEST_ONLY 102 mm', 'TEST_ONLY 103 mm'):
+            save(store, pageid, corrected_text=value)
+        with store.connect() as conn:
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_UPDATE')
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_DELETE')
+            if damage == 'event':
+                conn.execute("UPDATE ocr_review_event SET reason='changed' WHERE page_id=? AND version=1", (pageid,))
+            elif damage == 'delete_middle':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=2', (pageid,))
+            elif damage == 'delete_tail':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=3', (pageid,))
+            elif damage == 'previous':
+                conn.execute("UPDATE ocr_review_event SET previous_event_sha256='wrong' WHERE page_id=? AND version=2", (pageid,))
+            elif damage == 'content':
+                conn.execute("UPDATE ocr_review_event SET corrected_text='forged' WHERE page_id=? AND version=1", (pageid,))
+            else:
+                conn.execute('UPDATE ocr_review_event SET version=4 WHERE page_id=? AND version=3', (pageid,))
+        before = store.page(pageid)['version']
+>       with pytest.raises(ReviewError) as caught:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'txbuddy.governance.ocr_review.ReviewError'>
+
+backend\tests\test_v426_ocr_store.py:61: Failed
+______________ test_damaged_history_rejects_new_writes[content] _______________
+
+review = (<txbuddy.governance.ocr_review.ReviewStore object at 0x0000022DC7D4D640>, 'ocr-6aee9de1e148622de4740db0191a8c22-p1', ...a984e44b8ae98c9292695a07ce8c7db4fe87d80e9cc6', 'tokens': [{'confidence': 0.8, 'page': 1, 'text': 'TEST_ONLY 100 mm'}]})
+damage = 'content'
+
+    @pytest.mark.parametrize('damage', ['event', 'delete_middle', 'delete_tail', 'previous', 'content', 'sequence'])
+    def test_damaged_history_rejects_new_writes(review, damage):
+        store, pageid, *_ = review
+        for value in ('TEST_ONLY 101 mm', 'TEST_ONLY 102 mm', 'TEST_ONLY 103 mm'):
+            save(store, pageid, corrected_text=value)
+        with store.connect() as conn:
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_UPDATE')
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_DELETE')
+            if damage == 'event':
+                conn.execute("UPDATE ocr_review_event SET reason='changed' WHERE page_id=? AND version=1", (pageid,))
+            elif damage == 'delete_middle':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=2', (pageid,))
+            elif damage == 'delete_tail':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=3', (pageid,))
+            elif damage == 'previous':
+                conn.execute("UPDATE ocr_review_event SET previous_event_sha256='wrong' WHERE page_id=? AND version=2", (pageid,))
+            elif damage == 'content':
+                conn.execute("UPDATE ocr_review_event SET corrected_text='forged' WHERE page_id=? AND version=1", (pageid,))
+            else:
+                conn.execute('UPDATE ocr_review_event SET version=4 WHERE page_id=? AND version=3', (pageid,))
+        before = store.page(pageid)['version']
+>       with pytest.raises(ReviewError) as caught:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'txbuddy.governance.ocr_review.ReviewError'>
+
+backend\tests\test_v426_ocr_store.py:61: Failed
+______________ test_damaged_history_rejects_new_writes[sequence] ______________
+
+review = (<txbuddy.governance.ocr_review.ReviewStore object at 0x0000022DC7D4E420>, 'ocr-7c3aeb72f35bf70675df90e0790251a6-p1', ...a984e44b8ae98c9292695a07ce8c7db4fe87d80e9cc6', 'tokens': [{'confidence': 0.8, 'page': 1, 'text': 'TEST_ONLY 100 mm'}]})
+damage = 'sequence'
+
+    @pytest.mark.parametrize('damage', ['event', 'delete_middle', 'delete_tail', 'previous', 'content', 'sequence'])
+    def test_damaged_history_rejects_new_writes(review, damage):
+        store, pageid, *_ = review
+        for value in ('TEST_ONLY 101 mm', 'TEST_ONLY 102 mm', 'TEST_ONLY 103 mm'):
+            save(store, pageid, corrected_text=value)
+        with store.connect() as conn:
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_UPDATE')
+            conn.execute('DROP TRIGGER immutable_ocr_review_event_DELETE')
+            if damage == 'event':
+                conn.execute("UPDATE ocr_review_event SET reason='changed' WHERE page_id=? AND version=1", (pageid,))
+            elif damage == 'delete_middle':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=2', (pageid,))
+            elif damage == 'delete_tail':
+                conn.execute('DELETE FROM ocr_review_event WHERE page_id=? AND version=3', (pageid,))
+            elif damage == 'previous':
+                conn.execute("UPDATE ocr_review_event SET previous_event_sha256='wrong' WHERE page_id=? AND version=2", (pageid,))
+            elif damage == 'content':
+                conn.execute("UPDATE ocr_review_event SET corrected_text='forged' WHERE page_id=? AND version=1", (pageid,))
+            else:
+                conn.execute('UPDATE ocr_review_event SET version=4 WHERE page_id=? AND version=3', (pageid,))
+        before = store.page(pageid)['version']
+>       with pytest.raises(ReviewError) as caught:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'txbuddy.governance.ocr_review.ReviewError'>
+
+backend\tests\test_v426_ocr_store.py:61: Failed
+__________ test_changed_original_or_page_image_rejects_write[source] __________
+
+review = (<txbuddy.governance.ocr_review.ReviewStore object at 0x0000022DC7D4F2C0>, 'ocr-b2749597706629db72770d16f333e578-p1', ...a984e44b8ae98c9292695a07ce8c7db4fe87d80e9cc6', 'tokens': [{'confidence': 0.8, 'page': 1, 'text': 'TEST_ONLY 100 mm'}]})
+asset = 'source'
+
+    @pytest.mark.parametrize('asset', ['source', 'image'])
+    def test_changed_original_or_page_image_rejects_write(review, asset):
+        store, pageid, corpus, images, _ = review
+        save(store, pageid)
+        (corpus/'source.pdf' if asset=='source' else images/'page.png').write_bytes(b'TEST_ONLY tampered')
+>       with pytest.raises(ReviewError) as caught:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'txbuddy.governance.ocr_review.ReviewError'>
+
+backend\tests\test_v426_ocr_store.py:72: Failed
+__________ test_changed_original_or_page_image_rejects_write[image] ___________
+
+review = (<txbuddy.governance.ocr_review.ReviewStore object at 0x0000022DC7C38DD0>, 'ocr-11132309ac04dbce311d7d7c2cdbe5a1-p1', ...a984e44b8ae98c9292695a07ce8c7db4fe87d80e9cc6', 'tokens': [{'confidence': 0.8, 'page': 1, 'text': 'TEST_ONLY 100 mm'}]})
+asset = 'image'
+
+    @pytest.mark.parametrize('asset', ['source', 'image'])
+    def test_changed_original_or_page_image_rejects_write(review, asset):
+        store, pageid, corpus, images, _ = review
+        save(store, pageid)
+        (corpus/'source.pdf' if asset=='source' else images/'page.png').write_bytes(b'TEST_ONLY tampered')
+>       with pytest.raises(ReviewError) as caught:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'txbuddy.governance.ocr_review.ReviewError'>
+
+backend\tests\test_v426_ocr_store.py:72: Failed
+=========================== short test summary info ===========================
+FAILED backend\tests\test_v426_ocr_store.py::test_damaged_history_rejects_new_writes[event]
+FAILED backend\tests\test_v426_ocr_store.py::test_damaged_history_rejects_new_writes[delete_middle]
+FAILED backend\tests\test_v426_ocr_store.py::test_damaged_history_rejects_new_writes[delete_tail]
+FAILED backend\tests\test_v426_ocr_store.py::test_damaged_history_rejects_new_writes[previous]
+FAILED backend\tests\test_v426_ocr_store.py::test_damaged_history_rejects_new_writes[content]
+FAILED backend\tests\test_v426_ocr_store.py::test_damaged_history_rejects_new_writes[sequence]
+FAILED backend\tests\test_v426_ocr_store.py::test_changed_original_or_page_image_rejects_write[source]
+FAILED backend\tests\test_v426_ocr_store.py::test_changed_original_or_page_image_rejects_write[image]
+8 failed in 1.83s

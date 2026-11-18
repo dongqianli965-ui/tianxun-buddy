@@ -1,0 +1,22 @@
+只读完整性检查：auth.sqlite3
+只读完整性检查：business.sqlite3
+只读完整性检查：governance.sqlite3
+只读完整性检查：txbuddy-dev.sqlite3
+只读 PostgreSQL 快照检查...
+{
+  "stopped_at": "2026-11-17T02:04:51.155321+08:00",
+  "processes": {
+    "backend": {
+      "pid": 3948,
+      "stopped": true,
+      "identity_verified": true,
+      "stopped_pids": [],
+      "remaining_pids": []
+    }
+  },
+  "original_data_unchanged": true,
+  "production_accepted": false,
+  "accuracy_E": "BLOCKED",
+  "passed": true
+}
+私有会话、账号、数据库和日志已保留以供复查；原始数据未删除。

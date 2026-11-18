@@ -1,0 +1,132 @@
+{
+  "stats": {
+    "startTime": "2026-11-17T01:44:16.902Z",
+    "duration": 29996.995,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "cases": [
+    {
+      "title": "全部12入口显示与页面溢出 1920x1080",
+      "status": "PASS",
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2357
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "全部12入口显示与页面溢出 1366x768",
+      "status": "PASS",
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 1692
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "登录失败、刷新保持、失效会话、退出",
+      "status": "PASS",
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 1069
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "项目创建查询切换、真实样本上传解析、清单148行与导出",
+      "status": "PASS",
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 15306
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "OCR真实页图、版本提交审批退回与角色拒绝",
+      "status": "PASS",
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 3969
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "算量、定额、组价、复核、成果及证据真实接口",
+      "status": "PASS",
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2244
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "定额匹配候选、附注换算与组价 TEST_ONLY 结果",
+      "status": "PASS",
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 1261
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "任务审批与鉴定线影子运行保持后端门禁",
+      "status": "PASS",
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 858
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

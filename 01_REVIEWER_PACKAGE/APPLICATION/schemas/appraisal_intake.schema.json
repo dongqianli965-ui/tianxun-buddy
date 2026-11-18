@@ -1,0 +1,39 @@
+{
+  "title": "鉴定委托与材料字段Schema",
+  "type": "object",
+  "required": [
+    "entrustment_no",
+    "entrusting_body",
+    "dispute_scope",
+    "party_list",
+    "source_ref"
+  ],
+  "properties": {
+    "entrustment_no": {
+      "type": "string"
+    },
+    "entrusting_body": {
+      "type": "string"
+    },
+    "dispute_scope": {
+      "type": "array"
+    },
+    "party_list": {
+      "type": "array"
+    },
+    "conflict_declaration": {
+      "type": "string"
+    },
+    "site_survey_required": {
+      "type": "boolean"
+    },
+    "evidence_refs": {
+      "type": "array"
+    },
+    "source_ref": {
+      "type": "string"
+    }
+  },
+  "x-confidence-threshold": 0.98,
+  "x-human-confirmation-required": true
+}

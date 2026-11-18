@@ -1,0 +1,16 @@
+...........F...                                                          [100%]
+================================== FAILURES ===================================
+______________________ test_page_row_tampering_rejected _______________________
+
+review = (<txbuddy.governance.ocr_review.ReviewStore object at 0x00000121F64F4C50>, 'ocr-8aee4f26e8540ba98bca77a8d9ff25ee-p1', ...a984e44b8ae98c9292695a07ce8c7db4fe87d80e9cc6', 'tokens': [{'confidence': 0.8, 'page': 1, 'text': 'TEST_ONLY 100 mm'}]})
+
+    def test_page_row_tampering_rejected(review):
+        store, pageid, *_ = review
+        with store.connect() as conn:
+>           conn.execute("UPDATE ocr_page SET original_text='forged' WHERE page_id=?", (pageid,))
+E           sqlite3.IntegrityError: OCR_APPEND_ONLY
+
+backend\tests\test_v426_ocr_store.py:127: IntegrityError
+=========================== short test summary info ===========================
+FAILED backend\tests\test_v426_ocr_store.py::test_page_row_tampering_rejected
+1 failed, 14 passed in 2.24s

@@ -1,0 +1,1477 @@
+{
+  "generated_at": "2026-11-16T21:47:48.845655+08:00",
+  "phase": "baseline",
+  "project_root": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter",
+  "corpus_root": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\REAL_DATA_CORPUS\\HN_L1_V1_20261116",
+  "originals": [
+    {
+      "path": "00_INDEX/DATA_GAP_REPORT.md",
+      "bytes": 7543,
+      "sha256": "5759e090ae51c9e466dc9ca0afc373171fed8ba390b9368d9b38211b32e2f7ac"
+    },
+    {
+      "path": "00_INDEX/DOCUMENT_INVENTORY.csv",
+      "bytes": 94901,
+      "sha256": "e4c60f789baf708322bafa0f7dd33d721a0421b8020ba746d1af1f14a992f105"
+    },
+    {
+      "path": "00_INDEX/LICENSE_REGISTER.csv",
+      "bytes": 5674,
+      "sha256": "28899734049ad17c83d994baac4ce976ef324c0c6ed54b7e6b007f01cf4e8ab3"
+    },
+    {
+      "path": "00_INDEX/PROJECT_SAMPLE_MATRIX.csv",
+      "bytes": 15044,
+      "sha256": "044262184808d19c4b756232a58ae4f5b808ca1bd5fdf5f466cce8381c712507"
+    },
+    {
+      "path": "00_INDEX/README.md",
+      "bytes": 5087,
+      "sha256": "aca61d8747889c90ee959d8ec36bd35efc92dbc165a4a3986b3f03741ae37807"
+    },
+    {
+      "path": "00_INDEX/SHA256SUMS.txt",
+      "bytes": 41499,
+      "sha256": "2bf1e8bc0d8c0ea7b17f366bd5b0fe02698a8118ffbc63421b31e280847e8443"
+    },
+    {
+      "path": "00_INDEX/SOURCE_REGISTER.csv",
+      "bytes": 171169,
+      "sha256": "f80849affeebe3ed0a0310868cc3e65bc02575c953d0e34f51f0d902d6e52179"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/_OFFICIAL_META/住建部公告_2024年第192号_GB_T_50855_2024_仿古建筑.html",
+      "bytes": 14425,
+      "sha256": "18a5528f82060d6b506c2c624bd66d2a2a288f9b7cc18f0d4262ce74feb866e0"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/_OFFICIAL_META/住建部公告_2024年第196号_GB_T_50859_2024_矿山.html",
+      "bytes": 14353,
+      "sha256": "bb83d1dce757d4e9ea85fec379a400cd016c9e0051a3150a003f764ae6d1e219"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/_OFFICIAL_META/住建部文告_2025年第1_2期_标准公告汇编.pdf",
+      "bytes": 2621123,
+      "sha256": "29718f9dbc98297961dab04ff991bacfb1af1c8cc64ff2bc6d4d92282ab36b0a"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/_OFFICIAL_META/北京市住建委_2024版工程量计算标准查阅渠道问答.html",
+      "bytes": 58651,
+      "sha256": "c3c2f4ec7d37aebddc7a8035f56cb73eac9c2626ae901b61177432988cf1a368"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/_OFFICIAL_META/海北州住建局_住建部发布五项国家标准_适用范围转述.html",
+      "bytes": 21754,
+      "sha256": "3dbd7bb21b038ea86785ad68b4142d45e2de014e23025bb64c2b8aba0973339d"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/GB_T_50500_2024/住建部公告_官方页面.html",
+      "bytes": 14244,
+      "sha256": "069befccd9d7ec435f6a0804398036eabe626e6bc0946b9b2bd9ad88d45a08ca"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/GB_T_50500_2024/国标元数据_GB-T50500-2024_建设工程工程量清单计价标准_住建部发布公告2024年第212号_官方页面.html",
+      "bytes": 14244,
+      "sha256": "c0f6a5f52477bd3b801453d3babb22b7e9e65424bfdada92dd085a627cafd26d"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/GB_T_50854_2024/住建部公告_官方页面.html",
+      "bytes": 14585,
+      "sha256": "72fc66beb26eb007daff76a91617c233669f8eda50d66c82b91123300587925b"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/GB_T_50854_2024/国标元数据_GB-T50854-2024_房屋建筑与装饰工程工程量计算标准_住建部发布公告2024年第191号_官方页面.html",
+      "bytes": 14585,
+      "sha256": "c85e7e03e8069e9ef2946c04bcdff0a580d4db3861f99d6a4ec9d7e7fd151862"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/GB_T_50856_2024/住建部公告_官方页面.html",
+      "bytes": 14119,
+      "sha256": "65c216fc8b63d34e54edc7fea52e2cfe5c6ad35b08c1b9acad4244c15b2d1ba3"
+    },
+    {
+      "path": "01_NATIONAL_STANDARDS/GB_T_50857_2024/住建部公告_官方页面.html",
+      "bytes": 14207,
+      "sha256": "b56c784579d1d37c3d961180dd846d0df8c3280621a7aa8974f51cd612506588"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2016/2016定额宣贯会议通知_省住建厅.html",
+      "bytes": 26920,
+      "sha256": "b00b611341323123473e76dc77ef914edf166868cef87479bcc1c9d9ae50aab1"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2016/2016版三本预算定额_综合解释与补充_附件.doc",
+      "bytes": 70656,
+      "sha256": "971beaf16fdd1302149c8768fc9e3dd46ad205325eed3a5161c5e32902cc407c"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2016/2016版三本预算定额_综合解释发布通知_官方页快照.html",
+      "bytes": 13480,
+      "sha256": "d92a72e74320a1c176efbfae72e7aecfc641e2544f4a8d1b4178f2f4ff114078"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2016/2016版定额宣贯会议通知_官方页快照.html",
+      "bytes": 26920,
+      "sha256": "b00b611341323123473e76dc77ef914edf166868cef87479bcc1c9d9ae50aab1"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2016/河南省住建厅_2016版预算定额宣贯会议通知_含豫建设标2016_73号引用_官方页面.html",
+      "bytes": 26920,
+      "sha256": "b00b611341323123473e76dc77ef914edf166868cef87479bcc1c9d9ae50aab1"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2016/河南省统一施工机械台班费用定额_HA JX-31-2017_发布通知_官方页快照.html",
+      "bytes": 14829,
+      "sha256": "aeea249198807aeb797372a87d55256232eb926a751dab6791ba148e03c1b36c"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2016/豫建设标2016-73号_发布通知_第三方转载.html",
+      "bytes": 13400,
+      "sha256": "659afb2c218e5fb8bbe321c1a06ff220eae0e911bc839922e7a70bf5d31991c6"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2016/豫建设标2017-11号_2016定额宣贯会议通知_hncost.html",
+      "bytes": 10531,
+      "sha256": "89b287801aa2a08bd8d5b50f69fbdebd6a04c2e091874de1a642693fe4c2c02b"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2016/豫建设标文件目录_省住建厅.html",
+      "bytes": 77004,
+      "sha256": "ba9020b6c75d4e07da19e80d2f9fabcd5cef717753caabf12b03cb499290b530"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2019/征集2019年工程建设标准定额编制修订项目通知_省住建厅.html",
+      "bytes": 16318,
+      "sha256": "a73bc49cbb6ca83e2a39d18b387ae1e8e796d3b973a7e0aa3e02b0699f3aafca"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2019/豫建科2019-133号_绿色建筑工程预算定额_安阳住建局.html",
+      "bytes": 20281,
+      "sha256": "957e254d3cdd4fff869f20c5be26a27d10880eb704b96547d4b4ec29a5a66677"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2019/豫建科2019-135号_装配式建筑工程预算定额_安阳住建局.html",
+      "bytes": 21156,
+      "sha256": "91b3ae512ba774101858c930bd8be6fdc651d0682ae4876fc0c2881d2c4abb34"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2019/豫建科2019-140号_城市地下综合管廊工程预算定额_安阳住建局.html",
+      "bytes": 18695,
+      "sha256": "9270750ffd426d723914ef5c8475bc674eba4614d19513cf49da74ff50d5638e"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2019/豫建科2019-373号_城市轨道交通工程预算定额_省住建厅.html",
+      "bytes": 20098,
+      "sha256": "86c626e92805ee6d2d7faedf3bc54b15afb0648a6ba43391ee1027d455cc1b04"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2020/养护维修预算定额2021年1月执行_郑州航空港区.html",
+      "bytes": 6953,
+      "sha256": "91b3f329bae30e81437c4c0e516742872a9e6ac9664fb05e7f4ce237541ed643"
+    },
+    {
+      "path": "02_HENAN_QUOTA/2020/豫建标定2021-5号_养护维修定额HAA1-41-2020相关指数通知_hncost.html",
+      "bytes": 3907,
+      "sha256": "9467357c7376dfcb5caf39077c02490dbb65cf7544bd592f733924cb280932b9"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/2016定额计价软件符合性测评_文件目录_第三方转载.html",
+      "bytes": 25379,
+      "sha256": "8096179cd837ca237e224efc98e393765b63456ca2e0b126f1b73ffddada573e"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/2024年1-6月人工费机械人工费管理费指数通知_官方PDF.pdf",
+      "bytes": 546350,
+      "sha256": "a06b4577ea4647c549deb81ad5c7ef09fe5a5aa95ecb2be50fc38bbe14266bf8"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/2024年1-6月人工费机械人工费管理费指数通知_开封住建局.html",
+      "bytes": 78780,
+      "sha256": "0c928b1dbd5a96d0f6b7514b9234a9da52bfb8e564db714c9cd908ea2784eee6"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/关于我省2016定额数据有关通知_hncost.html",
+      "bytes": 3695,
+      "sha256": "f665862bdb44510d68bd05855185b6c866552d5ea133976b7e24ce634f7e2c8d"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/关于我省2016定额数据有关通知_扫描件第1页.jpg",
+      "bytes": 165994,
+      "sha256": "bd4522b57943483534e222d62d32cec3ad9c5718f87df5093af54f6cde734127"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/关于我省2016定额数据有关通知_扫描件第2页.jpg",
+      "bytes": 138386,
+      "sha256": "a90c923a99d83388da9b960a2539863e02a391781e64424bd42fcd161d62fc5e"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/养护维修定额HAA1-41-2020勘误_建科院转载.html",
+      "bytes": 49715,
+      "sha256": "fb14968e122b43466f20379551fd374f691e49e401d2d172888726ef9706d5f0"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/房屋修缮工程计价依据_项目划分征求意见稿_hncost.html",
+      "bytes": 5955,
+      "sha256": "13c13d89eee32d9f91b4d6cf9d08964f2901f9bc2a01cf90e2ae9b81f77b8878"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/河南省建筑工程标准定额站声明_2016定额唯一总发行_第三方转载.html",
+      "bytes": 17699,
+      "sha256": "9e4498c68bbb488edcb593eb78a3bf81918a9d37cd14abf8c0799b6f90b411e8"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/河南省建设工程定额管理实施细则_附件.doc",
+      "bytes": 37888,
+      "sha256": "385bb2a82b5583893ed9c8b9eda5354beeaaf3f779058cc17380056b94ac9e88"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/河南省建设工程工程量清单招标评标办法_2018历史版.doc",
+      "bytes": 136704,
+      "sha256": "7857e9a0ee60c0f8a53fcf2d50cbcf2a15e503ef985d68e2d2950c93a2d27f08"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/河南省建设工程工程量清单招标评标办法_2023现行版.pdf",
+      "bytes": 10377369,
+      "sha256": "1fa6787a1e17161c193fadef1e66de5e13e53015af02b030fafcac7a3a2e599f"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/混凝土保温幕墙补充定额_附件.doc",
+      "bytes": 45568,
+      "sha256": "b9f47f73a45e806e981e8b05b691e2975a3005be65e950ffb7c954e47c4b49d9"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建标定2016-40号_2016定额动态调整规则_hncost.html",
+      "bytes": 4111,
+      "sha256": "42efe1c9ae9362f38960700fbefe56171d667a9e5b38ae9cec7c40d5e7f80b37"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建标定2016-40号_全文_第三方转载.html",
+      "bytes": 21651,
+      "sha256": "2cc93f19ee2e3df2267e4d2d0cb50898fa08f675314a8a1922b52627a484e930"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建消技2025-32号_2025下半年指数通知_hncost.html",
+      "bytes": 6616,
+      "sha256": "cbb10f81dbe35cf62ea91ead4cfe385873f0366ba8322eacda1b941e13e91786"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建消技2025-32号_2025下半年指数通知_官方PDF.pdf",
+      "bytes": 554888,
+      "sha256": "72b7120b0b274f720d7900619bba268ff53017886e9fb66478d18c65a7298669"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建科2020-63号_疫情防控期间工程计价_官方PDF.pdf",
+      "bytes": 1053941,
+      "sha256": "9c7f1b0fb3c1578370fec09c30e96f125675ca45b409b5dcd8179e8e0df83ec9"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建科2020-63号_疫情防控期间工程计价_省住建厅.html",
+      "bytes": 12196,
+      "sha256": "44374ecd3bf5f9816d88db5718ab2cbccd66b18469a7d286838a351344123e23"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建科2025-173号_贯彻执行2024版清单标准通知_hncost.html",
+      "bytes": 15624,
+      "sha256": "3821b384f2550fda90ed621c6674331aa9217940d902f55dbcc8894bff868a0d"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建科2025-173号_通知及费用调整细则_官方PDF.pdf",
+      "bytes": 7010820,
+      "sha256": "a4097361b05683f1ed561749312d851311f7ae96b2729b146b5b38d31c3c996b"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建科文件目录_省住建厅.html",
+      "bytes": 76859,
+      "sha256": "b9b00660c291dc966d39748409965c999cb9f89f356d227a453378070f6b899b"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/豫建行规〔2024〕7号_官方发布页快照.html",
+      "bytes": 23714,
+      "sha256": "9e6e7b6d217546526c4264631945e50426022588c1b65fb4605971657f825d05"
+    },
+    {
+      "path": "02_HENAN_QUOTA/ADJUSTMENTS/金鲁班清单计价V2017_河南定额库清单_第三方.html",
+      "bytes": 54385,
+      "sha256": "4fbc020b810477494705d50e22cdabb918eca5493a13da5f1c42b578817d5e25"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2025_173/豫建科2025_173号_贯彻执行2024版国家清单标准通知_hncost官方发布页.html",
+      "bytes": 15624,
+      "sha256": "3821b384f2550fda90ed621c6674331aa9217940d902f55dbcc8894bff868a0d"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2025_173/豫建科〔2025〕173号_官方发布页快照.html",
+      "bytes": 16456,
+      "sha256": "7492551f820a632bd2339071def949716f72597a8c55f565f66daade0ca901da"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2025_173/豫建科〔2025〕173号_附件_河南省现行计价依据有关费用调整细则.doc",
+      "bytes": 25088,
+      "sha256": "c7c402b7a86788094a72217f20992b6a0f2afe38065442e36bc812e63497cbe0"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2023年7-12月人工费机械人工费管理费指数_官方页面.html",
+      "bytes": 19348,
+      "sha256": "71f4be6bc46d7490ed040823cf8e552093e29a0c7012f1a0761d736974b1f519"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2023年7-12月指数通知_豫建消技2023_35号_hncost官方附件PDF.pdf",
+      "bytes": 559727,
+      "sha256": "07efa089c7581b6f91e2bcf80620c1b7a025e551fbd70d5a79d85be68c552ff5"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2023年7-12月指数通知_豫建消技2023_35号_hncost官方页面.html",
+      "bytes": 6647,
+      "sha256": "1646023381b0fed72124a3b95ed9094d4096c34edf60e6df012394d467294b6f"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2023年7-12月指数通知_豫建消技2023_35号_官方附件.zip",
+      "bytes": 466174,
+      "sha256": "9bd602dae86c390c50b61408604f1ce8bd77eb8ac1d72d017cf7e757b2a9c0ea"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2024年1-6月人工费机械人工费管理费指数_官方页面.html",
+      "bytes": 19715,
+      "sha256": "543e4b8533ab82dcb7bf39a8ea9bbbbfa5ea0fc037c1011d35e05ca247d7742a"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2024年1-6月指数通知_豫建消技2024_15号_hncost官方附件PDF.pdf",
+      "bytes": 546350,
+      "sha256": "a06b4577ea4647c549deb81ad5c7ef09fe5a5aa95ecb2be50fc38bbe14266bf8"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2024年1-6月指数通知_豫建消技2024_15号_hncost官方页面.html",
+      "bytes": 6878,
+      "sha256": "4bdb124d0265584b804dd149785758e043094e3a7046edb4c3fd0cbd4ef811e8"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2024年1-6月指数通知_豫建消技2024_15号_官方附件.zip",
+      "bytes": 449074,
+      "sha256": "abef829876f7551a857b02d96ddb47445f6ab3d4b4215b9fd291ecdd45f4bae4"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2024年7-12月人工费机械人工费管理费指数_官方页面.html",
+      "bytes": 19616,
+      "sha256": "10126b52ce260fe429db056c11399553000a6e676e4ec17995fa94a9faa455b8"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2024年7-12月指数通知_豫建消技2024_31号_hncost官方附件PDF.pdf",
+      "bytes": 548406,
+      "sha256": "eb18c3d7fd07f6ac3b698bdde8656d742d5e6931ea19688cefa355196abeb353"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2024年7-12月指数通知_豫建消技2024_31号_hncost官方页面.html",
+      "bytes": 7304,
+      "sha256": "18278dbdd025a787f6aa743ce8d4c40b5c2c7fe297aa3bba1bef199956bb33dd"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2024年7-12月指数通知_豫建消技2024_31号_官方附件.zip",
+      "bytes": 454031,
+      "sha256": "0f3e1fefc89972b80eb3a8d4f3e3fd08f7ea6fbfb4aaf77cc5444b536821cf9d"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2025年1-6月人工费机械人工费管理费指数_官方页面.html",
+      "bytes": 19516,
+      "sha256": "d57132ea78ca6c6479d155e37e034b3119b98d3a4f7339b5a60bdbea137646a1"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2025年1-6月指数通知_豫建消技2025_12号_hncost官方附件PDF.pdf",
+      "bytes": 554777,
+      "sha256": "ca5801f85de9e3291a12b1c13076f4a79b810f9f74d5e7d80d2b953450003cbd"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2025年1-6月指数通知_豫建消技2025_12号_hncost官方页面.html",
+      "bytes": 7012,
+      "sha256": "298d3b7bee0119e3c74a52e0f38ccceb2ca23c083da7c9fa9de2afbdc58abfe3"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2025年1-6月指数通知_豫建消技2025_12号_官方附件.zip",
+      "bytes": 459679,
+      "sha256": "040e40d6d03f7e7b7ff71f9682e8917944f091f3c8ddc02c2944658928aba5e1"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2025年7-12月人工费机械人工费管理费指数_官方页面.html",
+      "bytes": 19451,
+      "sha256": "d3154f40d732c39436128ae3150f600d85c91e2302cb99a7f79c612b0705e711"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2025年7-12月指数通知_豫建消技2025_32号_hncost官方附件PDF.pdf",
+      "bytes": 554888,
+      "sha256": "72b7120b0b274f720d7900619bba268ff53017886e9fb66478d18c65a7298669"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2025年7-12月指数通知_豫建消技2025_32号_hncost官方页面.html",
+      "bytes": 6616,
+      "sha256": "cbb10f81dbe35cf62ea91ead4cfe385873f0366ba8322eacda1b941e13e91786"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2025年7-12月指数通知_豫建消技2025_32号_官方扫描件_第1页.png",
+      "bytes": 228836,
+      "sha256": "5780100edbc75d95b6d6a1ae75a5f47f83f1107d9707fdd8007a2f4bcae79962"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/HISTORICAL_2023_2025/河南_2025年7-12月指数通知_豫建消技2025_32号_官方扫描件_第2页.png",
+      "bytes": 166996,
+      "sha256": "af6cfd7164600cfcb8a0664f55fb58e4281eb9f4a80f0fa960ec7940c2873af9"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/河南_2026年1-6月人工费机械人工费管理费指数_豫建消技2026_23号_官方页面.html",
+      "bytes": 19620,
+      "sha256": "ca901542e103b65608f7e0683c10471a20072d24304934cd537629e4ee8a8c5d"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/河南_2026年1-6月指数通知_豫建消技2026_23号_官方原始附件PDF.pdf",
+      "bytes": 555920,
+      "sha256": "0589ad562ea5f0b2d53d4ec258ec9ef628548597a2263c5126a16ecee4e4b69f"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/河南_2026年1-6月指数通知_豫建消技2026_23号_官方扫描件_第1页.png",
+      "bytes": 368795,
+      "sha256": "29344b2b8403fb5ce6507eab52e70f5b8677ecba278e9cc07f7f44f35ae0adba"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/河南_2026年1-6月指数通知_豫建消技2026_23号_官方扫描件_第2页.png",
+      "bytes": 272724,
+      "sha256": "713c02e5c28d4e3d93be9edf8b87061a2e4f48080599803b85ec40b1f9273e33"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/河南省工程造价信息网_豫建消技2026_23号_2026年1-6月指数通知_官方原始页面快照.html",
+      "bytes": 7126,
+      "sha256": "4f3c2b56d1e32bc41b0b3c636907c88f5915551e9b5f8defdbede588217ca677"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/河南造价信息网_工程造价栏目_人工费指数系列通知索引_官方页面快照.html",
+      "bytes": 24515,
+      "sha256": "89f46774044edeb04642beb38e30ccfa0110fdae91577d440dae033fef7d9ae1"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/豫建消技〔2026〕23号_原文扫描_01.png",
+      "bytes": 368795,
+      "sha256": "29344b2b8403fb5ce6507eab52e70f5b8677ecba278e9cc07f7f44f35ae0adba"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/豫建消技〔2026〕23号_原文扫描_02.png",
+      "bytes": 272724,
+      "sha256": "713c02e5c28d4e3d93be9edf8b87061a2e4f48080599803b85ec40b1f9273e33"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/豫建消技〔2026〕23号_发布页快照_hngcjs.html",
+      "bytes": 19620,
+      "sha256": "ca901542e103b65608f7e0683c10471a20072d24304934cd537629e4ee8a8c5d"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/豫建消技〔2026〕23号_官方发布页快照.html",
+      "bytes": 7126,
+      "sha256": "4f3c2b56d1e32bc41b0b3c636907c88f5915551e9b5f8defdbede588217ca677"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/豫建消技〔2026〕23号_官方发布页快照_hncost.html",
+      "bytes": 7126,
+      "sha256": "4f3c2b56d1e32bc41b0b3c636907c88f5915551e9b5f8defdbede588217ca677"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/豫建消技〔2026〕23号_官方附件_人工费机械人工费管理费指数通知.pdf",
+      "bytes": 555920,
+      "sha256": "0589ad562ea5f0b2d53d4ec258ec9ef628548597a2263c5126a16ecee4e4b69f"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/2026_INDEX/豫建消技〔2026〕23号_附件_2026年1至6月人工费机械人工费管理费指数.pdf",
+      "bytes": 555920,
+      "sha256": "0589ad562ea5f0b2d53d4ec258ec9ef628548597a2263c5126a16ecee4e4b69f"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/FEE_RATES/加强建筑材料计价风险管控指导意见_2019_官方页快照.html",
+      "bytes": 31818,
+      "sha256": "8d24275b2a4acd1effb56222245640a2478b4f6e764793fe3acb41ea3227f003"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/FEE_RATES/加强施工扬尘污染防治费管理的通知_2017_官方页快照.html",
+      "bytes": 13660,
+      "sha256": "1266cc8f92c746321bd6e181a70966f11e2b6fc709133b0d1502cb40b82358cf"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/FEE_RATES/调增施工现场扬尘污染防治费通知_2016_官方页快照.html",
+      "bytes": 35728,
+      "sha256": "f873b1f169cb3a951455d79647761febcd535bc1277cff73bb97514db15c697b"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/FEE_RATES/豫建消技〔2025〕18号_官方发布页快照.html",
+      "bytes": 6374,
+      "sha256": "dde72cc114c7e23dfd3384fc3d35de523560dfcaf2c3c178df3f1b736772956a"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/FEE_RATES/豫建消技〔2025〕18号_附件_计价软件数据调整结果通知.pdf",
+      "bytes": 481644,
+      "sha256": "462602fbb49627a43fa12bed6086ca0a17dcc748e4e9b974be5634af7e64b19c"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/FEE_RATES/豫建设标〔2014〕57号_安文费计取办法_官方页快照.html",
+      "bytes": 14446,
+      "sha256": "18db89f7c739cef41d8b1ad55ca50a87241cee8f461c04a2da88dcfd773c505e"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/FEE_RATES/豫建设标〔2014〕57号_附件_河南省建设工程安全文明施工措施费计取办法.pdf",
+      "bytes": 7367948,
+      "sha256": "bc23a2b679f8ebe13805d787ab1a6f82bef0ee76d2390e141ca13a369b99323d"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/FEE_RATES/财资〔2022〕136号_财政部官方页快照.html",
+      "bytes": 20191,
+      "sha256": "af54cd723869e8c4ccfdc9886ed1a9a21d6c750e5f3ef4d6f221d11854327b8d"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/FEE_RATES/财资〔2022〕136号_附件_企业安全生产费用提取和使用管理办法.docx",
+      "bytes": 45723,
+      "sha256": "fd6e880a0228c71f7e519b82b04e71eb31364ead02fd93ae12da53c037cd8477"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/TAX_RULES/河南省住建厅_建筑业营改增后计价依据调整的意见_2016-04-14_官方PDF.pdf",
+      "bytes": 10472347,
+      "sha256": "866b318a1db6dd1a0467fd3da86bfe26b818d93abb3066c204b06fe3e7dd0cb4"
+    },
+    {
+      "path": "03_HENAN_FEE_RULES/TAX_RULES/豫建设标〔2016〕24号_我省建筑业营改增后计价依据调整的意见.pdf",
+      "bytes": 10472347,
+      "sha256": "866b318a1db6dd1a0467fd3da86bfe26b818d93abb3066c204b06fe3e7dd0cb4"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2025_HISTORICAL/郑州_2025年第1季度_建设工程材料价格信息_官方PDF.pdf",
+      "bytes": 802028,
+      "sha256": "017dc2634a623a3db7aab7ef8228e156d71a6cbac9fcaa89529b66438341834b"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2025_HISTORICAL/郑州_2025年第1季度_材料价格信息和造价指标通知_官方页面.html",
+      "bytes": 18212,
+      "sha256": "0a10e185790d6a30e491084b997b0573da870ec9fca2243bbba67aae1305f5fb"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2025_HISTORICAL/郑州_2025年第2季度_建设工程材料价格信息_官方PDF.pdf",
+      "bytes": 800741,
+      "sha256": "82909c028f0aa2207806156da5a11a742cb64f5db47e484ec49a7a0810555625"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2025_HISTORICAL/郑州_2025年第2季度_材料价格信息和造价指标通知_官方页面.html",
+      "bytes": 18364,
+      "sha256": "c640ba5095d1079f4b812090ee651ea660f3b27ea495a3a9a3ba539a4b7c8c86"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2025_HISTORICAL/郑州_2025年第3季度_建设工程材料价格信息_官方PDF.pdf",
+      "bytes": 787609,
+      "sha256": "233e69c5d6ef805107875fbd29dd719e7e64bb39f99c13d7f1b01117d0d18b77"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2025_HISTORICAL/郑州_2025年第3季度_材料价格信息和造价指标通知_官方页面.html",
+      "bytes": 18398,
+      "sha256": "9526ca426c18d554bc4195acc384ce135039a1214fea5ca34d9d0616030bb7af"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2025_HISTORICAL/郑州_2025年第4季度_建设工程材料价格信息_官方PDF.pdf",
+      "bytes": 788777,
+      "sha256": "96a2626c4e8107d4dd367d64bc2c113630fb49909b2c0400e9fa5c3a4d299c77"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2025_HISTORICAL/郑州_2025年第4季度_材料价格信息和造价指标通知_官方页面.html",
+      "bytes": 18321,
+      "sha256": "8b57ec55b0c166227a16ddbac7b8a44f9400d6db8f2c9b26857b7d0b2677fb8f"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q1/郑州_2026年第1季度建设工程材料价格信息_官方PDF.pdf",
+      "bytes": 837189,
+      "sha256": "3c31ebf88422aee6bf4f46037d2401a0ffde0a741d890c1d65f000113cea72af"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q1/郑州_2026年第1季度建设工程造价指标_官方PDF.pdf",
+      "bytes": 268310,
+      "sha256": "b53eb198c75a5454e16c0434e517be9d18cae421d169d8c6b0d93c982169d9ef"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q1/郑州_2026年第1季度建设工程造价指标编制说明_官方PDF.pdf",
+      "bytes": 113348,
+      "sha256": "568a3eb865b29a1f2c46443b314b85355bc579342ee40816f130055fdffb7a1f"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q1/郑建文2026_45号_2026年第1季度通知_官方页面.html",
+      "bytes": 18258,
+      "sha256": "6ca626fdbc8a2c8f4fe60b8bd6e53cb1f9de61513136a52d73ea889188bfbf86"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q2/郑建文〔2026〕77号_附件_2026年第2季度郑州市材料价格信息.pdf",
+      "bytes": 862740,
+      "sha256": "a8c7a8ee5258e11795a729fcbb4684c5815b6148b79c2690e2ff5d722f48af0e"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q3/郑州_2026年9月建设工程主要材料价格信息_官方PDF.pdf",
+      "bytes": 180060,
+      "sha256": "0a878454721cceb9fdf2799d637a1300880120981b65621633984f4d98f7599a"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q3/郑州_2026年第3季度建设工程材料价格信息_官方PDF.pdf",
+      "bytes": 818429,
+      "sha256": "9f395cb95be9e0f82a31378c861f530dd3c5caa93c273fef7967b83810175712"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q3/郑州_2026年第3季度建设工程造价指标编制说明_官方PDF.pdf",
+      "bytes": 68500,
+      "sha256": "6f80d685ca89a60831f8a1bad2bd7da308c4d775c7b806a67fa3867dcefa400c"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q3/郑州_2026年第3季度材料价格信息和造价指标通知_官方页面快照.html",
+      "bytes": 14625,
+      "sha256": "b8a87648f9127050e9aa575a51ed9f883b5c23740b0ffd2c65296ac148ea7e80"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q3/郑建文2026_105号_通知官方页面.html",
+      "bytes": 17946,
+      "sha256": "e91dda2ba682925c3e80cde66824fdc4006eab52fad17520f9a0aa73ea92f405"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q3/郑建文〔2026〕101号_郑州市城乡建设局官方页快照.html",
+      "bytes": 16620,
+      "sha256": "4a752e93dfd73ad8e7561f055656ba7a53022a1398dc974a575bfdebac34b029"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/2026_Q3/郑建文〔2026〕101号_附件_2026年9月郑州市主要材料价格信息.pdf",
+      "bytes": 180060,
+      "sha256": "0a878454721cceb9fdf2799d637a1300880120981b65621633984f4d98f7599a"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/通知公告栏目_第1页_核查快照.html",
+      "bytes": 17208,
+      "sha256": "b35ad24392dc4d37f4f7a631e549c76fdd0d6ee19dbe88a20dfa982c0e4b1531"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/通知公告栏目_第2页_核查快照.html",
+      "bytes": 17458,
+      "sha256": "9a048f4aad3b406016ea0bef8a0e39d2cf9d5ba618a768559858c06cdca04446"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/通知公告栏目_第3页_核查快照.html",
+      "bytes": 17540,
+      "sha256": "1f4220d9e907ff579d878a11ed90ed6f27e74e23f534e26521f737bf367e2776"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/造价信息栏目_第1页_核查快照.html",
+      "bytes": 17703,
+      "sha256": "b852d48e47a2cc935dc918ae7c5f6c2e27131caf6a506bf870635e59870ec804"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/造价信息栏目_第2页_核查快照.html",
+      "bytes": 17803,
+      "sha256": "e8e96f500eb6945cd02cc4dee293684a9bc5975c09662e9bfd3879459dd1c2fd"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/造价信息栏目_第3页_核查快照.html",
+      "bytes": 17859,
+      "sha256": "4a72b048a12df689b23630c55d65fb719ed97c70693c1577d2519c73a17558e2"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/造价信息栏目_第4页_核查快照.html",
+      "bytes": 17851,
+      "sha256": "46220bd89a94b2b93c33cf4120315bdbccfebd5b069febf120f96f64b01bb67e"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/造价信息栏目_第5页_核查快照.html",
+      "bytes": 17860,
+      "sha256": "c6734d1c1d0194e2da18bc1362c4709ec5370cb52866da8399221945e128f015"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/造价信息栏目_第6页_核查快照.html",
+      "bytes": 17872,
+      "sha256": "a45a019ece346bfa566f3f8a8d3038f473b0d980447b2c18d2260d2c2b991718"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/造价信息栏目_第7页_核查快照.html",
+      "bytes": 17830,
+      "sha256": "c78e5c78d86c16fc65808c7cf465954c6478bef506c9bfe8e95cb7112671a749"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/造价信息栏目_第8页_核查快照.html",
+      "bytes": 17786,
+      "sha256": "768db7cdfbe6435e77189c1173cbbe8bb1eedc33cc252282324a6ec9ef36fda4"
+    },
+    {
+      "path": "04_MATERIAL_PRICES/ZHENGZHOU/_LIST_SNAPSHOTS/造价信息栏目_第9页_核查快照.html",
+      "bytes": 15419,
+      "sha256": "f33acab02c7a70838d1c5581feb2d365b6bae5216a6ef2377788e799a5b1ef1b"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/中原工学院航空港校区室外工程/招标公告正文.htm",
+      "bytes": 24990,
+      "sha256": "ea812795e03b67afaee163d152dcbfd891117983a1fd3056d70697432b3a7f43"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/光山县城供水污水结算审核服务/竞争性磋商公告正文.htm",
+      "bytes": 12625,
+      "sha256": "9411345592dda4a651edd71f9f86920bd924d67cdfa30f873cc90a731c15d698"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/卢氏县农村公路危桥改造/招标公告正文.htm",
+      "bytes": 33162,
+      "sha256": "0f80b41c62281beffb46c76a8a776698958322433a00a758002314b878279f00"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/商丘睢阳老旧供热管网一期二标段/中标结果公告正文.htm",
+      "bytes": 25353,
+      "sha256": "197c151d738b7aebf6eb5cf2a7f1ae6855437704ebb41f42b6a3f32deaf6cfdc"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/武陟县法院城东法庭搬迁建设/招标公告正文.htm",
+      "bytes": 19974,
+      "sha256": "d0b4fe37e37f967221ede902e084d15d3dbbd2c44e1ecd9020921576afa4a302"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/河南工信职业学院10号公寓楼/招标公告.docx",
+      "bytes": 17039,
+      "sha256": "9271956de67c915691b164ed96c66fbcf930ac52854592f718b4b0c2ef5fd186"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/河南工信职业学院10号公寓楼/招标公告正文.htm",
+      "bytes": 21972,
+      "sha256": "e0f03dca3f8daeead38a481a441a6689bd8ec4cb8121cb3c41eb498170a46bde"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/河南科技学院宿舍D二标段结果/中标结果公告正文.htm",
+      "bytes": 52460,
+      "sha256": "eecd9fa68b6897c45c013bdb7d6021a0982018fb1d7798a33f187532f5f3f4da"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/灵宝西阎乡中药材烘干建设/成交公告正文.htm",
+      "bytes": 7736,
+      "sha256": "e1803446752e6da28c8b42e30193035c6ed5bd3a10f66f2ea2a93955cc2b18a5"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/灵宝西阎乡中药材烘干建设/报价明细.pdf",
+      "bytes": 359474,
+      "sha256": "e4b788dd646f11b0c8e17411a8af965b8cf9ec208dca14eb73e8c19f32107914"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/灵宝西阎乡中药材烘干建设/招标文件正文.pdf",
+      "bytes": 3495698,
+      "sha256": "9d33719897102ce6c7ae9c8e2e00d9ba6e8182d8eb3ab2b553bb726c51d55e5d"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/确山县集中供热管网配套/成交公告正文.htm",
+      "bytes": 6977,
+      "sha256": "28b80279ae94e4b9f9da7a74703ce24c4737f547d1afe745fd46541fda6bb234"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/确山县集中供热管网配套/竞谈文件_供热管网.pdf",
+      "bytes": 4323873,
+      "sha256": "ee98a1628a5f5e436d35c2efe04788250730b1b15e19f401bf87d71e1d8f8100"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/羊山新区双井中心学校改造/成交公告正文.htm",
+      "bytes": 7280,
+      "sha256": "c314e3e817e216ffe427266a73b36437ae6dc889f947237215c9514336131fcb"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/羊山新区双井中心学校改造/磋商文件.pdf",
+      "bytes": 705475,
+      "sha256": "755ae1516434bafd4dc0ad5e9c52cfa3b8e6e30350cb86c630f2b843305317ff"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/_CANDIDATES/郑州大学南校区图书馆水电改造/竞争性磋商公告正文.htm",
+      "bytes": 11352,
+      "sha256": "551eb30c30af27554189caf650146cd9feda9cfe19dfc0ca209046ff31f43eb0"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/A_INPUT/agentA2_旁证_2024年某项目投标文件_内含西峡教师周转宿舍项目业绩表及中标通知书施工合同.pdf",
+      "bytes": 49280678,
+      "sha256": "ebb760b7efbe793bef39598787cc5aa1a0e862e10e03ea6da812e80947396956"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/A_INPUT/agentA_西峡项目_公开招标公告_官方页面快照.html",
+      "bytes": 10445,
+      "sha256": "b86a53759412677049afdcae217d4f3cec1f72f0e8df4bd83be40d8f0848f12d"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/A_INPUT/README_中标通知书与施工合同影像来源说明.md",
+      "bytes": 10182,
+      "sha256": "2a406bd2f7cad507867a36b5b110d2d9a799ffedae999e328b3bf6bfa85548d7"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/A_INPUT/西峡县五里桥镇初级中学教师周转宿舍项目_五里桥教师周转房招标公告.doc",
+      "bytes": 30720,
+      "sha256": "230326668da2d1fc5ab43a5f975c4f3458e78d6dd3bb8f1dc19a69534dfca96d"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/A_INPUT/西峡教师周转宿舍项目_中标公告附件_招标文件1_20210804.doc",
+      "bytes": 456418,
+      "sha256": "81f3d2ceaf4e9869477d36968b69f8bfb6bb31521a889ad406d0aafa27c8d48b"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/A_INPUT/西峡教师周转宿舍项目_中标通知书与施工合同_业绩证明影像_派生摘录.pdf",
+      "bytes": 1580747,
+      "sha256": "498fa9723d9ae3047299c484d857a32c8b181af4dffb10db77d0a7918b5f0f87"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/A_INPUT/西峡教师周转宿舍项目_公告页快照.html",
+      "bytes": 10445,
+      "sha256": "8b7c96a80709703bc7009ca71ae3df9878fafba0b0980e4e4d7f8d00335865ea"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/A_INPUT/西峡教师周转宿舍项目_公开招标公告正文.html",
+      "bytes": 8743,
+      "sha256": "1f7b83e8b1ed94cdce3c41c44db1b7ac2493476619a254768a60116b08043914"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/A_INPUT/西峡教师周转宿舍项目_招标公告.doc",
+      "bytes": 30720,
+      "sha256": "230326668da2d1fc5ab43a5f975c4f3458e78d6dd3bb8f1dc19a69534dfca96d"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/_备用镜像_西峡项目清单同源副本.xlsx",
+      "bytes": 8410,
+      "sha256": "434fe9768970c45b9391c72ca19a349a5d47ae329b0e9d90a732f4453296fbed"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡县五里桥镇初级中学教师周转宿舍项目_招标工程量清单.xlsx",
+      "bytes": 8410,
+      "sha256": "434fe9768970c45b9391c72ca19a349a5d47ae329b0e9d90a732f4453296fbed"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡县五里桥镇初级中学教师周转宿舍项目_招标工程量清单_A_扉页及总说明.xlsx",
+      "bytes": 8410,
+      "sha256": "434fe9768970c45b9391c72ca19a349a5d47ae329b0e9d90a732f4453296fbed"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡县五里桥镇初级中学教师周转宿舍项目_招标工程量清单_B_土建其他项目表.xlsx",
+      "bytes": 43006,
+      "sha256": "4d722f882e5b1afc6325a62c4aa5ee0977ce9a1607ec19f3243c6f43acb9660b"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡县五里桥镇初级中学教师周转宿舍项目_招标工程量清单_C_安装其他项目表.xlsx",
+      "bytes": 54498,
+      "sha256": "0ec6886429caae9078d1925547b21b0393700579486f9b8374d663fa22606e77"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡县五里桥镇初级中学教师周转宿舍项目_西峡县五里桥镇初级中学教师周转宿舍项目.PDF",
+      "bytes": 381130,
+      "sha256": "99c1aef8da979f3249bea1aa5c82af94b21dc17d2c6804205e5c56b5a4c7268c"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡教师周转宿舍项目_中标公告_20210804_官方页面快照.html",
+      "bytes": 7832,
+      "sha256": "e1663bf6459eb266fac852266e8991144a39395d17c112a429e0cb4200874ce2"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡教师周转宿舍项目_中标公告_20210804_静态正文.htm",
+      "bytes": 6528,
+      "sha256": "08f7a1b4eef8a2812af08a36ab3960ef1dbbcf96a9e0704eae32c6b6a8505205"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡教师周转宿舍项目_土建_工程量清单.xlsx",
+      "bytes": 43006,
+      "sha256": "4d722f882e5b1afc6325a62c4aa5ee0977ce9a1607ec19f3243c6f43acb9660b"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡教师周转宿舍项目_安装_工程量清单.xlsx",
+      "bytes": 54498,
+      "sha256": "0ec6886429caae9078d1925547b21b0393700579486f9b8374d663fa22606e77"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_001/B_REFERENCE/西峡教师周转宿舍项目_招标工程量清单_PDF版.pdf",
+      "bytes": 381130,
+      "sha256": "99c1aef8da979f3249bea1aa5c82af94b21dc17d2c6804205e5c56b5a4c7268c"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_002/河南女子职业学院大学生活动中心/成交公告正文.htm",
+      "bytes": 7160,
+      "sha256": "16fd9ae91d65c9c77531c40d2473d15d3d3bd1963c7b039c3972d992d1ca24a8"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_002/河南女子职业学院大学生活动中心/磋商文件_二次.pdf",
+      "bytes": 742302,
+      "sha256": "0d3582eb64cc57628236f42c60ee4cbfce8eb6d5c2139ad4fc114aed11a10763"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_003/西峡县建设路道路管网提升改造/招标公告正文.htm",
+      "bytes": 78466,
+      "sha256": "e04876bd08d9dd9c4c82c04f47a10f36e90e24971397e150ce8776d84ef74bb6"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_003/西峡县建设路道路管网提升改造/招标文件_一标段正文.pdf",
+      "bytes": 2423185,
+      "sha256": "134b017f5afa1cf301878c92e1080e8055d3564ff52da6fe7165a95be4366d39"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_003/西峡县建设路道路管网提升改造/招标文件_三标段正文.pdf",
+      "bytes": 2425289,
+      "sha256": "d73ed712fe8045741710c67c171b5fce4f8d796f946f42298770450310ee3510"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_003/西峡县建设路道路管网提升改造/招标文件_二标段正文.pdf",
+      "bytes": 2423361,
+      "sha256": "e7db6b01e3528f6e957fad2c07a8d3d27c6bc02c883c1af75a96fbb398da7db1"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_003/西峡县建设路道路管网提升改造/招标文件_五标段正文.pdf",
+      "bytes": 2068536,
+      "sha256": "e4d26115a6983f0d6e6ce4b3087b9a3ff9e9ad9abe48a8184670c04dafdc91b5"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L1_BUDGET/L1_003/西峡县建设路道路管网提升改造/招标文件_四标段正文.pdf",
+      "bytes": 2422469,
+      "sha256": "0d7549f7c31709f0ddf6ec1e68e4633ede72b9cfc417f8f7593bd0cc6875cd4b"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L2_REVIEW/河南省地下水监测站建设/分项最高限价详表.pdf",
+      "bytes": 66811,
+      "sha256": "b5c9be4c289326cc3bd08a0caaa26628f698929ae29034ebea10ea6da2380c6f"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L2_REVIEW/河南省地下水监测站建设/更正公告正文.htm",
+      "bytes": 3498,
+      "sha256": "60ee10b73bedcf3e11a860ac114fd9fa6ff15d9b45823633cf17121266855368"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L2_REVIEW/河南省绿城监狱安防升级改造/公开招标公告正文.htm",
+      "bytes": 10639,
+      "sha256": "15eea8ab5df226f5c0288ade3e255ca59269c4ba4649aadd5b82cba6e93ee954"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L2_REVIEW/河南省绿城监狱安防升级改造/采购清单_技术需求或服务要求.pdf",
+      "bytes": 270585,
+      "sha256": "8e7683f63ef59b9141b4b51b4f9f059ba41c70bc749b0012d6874dcfffdd7fde"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L2_REVIEW/河南科技大学开元会议中心改造/成交公告正文.htm",
+      "bytes": 7821,
+      "sha256": "33b4bf37a7ee3ad8e671e4cafe8705d39cac3713fe47d44da2e0774ab007971c"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L2_REVIEW/河南科技大学开元会议中心改造/报价明细表.pdf",
+      "bytes": 1083283,
+      "sha256": "881ce8c07e73fb52f6e8a757ba6bf62a2182b513a3a530e1af9cca695fc75fe8"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L2_REVIEW/河南科技大学开元会议中心改造/招标文件正文.pdf",
+      "bytes": 1339485,
+      "sha256": "a7a625673446c85baa4186029c776a234783fc6c3d5ad8023802ce0b09df0b1a"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L3_SETTLEMENT/内乡县产业路建设及修复/合同公告正文.htm",
+      "bytes": 3263,
+      "sha256": "bb8ea875eae86939d1f76f5eb2a3f9e5e30b38d6f59a9d996ffae8b35d9856da"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L3_SETTLEMENT/内乡县产业路建设及修复/施工合同.pdf",
+      "bytes": 543655,
+      "sha256": "8f16447dd3e7db026eabe4005cb07046e5afca416f6902037237bda4a6d3a6d9"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L3_SETTLEMENT/安阳中院中央空调管道更换改造/支付申请表.PDF",
+      "bytes": 331824,
+      "sha256": "67ec098b92a32c398848bbf2da8f4e6bee3da90f340b9c118c8e5d079f7f72cd"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L3_SETTLEMENT/安阳中院中央空调管道更换改造/验收报告公示正文.htm",
+      "bytes": 3028,
+      "sha256": "69b5a209f88c9cda253293e87afeb0d12412a35a5f30a608cde6eeee85400298"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L3_SETTLEMENT/平顶山石龙区排水防涝管网新建/排水计量5期.pdf",
+      "bytes": 861890,
+      "sha256": "d135fef461a4145103a037b0144aec6f579d65cd4621a523e884b1246e6608f2"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L3_SETTLEMENT/平顶山石龙区排水防涝管网新建/排水计量6期.pdf",
+      "bytes": 969926,
+      "sha256": "0f68d2298bae342550b655e8da348a9f8d87ef8b9aa532f6ac1aad52163139e5"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L3_SETTLEMENT/平顶山石龙区排水防涝管网新建/排水计量7期.pdf",
+      "bytes": 912961,
+      "sha256": "3ee37407cb18791d582aa677b642ab3653c067d943fc4a85b41cea5778032fea"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L3_SETTLEMENT/平顶山石龙区排水防涝管网新建/验收报告公示正文.htm",
+      "bytes": 3140,
+      "sha256": "e70474339cd4855f31191f48b8372d209876e9209a6d1084afd14b1946090776"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L4_SETTLEMENT_REVIEW/焦作职校外墙真石漆修缮/验收报告.pdf",
+      "bytes": 622718,
+      "sha256": "1397c8d14eeb3dbc573aaaae88948992086ebd33b9e6e948bd4a8cbd975e70f0"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L4_SETTLEMENT_REVIEW/焦作职校外墙真石漆修缮/验收报告公示正文.htm",
+      "bytes": 3340,
+      "sha256": "b12b2b8f048754dae114a5ff84f5e3215bf834cfd699c2300842a5bbd349d39e"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L4_SETTLEMENT_REVIEW/许昌示范区造价咨询审计服务/公开招标公告正文.htm",
+      "bytes": 9679,
+      "sha256": "961eecb98c43dd77d4bb45b4bde788737a86cb11309296bc846a8777ef7f5dc2"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L4_SETTLEMENT_REVIEW/许昌示范区造价咨询审计服务/征集公告.pdf",
+      "bytes": 173862,
+      "sha256": "09e8d1a374c8c0e4daac598e44516b48d66c27c2a73b2129191232002e1f2aca"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L4_SETTLEMENT_REVIEW/许昌示范区造价咨询审计服务/征集文件.pdf",
+      "bytes": 3483417,
+      "sha256": "57c1579e34e2a4fd3cef5cf3c4b65f8ff081fbd65855dc7bb71b2f89bc16038c"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L4_SETTLEMENT_REVIEW/郑州疾控门诊部改造/门诊部改造验收表1.pdf",
+      "bytes": 417652,
+      "sha256": "4abb9b38d12a2862fea8b76d99212766b41776fef06c23ca5bc4e1e3a3eea4c2"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L4_SETTLEMENT_REVIEW/郑州疾控门诊部改造/验收报告公示正文.htm",
+      "bytes": 3175,
+      "sha256": "930eeda6a286cdcdc17745991d1e08102c79b3ef2602950aa2fad6d3e4ec72a2"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/_CANDIDATE_平顶山某项目/平顶山某项目_招标文件_含招标控制价编制依据.doc",
+      "bytes": 1043150,
+      "sha256": "bb035f3a9990fd06ea3aa2a2276490d1a6774899db48eab08a1bb4856e5b1155"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/_CANDIDATE_西峡城区第一小学/西峡县第二建筑集团_投标文件_含已标价工程量清单.pdf",
+      "bytes": 5342720,
+      "sha256": "4435ebb6f54723743fb553e044416901348fc5a66a209c616547cdd4256a6d2f"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/新密市助泉寺村民宿建设/成交公告正文.htm",
+      "bytes": 10387,
+      "sha256": "a0d6fc260b1a922594dbc93b542921bc902a3bf55f979f6a1e4a73bc3e8e83f5"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/新密市助泉寺村民宿建设/招标文件.rar",
+      "bytes": 760656,
+      "sha256": "cc085a11b6084592f07b0bf916ec742876432eed1c0bb50a7393b1cf09893992"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/新密市助泉寺村民宿建设/被推荐供应商名单和推荐理由.pdf",
+      "bytes": 47204,
+      "sha256": "beae4edd7e63b50aa8aef59e9e97824e6002fadd5070349e8aae372b082c905d"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/河南大学金明校区学生宿舍楼/中标候选人公示_一标段.pdf",
+      "bytes": 218832,
+      "sha256": "3a0d6994bcea35254406236b8921956f222d6a99ee4541a9e440529c92239306"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/河南大学金明校区学生宿舍楼/中标候选人公示_二标段.pdf",
+      "bytes": 193044,
+      "sha256": "0783829a318f46ad5db6696606c4f583e7ebac8029aac7465bd7b56b29180661"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/河南大学金明校区学生宿舍楼/中标候选人公示正文.htm",
+      "bytes": 1046,
+      "sha256": "f4bcd52317838bd5a2032f86aced16dec7f236bb63ed5c3e51913eb2e48e6cd1"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/河南大学金明校区学生宿舍楼/开标记录表_一标段.pdf",
+      "bytes": 371840,
+      "sha256": "4cb659067f559ffab6a10c014375bc827277c1e166adbf724b98247f6a37fdee"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/河南大学金明校区学生宿舍楼/开标记录表_二标段.pdf",
+      "bytes": 377057,
+      "sha256": "162c7a94445dccdffc7bf155add610d4f2d6fc3d5281cea53b664453d97159ec"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/河南科技学院东校区学生宿舍D项目/中标候选人公示.pdf",
+      "bytes": 279215,
+      "sha256": "46ab59cd07e3e2f080c740660640b72d929df0a0b59d4c157f26f86addbd95a5"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/河南科技学院东校区学生宿舍D项目/中标候选人公示正文.htm",
+      "bytes": 1481,
+      "sha256": "e23e7cd7a267c9e3b003bb031fde1e30b6a63bd1c8f78ac5b6fe49210cf95900"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/河南科技学院东校区学生宿舍D项目/二标段开标记录表.pdf",
+      "bytes": 393503,
+      "sha256": "d1cec2300f19c858491e995d5d45d98ba473ec06c4f0aa675aa6b80876a5b8fc"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L5_TENDER/河南科技学院东校区学生宿舍D项目/二标段施工中标结果公告正文.htm",
+      "bytes": 52460,
+      "sha256": "eecd9fa68b6897c45c013bdb7d6021a0982018fb1d7798a33f187532f5f3f4da"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L6_FORENSIC/周口市第一人民医院产科病房改造/产科房改造说明.pdf",
+      "bytes": 479653,
+      "sha256": "c4f85bed3bba8a98808ea8896202e336304f6d33d23df2e49814752cf16ff1c7"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L6_FORENSIC/周口市第一人民医院产科病房改造/废标终止公告正文.htm",
+      "bytes": 3284,
+      "sha256": "94a3f9039f6b65e72a02713fa285952aa484e621b0276e6e0b86ce801e119644"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L6_FORENSIC/民权县省道公路安全设施提升/更正公告.pdf",
+      "bytes": 360464,
+      "sha256": "2f9cf72cddc27a9068071c6a664c0f78aee5d21b8b65423df25df000fb25e7cc"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L6_FORENSIC/民权县省道公路安全设施提升/更正公告正文.htm",
+      "bytes": 4416,
+      "sha256": "c2482b25094915f0d599b5cc753f0a1913d2b5a6a6ce4cf5a2475ec713c2b774"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L6_FORENSIC/灵宝市苏村乡公路改建/举报线索核查及顺延成交候选人情况说明.pdf",
+      "bytes": 984714,
+      "sha256": "8698a37694c9104cfb54820ccfbeae4db36b50015ebd01513ff64ce34b928220"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L6_FORENSIC/灵宝市苏村乡公路改建/回复函.pdf",
+      "bytes": 112134,
+      "sha256": "b8cac3a1dbce96d3ee8eba6d26eddf5da66c2818d4c6f1251651732b4c2b39ed"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L6_FORENSIC/灵宝市苏村乡公路改建/结果更正公告正文.htm",
+      "bytes": 5195,
+      "sha256": "9da0908ce2a8d25f1261b2ee1b122054a09b5112a1c35153c27a142829da6c40"
+    },
+    {
+      "path": "05_REAL_PROJECTS/L6_FORENSIC/灵宝市苏村乡公路改建/问询函.pdf",
+      "bytes": 980759,
+      "sha256": "094d462e8264f7ca0d33605834d282a4691025be6a3840a06d890ad73ffbf9a4"
+    },
+    {
+      "path": "06_GOLDEN_SET/QUANTITY/真实工程量及计价对照表_上一轮派生.xlsx",
+      "bytes": 34313,
+      "sha256": "2718962c3ef1fb6332959a0239542dc6e6b9df9b7f0c939d845e130b0bf6aa07"
+    },
+    {
+      "path": "07_DERIVED_DATA/EXTRACTED_TEXT/豫建科2025_173号_费用调整细则_启发式提取.txt",
+      "bytes": 5097,
+      "sha256": "140f5eb9ae36fe402495e7684ba2221766b3164fc956e363e4c3ab1a40192d35"
+    },
+    {
+      "path": "07_DERIVED_DATA/EXTRACTED_TEXT/郑州_2026Q2_材料价格信息_结构化_文本层.txt",
+      "bytes": 336471,
+      "sha256": "61f5131cb2944a303046cad10869058aecc3e28849fd93de24ece5b04b58d066"
+    },
+    {
+      "path": "07_DERIVED_DATA/EXTRACTED_TEXT/郑州_2026Q3_材料价格信息_结构化_文本层.txt",
+      "bytes": 336933,
+      "sha256": "837be835aaf91e33d1211d14ac5a3a939b3c0b06604a5199b4046ea94bb1e039"
+    },
+    {
+      "path": "07_DERIVED_DATA/EXTRACTED_TEXT/郑州_2026Q3_造价指标编制说明_全文.txt",
+      "bytes": 3752,
+      "sha256": "32eccdb3604b83d280841c427e9fe8783508a02e9ff7a4527ebe00b443f2fa15"
+    },
+    {
+      "path": "07_DERIVED_DATA/EXTRACTED_TEXT/郑州_2026年9月_主要材料价格信息_结构化_文本层.txt",
+      "bytes": 62914,
+      "sha256": "2a6162603979c937034c59c74c3e1b13b9b03d1568a47a30cdb06841c09f4338"
+    },
+    {
+      "path": "07_DERIVED_DATA/NORMALIZED_RECORDS/材料价格字段口径说明.md",
+      "bytes": 4968,
+      "sha256": "7fc2692ecd1bb0b3040c7db9435a42d72e34c054eaa96411ca5050c4ebb780b4"
+    },
+    {
+      "path": "07_DERIVED_DATA/OCR/OCR_工具链缺口与扫描件登记.md",
+      "bytes": 2133,
+      "sha256": "e536f43572d8535ec0f1908978cf35d76148cc9d01fc05b74f608d822e6c1678"
+    },
+    {
+      "path": "07_DERIVED_DATA/STRUCTURED_TABLES/材料16类覆盖判断.csv",
+      "bytes": 1145,
+      "sha256": "c053def929466433ddddd248a07d104304c2062693dc337976585dece0424aae"
+    },
+    {
+      "path": "07_DERIVED_DATA/STRUCTURED_TABLES/郑州_2026Q2_材料价格信息_结构化.csv",
+      "bytes": 10549224,
+      "sha256": "1726431df6e2b5d7174d70c8de1e8d25e1553ce35aa41664f7c9033a0fce5d82"
+    },
+    {
+      "path": "07_DERIVED_DATA/STRUCTURED_TABLES/郑州_2026Q2_沥青混凝土_勘误记录.csv",
+      "bytes": 934,
+      "sha256": "559feebb2ce39f6f78189e0c17c7bfee72da9c4a257c7a338d94a6d23d4d5111"
+    },
+    {
+      "path": "07_DERIVED_DATA/STRUCTURED_TABLES/郑州_2026Q3_材料价格信息_结构化.csv",
+      "bytes": 10781192,
+      "sha256": "e7211ecfcbfd0780091919c62f9cffb68a887e4501fb74039cd27a90205aa99f"
+    },
+    {
+      "path": "07_DERIVED_DATA/STRUCTURED_TABLES/郑州_2026年9月_主要材料价格信息_结构化.csv",
+      "bytes": 1968057,
+      "sha256": "039773995abca4534c1972826e0ae312fd8f7166e037dd68eefcba3a9030557c"
+    },
+    {
+      "path": "08_LICENSE_AND_PURCHASE/LICENSE_STATUS.csv",
+      "bytes": 5674,
+      "sha256": "28899734049ad17c83d994baac4ce976ef324c0c6ed54b7e6b007f01cf4e8ab3"
+    },
+    {
+      "path": "08_LICENSE_AND_PURCHASE/PURCHASE_LIST.md",
+      "bytes": 4012,
+      "sha256": "682f1842f43f179fcb80b22e5a78d650cd9454e8cd7542cdb6215260bf0f5361"
+    },
+    {
+      "path": "08_LICENSE_AND_PURCHASE/SUPPLIER_CONTACTS.csv",
+      "bytes": 1906,
+      "sha256": "d30048e875be2cf751495498886cfa8481c9b3851ec1855fe7f4242bbf9a68db"
+    },
+    {
+      "path": "09_REPORTS/agentD_真实项目采集清单_20261116.tsv",
+      "bytes": 18240,
+      "sha256": "7af230e4df17ad268c76b6be9134bc23b522736f227470899b2a216317845e58"
+    },
+    {
+      "path": "09_REPORTS/COLLECTION_REPORT.md",
+      "bytes": 8324,
+      "sha256": "f493e3a0c3af0d081a5b6b9ba759d32d64d3a0673708b2b826ed1dde76cb73f2"
+    },
+    {
+      "path": "09_REPORTS/DATA_QUALITY_REPORT.md",
+      "bytes": 6105,
+      "sha256": "330362a69afdc6c9d55d363e1a341f849f9825339f1b513125c5742c4ddf8682"
+    },
+    {
+      "path": "09_REPORTS/GOLDEN_SET_BUILD_REPORT.md",
+      "bytes": 4055,
+      "sha256": "bea48db734abbd16a22a49f513a62c7ec0e1320bd7161e3c1a6426d765d25fe5"
+    },
+    {
+      "path": "09_REPORTS/L1_READINESS_REPORT.md",
+      "bytes": 5256,
+      "sha256": "7bf9782699e50fb12fb8de0e182286242f2e621953e0e318774e92521351b658"
+    },
+    {
+      "path": "09_REPORTS/SOURCE_VERIFICATION_REPORT.md",
+      "bytes": 5521,
+      "sha256": "d0d4782b4c561bce62dc97374aad99e93b803aba62256177798ea60679941479"
+    },
+    {
+      "path": "09_REPORTS/数据解析兼容性报告.md",
+      "bytes": 47741,
+      "sha256": "84fabf54738e2a818840042d0a40879987b299e649f8cb3f0f8957a6d5f913f7"
+    },
+    {
+      "path": "09_REPORTS/附录A_P01_河南定额版本链与授权边界核实.md",
+      "bytes": 7451,
+      "sha256": "251f789ec414392976ee13baf5830c8be80f24b5134d890db20cf26a7522f008"
+    },
+    {
+      "path": "09_REPORTS/附录B_国家计价标准目录.md",
+      "bytes": 3553,
+      "sha256": "31da54cb02bfd4e184464cf67a6210af84c1c75b78296d74bfd86aaa35be5a85"
+    }
+  ],
+  "corpus_files": 251,
+  "databases": [
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\_CODEX_V425\\local-pilot\\runtime\\auth.sqlite3",
+      "sha256": "828a4a5044271c0f4eb70acd0049615b6b309ff8e7b05e0f11449ef951d387e0",
+      "integrity": [
+        "ok"
+      ],
+      "foreign_key_violations": [],
+      "tables": {
+        "acl_member": {
+          "rows": 20,
+          "schema": "CREATE TABLE acl_member (project_id TEXT,subject TEXT,role TEXT,granted_by TEXT,granted_at REAL,updated_at REAL,PRIMARY KEY(project_id,subject))",
+          "logical_sha256": "6fa0cd532e3c6e79717ff0de5d5db7bf9adb2ed3ed38c9b9ee8122bee5562706"
+        },
+        "acl_project": {
+          "rows": 1,
+          "schema": "CREATE TABLE acl_project (project_id TEXT PRIMARY KEY,owner TEXT NOT NULL)",
+          "logical_sha256": "9a189fd80290f96cea4165df7b63b3f3b7d154cc4443c4410192829269d26b86"
+        },
+        "auth_revoked": {
+          "rows": 2,
+          "schema": "CREATE TABLE auth_revoked (jti TEXT PRIMARY KEY,expires_at INTEGER NOT NULL)",
+          "logical_sha256": "2fd7a67c4b5871259561f90a84381640678cf2bc4c5a0d4b2f1a4c45ccfa687e"
+        }
+      }
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\_CODEX_V425\\local-pilot\\runtime\\business.sqlite3",
+      "sha256": "fc8b905fc2c7c3f5cfd5cc1db69416ab9ead186f4f57d27be1f73a77fd3fe630",
+      "integrity": [
+        "ok"
+      ],
+      "foreign_key_violations": [],
+      "tables": {
+        "audit_log": {
+          "rows": 17,
+          "schema": "CREATE TABLE audit_log(\n    id INTEGER PRIMARY KEY AUTOINCREMENT, actor TEXT, action TEXT, object_type TEXT,\n    object_id TEXT, detail TEXT, trace_id TEXT, at TEXT)",
+          "logical_sha256": "4a7a8bc54ea96ddf9dc6d9f66be22327fa0e103b2e296316a75479aa1df8902b"
+        },
+        "calc_run": {
+          "rows": 0,
+          "schema": "CREATE TABLE calc_run(\n    calc_run_id TEXT PRIMARY KEY, job_id TEXT, rule_code TEXT, rule_version TEXT, basis_pack_id TEXT,\n    snapshot_sha256 TEXT, snapshot TEXT, result TEXT, unit TEXT, evidence_id TEXT, created_at TEXT)",
+          "logical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "evidence": {
+          "rows": 0,
+          "schema": "CREATE TABLE evidence(\n    evidence_id TEXT PRIMARY KEY, sha256 TEXT, payload TEXT, created_at TEXT)",
+          "logical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "gate_record": {
+          "rows": 0,
+          "schema": "CREATE TABLE gate_record(\n    id INTEGER PRIMARY KEY AUTOINCREMENT, job_id TEXT, gate_code TEXT, result TEXT,\n    failed_rules TEXT, judged_by TEXT, judged_at TEXT)",
+          "logical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "idem": {
+          "rows": 0,
+          "schema": "CREATE TABLE idem(\n    scope_key TEXT PRIMARY KEY, fingerprint TEXT NOT NULL,\n    state TEXT NOT NULL DEFAULT 'DONE', response TEXT,\n    tenant TEXT, actor TEXT, claimed_at TEXT, at TEXT)",
+          "logical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "job": {
+          "rows": 1,
+          "schema": "CREATE TABLE job(\n    job_id TEXT PRIMARY KEY, project_id TEXT, name TEXT, business_line TEXT,\n    basis_pack TEXT, status TEXT, created_by TEXT, created_at TEXT,\n    basis_pack_id TEXT, updated_by TEXT, updated_at TEXT,\n    revision INTEGER DEFAULT 1, status_history TEXT DEFAULT '[]')",
+          "logical_sha256": "11851844edce4cf247b2f28b5ec64c94b5025488af5a59be0614b79ea358c816"
+        },
+        "job_document": {
+          "rows": 2,
+          "schema": "CREATE TABLE job_document(\n    id INTEGER PRIMARY KEY AUTOINCREMENT, job_id TEXT, doc_key TEXT, version TEXT,\n    file_sha256 TEXT, verified INTEGER DEFAULT 0, added_at TEXT)",
+          "logical_sha256": "667cb6be2dae87eaefb7a7ff87c7a1ff0b395abad78cc9dffc62a1ef87567609"
+        },
+        "job_record": {
+          "rows": 5,
+          "schema": "CREATE TABLE job_record(\n    id INTEGER PRIMARY KEY AUTOINCREMENT, job_id TEXT, kind TEXT, payload TEXT, at TEXT)",
+          "logical_sha256": "e86ddb6d0d4784d82c6b4f2a59b8d6aab1558098403ca21fa510a60ba24c7a1e"
+        },
+        "job_task": {
+          "rows": 1,
+          "schema": "CREATE TABLE job_task(\n    task_id TEXT PRIMARY KEY, job_id TEXT, node TEXT, status TEXT, payload TEXT,\n    result TEXT, assignee TEXT, approver TEXT, approved_at TEXT, history TEXT,\n    created_at TEXT, updated_at TEXT)",
+          "logical_sha256": "92765130edfaf034fd279865f575eb670ca3caf0c242579f2fe42517503ed8e0"
+        },
+        "schema_version": {
+          "rows": 3,
+          "schema": "CREATE TABLE schema_version(\n                version           INTEGER PRIMARY KEY,\n                name              TEXT    NOT NULL UNIQUE,\n                checksum          TEXT    NOT NULL,\n                rollback_checksum TEXT    NOT NULL,\n                applied_at        TEXT    NOT NULL,\n                execution_ms      INTEGER NOT NULL)",
+          "logical_sha256": "9eed3a35c2f7777c29e6db1ace7a939869a6dc95a5e2c0f543954006e932d9ed"
+        },
+        "sqlite_sequence": {
+          "rows": 3,
+          "schema": "CREATE TABLE sqlite_sequence(name,seq)",
+          "logical_sha256": "72534e5943a16a78447d65026ea199aa6de711b00534faef9753570c7400e6eb"
+        }
+      }
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\_CODEX_V425\\local-pilot\\runtime\\governance.sqlite3",
+      "sha256": "711d14ea9996971b6e60dff3fca1192c6177a61ad76d38400f196b0ee2ff7722",
+      "integrity": [
+        "ok"
+      ],
+      "foreign_key_violations": [],
+      "tables": {
+        "governance_catalog_current": {
+          "rows": 2,
+          "schema": "CREATE TABLE governance_catalog_current (\n                kind TEXT PRIMARY KEY, snapshot_sha256 TEXT NOT NULL REFERENCES governance_catalog_snapshot(snapshot_sha256))",
+          "logical_sha256": "87624986a492441d319031fdbd31d0e853b18f4e036a02f655465204f1435708"
+        },
+        "governance_catalog_snapshot": {
+          "rows": 4,
+          "schema": "CREATE TABLE governance_catalog_snapshot (\n                snapshot_sha256 TEXT PRIMARY KEY, kind TEXT NOT NULL, created_at TEXT NOT NULL, payload_json TEXT NOT NULL)",
+          "logical_sha256": "36fbfbc4aee40265d1013794d1614b88e20ba819f79bbc031b8ad4b9daa215c3"
+        },
+        "ocr_document": {
+          "rows": 40,
+          "schema": "CREATE TABLE ocr_document (\n                document_id TEXT PRIMARY KEY, project_id TEXT NOT NULL, source_path TEXT NOT NULL,\n                source_file_sha256 TEXT NOT NULL, OCR_engine TEXT NOT NULL,\n                payload_sha256 TEXT NOT NULL, priority INTEGER NOT NULL, created_at TEXT NOT NULL,\n                UNIQUE(project_id,source_path,source_file_sha256,payload_sha256))",
+          "logical_sha256": "d23a500119683e7c57fb196852f94225ac432b342cb083e1e9bb799815473db0"
+        },
+        "ocr_page": {
+          "rows": 366,
+          "schema": "CREATE TABLE ocr_page (\n                page_id TEXT PRIMARY KEY, document_id TEXT NOT NULL REFERENCES ocr_document(document_id),\n                page_number INTEGER NOT NULL CHECK(page_number>0), image_sha256 TEXT NOT NULL,\n                image_path TEXT NOT NULL, image_width INTEGER NOT NULL, image_height INTEGER NOT NULL,\n                original_text TEXT NOT NULL, confidence REAL, tokens_json TEXT NOT NULL,\n                UNIQUE(document_id,page_number))",
+          "logical_sha256": "fb75efd00bbc682e38e1780e0fa81c269d5e4ba388cc2317b867a2e3ba9c84b9"
+        },
+        "ocr_review_event": {
+          "rows": 0,
+          "schema": "CREATE TABLE ocr_review_event (\n                event_id TEXT PRIMARY KEY, page_id TEXT NOT NULL REFERENCES ocr_page(page_id),\n                version INTEGER NOT NULL CHECK(version>0), corrected_text TEXT NOT NULL,\n                structured_fields_json TEXT NOT NULL, reviewer_id TEXT NOT NULL, reviewed_at TEXT NOT NULL,\n                review_status TEXT NOT NULL CHECK(review_status IN\n                  ('NEEDS_EXPERT_REVIEW','IN_REVIEW','REVIEWED','RETURNED','PROFESSIONALLY_SIGNED')),\n                reason TEXT NOT NULL, human_confirmed INTEGER NOT NULL,\n                previous_event_sha256 TEXT NOT NULL, event_sha256 TEXT NOT NULL,\n                UNIQUE(page_id,version))",
+          "logical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "path": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\backend\\data\\txbuddy-dev.sqlite3",
+      "sha256": "2d15cf4c90bac9199f8af0351af1261e3caaf38cf7ac7f2df6c8f6655676c70f",
+      "integrity": [
+        "ok"
+      ],
+      "foreign_key_violations": [],
+      "tables": {
+        "audit_log": {
+          "rows": 139762,
+          "schema": "CREATE TABLE audit_log(\n                id INTEGER PRIMARY KEY AUTOINCREMENT, actor TEXT, action TEXT, object_type TEXT,\n                object_id TEXT, detail TEXT, trace_id TEXT, at TEXT)",
+          "logical_sha256": "9aafe8cc5e22e223c4c66e61f2d2b4ceec58f67fcd1628ee68e7ef2021dbddc6"
+        },
+        "calc_run": {
+          "rows": 195,
+          "schema": "CREATE TABLE calc_run(\n                calc_run_id TEXT PRIMARY KEY, job_id TEXT, rule_code TEXT, rule_version TEXT, basis_pack_id TEXT,\n                snapshot_sha256 TEXT, snapshot TEXT, result TEXT, unit TEXT, evidence_id TEXT, created_at TEXT)",
+          "logical_sha256": "6b4accdca03a956a8ca014e352b1aa016250b93444d63f694e89b317a05e6e61"
+        },
+        "evidence": {
+          "rows": 199,
+          "schema": "CREATE TABLE evidence(evidence_id TEXT PRIMARY KEY, sha256 TEXT, payload TEXT, created_at TEXT)",
+          "logical_sha256": "4fe785dc8bf165f7afd633f4508a8f005cf547fcf251b09975477c93d95c3423"
+        },
+        "gate_record": {
+          "rows": 20235,
+          "schema": "CREATE TABLE gate_record(\n                id INTEGER PRIMARY KEY AUTOINCREMENT, job_id TEXT, gate_code TEXT, result TEXT,\n                failed_rules TEXT, judged_by TEXT, judged_at TEXT)",
+          "logical_sha256": "9acc653ac79314246dfa5c805b3f0ec0c7be82ddd9b0af53a5f8a015823e3ddc"
+        },
+        "idem": {
+          "rows": 8,
+          "schema": "CREATE TABLE idem(\n                    scope_key TEXT PRIMARY KEY, fingerprint TEXT NOT NULL,\n                    state TEXT NOT NULL DEFAULT 'DONE', response TEXT,\n                    tenant TEXT, actor TEXT, claimed_at TEXT, at TEXT)",
+          "logical_sha256": "527f0076208986f4b7965acda479656bdd2f228d6b763ad99e2513ca940a8af6"
+        },
+        "job": {
+          "rows": 4993,
+          "schema": "CREATE TABLE job(\n                job_id TEXT PRIMARY KEY, project_id TEXT, name TEXT, business_line TEXT,\n                basis_pack TEXT, status TEXT, created_by TEXT, created_at TEXT, basis_pack_id TEXT, updated_by TEXT, updated_at TEXT, revision INTEGER DEFAULT 1, status_history TEXT DEFAULT '[]')",
+          "logical_sha256": "063e55a161f4c36c5332dcbb14e3bdc0d4a6a45e3827f0a9a1412edcc1be2f7d"
+        },
+        "job_document": {
+          "rows": 33589,
+          "schema": "CREATE TABLE job_document(\n                id INTEGER PRIMARY KEY AUTOINCREMENT, job_id TEXT, doc_key TEXT, version TEXT,\n                file_sha256 TEXT, verified INTEGER DEFAULT 0, added_at TEXT)",
+          "logical_sha256": "d6968ae8f29e1d1e463a238f807d15bb95c8e7c6975d6b30f0eeedb281b4c775"
+        },
+        "job_record": {
+          "rows": 17819,
+          "schema": "CREATE TABLE job_record(\n                id INTEGER PRIMARY KEY AUTOINCREMENT, job_id TEXT, kind TEXT, payload TEXT, at TEXT)",
+          "logical_sha256": "e6cb935ad573fd532d55159cb9c6eb5303fbc055e1d355bb768b79f1c851d70b"
+        },
+        "job_task": {
+          "rows": 3989,
+          "schema": "CREATE TABLE job_task(\n                task_id TEXT PRIMARY KEY, job_id TEXT, node TEXT, status TEXT, payload TEXT,\n                result TEXT, assignee TEXT, approver TEXT, approved_at TEXT, history TEXT,\n                created_at TEXT, updated_at TEXT)",
+          "logical_sha256": "6fb653cc2b4eae8ba9d4eff55f1ff75a37d83e7b7ce4c1f5c4715f2db13212ac"
+        },
+        "schema_version": {
+          "rows": 3,
+          "schema": "CREATE TABLE schema_version(\n                version           INTEGER PRIMARY KEY,\n                name              TEXT    NOT NULL UNIQUE,\n                checksum          TEXT    NOT NULL,\n                rollback_checksum TEXT    NOT NULL,\n                applied_at        TEXT    NOT NULL,\n                execution_ms      INTEGER NOT NULL)",
+          "logical_sha256": "1f311d7fcee185347d8673d36c5f7a13e4e742baab9f8a4f3385f9e5f729f9c4"
+        },
+        "sqlite_sequence": {
+          "rows": 4,
+          "schema": "CREATE TABLE sqlite_sequence(name,seq)",
+          "logical_sha256": "05ce0dc83183d801b9722cd298eba8dfc15e71f07979880ce5ce709a24a4263b"
+        }
+      }
+    }
+  ],
+  "runtime_database_type": "SQLite business/auth/governance plus PostgreSQL sample price repository",
+  "git_head": "c1b466ba2b4cbf153ef01a3079863c4626dc7bbd",
+  "git_status": " M .gitignore\n M EXECUTION_STATE.md\n M README.md\n M V423_EXECUTION_LOG.md\n M V423_EXECUTION_STATE.json\n M backend/pyproject.toml\n M backend/requirements.txt\n M backend/tests/test_api_v41.py\n M backend/tests/test_boq.py\n M backend/tests/test_calcrun.py\n M backend/tests/test_core.py\n M backend/tests/test_gates_v41.py\n M backend/tests/test_goldenset.py\n M backend/tests/test_l1_integration.py\n M backend/tests/test_p0_04_gate_binding.py\n M backend/tests/test_p0_repro.py\n M backend/tests/test_pg_integration.py\n M backend/tests/test_rules.py\n M backend/tests/test_v421_hardening.py\n M backend/tests/test_v423_idem_semantics.py\n M backend/tests/test_workflow.py\n M backend/txbuddy/api.py\n M backend/txbuddy/api_models.py\n M backend/txbuddy/core/admission.py\n M backend/txbuddy/core/calcrun.py\n M backend/txbuddy/core/evidence.py\n M backend/txbuddy/core/gates.py\n M backend/txbuddy/core/gates_service.py\n M backend/txbuddy/core/numeric.py\n M backend/txbuddy/core/precision.py\n M backend/txbuddy/core/pricing.py\n M backend/txbuddy/core/quantity.py\n M backend/txbuddy/core/quota.py\n M backend/txbuddy/core/record_writer.py\n M backend/txbuddy/core/rules.py\n M backend/txbuddy/models.py\n M backend/txbuddy/store.py\n M \"docs/11_\\345\\212\\237\\350\\203\\275\\345\\256\\236\\347\\216\\260\\347\\237\\251\\351\\230\\265.md\"\n M \"docs/12_L1\\351\\227\\255\\347\\216\\257\\344\\270\\216\\346\\225\\260\\346\\215\\256\\345\\272\\223\\346\\212\\245\\345\\221\\212.md\"\n M \"docs/13_\\351\\203\\250\\347\\275\\262\\346\\265\\213\\350\\257\\225\\344\\270\\216\\346\\234\\252\\350\\247\\243\\345\\206\\263\\346\\270\\205\\345\\215\\225.md\"\n M \"docs/16_V423\\346\\211\\247\\350\\241\\214\\346\\200\\273\\346\\216\\247\\346\\234\\272\\345\\210\\266.md\"\n M frontend/index.html\n M frontend/package-lock.json\n M frontend/package.json\n M frontend/src/App.vue\n M frontend/src/api.ts\n M frontend/src/main.ts\n M frontend/tsconfig.tsbuildinfo\n M frontend/vite.config.ts\n M scripts/V423_RESUME.ps1\n M scripts/V423_SUPERVISOR.ps1\n M scripts/V423_TASK_QUEUE.json\n M scripts/V423_WORKER.ps1\n M scripts/acceptance.ps1\n M scripts/package.ps1\n M tasks/P0-01-NUMERIC/worker_20261115T171737_a1.log\n M workflows/L1_budget_compilation.yaml\n?? CORPUS_SAMPLE_PILOT_REPORT.md\n?? CORPUS_SAMPLE_PILOT_RESULTS.json\n?? DATABASE_UNIFICATION_PLAN_V425.md\n?? DATA_INTEGRITY_REPORT_V425.md\n?? LICENSED_DATABASE_INTEGRATION_PLAN.md\n?? REAL_PROJECT_READINESS_MATRIX_V425.xlsx\n?? REAL_PROJECT_READINESS_REPORT_V425.md\n?? RUN_V423_ACCEPTANCE.cmd\n?? RUN_V423_RESUME.cmd\n?? RUN_V423_STATUS.cmd\n?? RUN_V423_WORKER.cmd\n?? RUN_V424_SAMPLE_PILOT.cmd\n?? RUN_V424_VERIFY.cmd\n?? RUN_V425_GOVERNANCE.cmd\n?? RUN_V425_VERIFY.cmd\n?? SOURCE_VERIFICATION_REPORT_V425.md\n?? V424_EXECUTION_LOG.md\n?? V424_UNRESOLVED.md\n?? V425_DELIVERY_REPORT.md\n?? V425_EXECUTION_LOG.md\n?? V425_UNRESOLVED.md\n?? ZHU-FISHTIANXUN_BUDDY_V4_CODEX_V425snapshot_continuation.py\n?? backend/requirements-v424-tested.txt\n?? backend/tests/__init__.py\n?? backend/tests/authenticated_client.py\n?? backend/tests/test_v24_acl_wire.py\n?? backend/tests/test_v24_api_auth.py\n?? backend/tests/test_v24_corpus_bind.py\n?? backend/tests/test_v24_corpus_sample_pilot.py\n?? backend/tests/test_v24_deliver_api.py\n?? backend/tests/test_v24_endpoint_mapping.py\n?? backend/tests/test_v24_files_upload.py\n?? backend/tests/test_v24_goldenset.py\n?? backend/tests/test_v24_html_parse.py\n?? backend/tests/test_v24_internal_token.py\n?? backend/tests/test_v24_jobs_list.py\n?? backend/tests/test_v24_ocr_path.py\n?? backend/tests/test_v24_package_safety.py\n?? backend/tests/test_v24_parse_api.py\n?? backend/tests/test_v24_price_lib.py\n?? backend/tests/test_v24_quota_lib.py\n?? backend/tests/test_v24_real_l1.py\n?? backend/tests/test_v24_xlsx_structure.py\n?? backend/tests/test_v423_acl.py\n?? backend/tests/test_v423_admission_uniform.py\n?? backend/tests/test_v423_auth.py\n?? backend/tests/test_v423_deliverables.py\n?? backend/tests/test_v423_e2e.py\n?? backend/tests/test_v423_evidence_binding.py\n?? backend/tests/test_v423_filestore.py\n?? backend/tests/test_v423_gates_authority.py\n?? backend/tests/test_v423_jgates.py\n?? backend/tests/test_v423_job_model.py\n?? backend/tests/test_v423_l1_yaml.py\n?? backend/tests/test_v423_migration.py\n?? backend/tests/test_v423_numeric_all_engines.py\n?? backend/tests/test_v423_parsing.py\n?? backend/tests/test_v423_pg_repository.py\n?? backend/tests/test_v423_recalc.py\n?? backend/tests/test_v423_sqlite_repository.py\n?? backend/tests/test_v423_tx_recovery.py\n?? backend/tests/test_v425_catalog.py\n?? backend/tests/test_v425_file_parsers.py\n?? backend/tests/test_v425_legacy_source_acl.py\n?? backend/tests/test_v425_migration.py\n?? backend/tests/test_v425_ocr_review.py\n?? backend/tests/test_v426_business.py\n?? backend/tests/test_v426_ocr_acl.py\n?? backend/tests/test_v426_ocr_store.py\n?? backend/tests/v24_fixtures.py\n?? backend/txbuddy/core/workflow_yaml.py\n?? backend/txbuddy/deliverables/\n?? backend/txbuddy/governance/\n?? backend/txbuddy/parsing/\n?? backend/txbuddy/pilot/\n?? backend/txbuddy/repository/\n?? backend/txbuddy/security/\n?? backend/txbuddy/storage/\n?? \"docs/11_V423\\351\\252\\214\\346\\224\\266\\346\\212\\245\\345\\221\\212.md\"\n?? \"docs/17_\\344\\272\\244\\346\\216\\245\\345\\214\\205_\\345\\244\\226\\351\\203\\250\\346\\231\\272\\350\\203\\275\\344\\275\\223.md\"\n?? \"docs/18_\\351\\233\\206\\346\\210\\220\\345\\267\\256\\350\\267\\235\\344\\270\\216\\345\\256\\211\\345\\205\\250\\345\\256\\241\\350\\256\\241.md\"\n?? \"docs/19_V4.2.3\\345\\256\\211\\345\\205\\250\\344\\277\\256\\346\\255\\243\\344\\272\\244\\344\\273\\230\\345\\256\\241\\350\\256\\241\\346\\212\\245\\345\\221\\212.md\"\n?? \"docs/20_\\347\\234\\237\\345\\256\\236\\346\\225\\260\\346\\215\\256\\344\\273\\223\\351\\252\\214\\346\\224\\266\\344\\270\\216\\350\\247\\243\\346\\236\\220\\345\\205\\274\\345\\256\\271\\346\\200\\247\\345\\244\\215\\351\\252\\214.md\"\n?? \"docs/21_V424\\350\\277\\220\\350\\241\\214\\344\\270\\216\\351\\252\\214\\350\\257\\201.md\"\n?? \"docs/22_V425\\350\\277\\220\\350\\241\\214\\344\\270\\216\\351\\252\\214\\346\\224\\266.md\"\n?? frontend/e2e/\n?? frontend/playwright.config.ts\n?? frontend/playwright.v425.config.ts\n?? frontend/src/auth.ts\n?? frontend/src/components/\n?? frontend/src/config.ts\n?? frontend/src/endpoints.ts\n?? frontend/src/governance.ts\n?? frontend/src/pages/\n?? frontend/src/session.ts\n?? frontend/src/styles.css\n?? frontend/src/types.ts\n?? frontend/src/useApi.ts\n?? handoff/\n?? outputs/\n?? release/\n?? reports/\n?? scripts/RUN_V424_SAMPLE_PILOT.ps1\n?? scripts/RUN_V424_VERIFY.ps1\n?? scripts/RUN_V425_GOVERNANCE.ps1\n?? scripts/V423_COMMON.ps1\n?? scripts/V423_ENTRY_AUDIT.ps1\n?? scripts/V424_TASK_QUEUE.json\n?? scripts/V425_TASK_QUEUE.json\n?? scripts/package_v424.py\n?? scripts/package_v425.py\n?? scripts/tests/\n?? scripts/v424_endpoint_audit.py\n?? scripts/v424_local_pilot.py\n?? scripts/v424_ocr_corpus.py\n?? scripts/v424_pilot.py\n?? scripts/v424_reports.py\n?? scripts/v424_verify.py\n?? scripts/v425_acceptance.py\n?? scripts/v425_browser_verify.py\n?? scripts/v425_build_project_matrix.mjs\n?? scripts/v425_corpus_governance.py\n?? scripts/v425_e2e_seed.py\n?? scripts/v425_integrity.py\n?? scripts/v425_local_pilot.py\n?? scripts/v425_migration_poc.py\n?? scripts/v425_ocr_setup.py\n?? scripts/v425_parse_corpus.py\n?? scripts/v425_reports.py\n?? scripts/v425_smoke.py\n?? scripts/v425_tasks.py\n?? scripts/v425_verify.py\n?? scripts/v426_frontend_verify.py\n?? scripts/v426_inventory.py\n?? scripts/v426_verify.py\n?? sql/003_repository_runtime_postgresql.sql\n?? sql/004_sample_pilot.sql\n?? sql/005_v425_unification_poc.sql\n?? sql/migrations/\n?? tasks/A-00-ACCEPT/\n?? tasks/A-01-PACKAGE/\n?? tasks/D-V25-08-REGRESSION/\n?? tasks/P0-01-NUMERIC/CHECKPOINT.json\n?? tasks/P0-01-NUMERIC/RESULT.md\n?? tasks/P0-01-NUMERIC/RESULT.worker_a1.md\n?? tasks/P0-03-ADMISSION/\n?? tasks/P0-04-GATES/\n?? tasks/P0-05-JGATE/\n?? tasks/P0-06-EVIDENCE/\n?? tasks/P0-07-RECALC/\n?? tasks/P1-01-JOBMODEL/\n?? tasks/P1-02-SQLITE-REPO/\n?? tasks/P1-03-PG-REPO/\n?? tasks/P1-04-MIGRATION/\n?? tasks/P1-05-TX-RECOVERY/\n?? tasks/P1-06-FILESTORE/\n?? tasks/P1-07-ACL/\n?? tasks/P1-08-YAML-WF/\n?? tasks/P1-09-PARSE/\n?? tasks/P1-10-DELIVER/\n?? tasks/P1-11-AUTH/\n?? tasks/P1-12-FRONTEND/\n?? tasks/V24-01-API-AUTH/\n?? tasks/V24-02-ACL-WIRE/\n?? tasks/V24-03-FILES-UPLOAD/\n?? tasks/V24-04-PARSE-API/\n?? tasks/V24-05-DELIVER-API/\n?? tasks/V24-06-JOBS-LIST/\n?? tasks/V24-07-AUTH-UI/\n?? tasks/V24-08-QUOTA-LIB/\n?? tasks/V24-09-PRICE-LIB/\n?? tasks/V24-10-REAL-L1/\n?? tasks/V24-11-GOLDENSET/\n?? tasks/V24-12-E2E-BROWSER/\n?? tasks/V24-13-INTERNAL-TOKEN/\n?? tasks/V24-14-HTML-PARSE/\n?? tasks/V24-15-OCR-PATH/\n?? tasks/V24-16-CORPUS-BIND/\n?? tasks/V24-17-CORPUS-SAMPLE-PILOT/\n?? tasks/V25-00-BASELINE/\n?? tasks/V25-01-OCR/\n?? tasks/V25-02-SOURCES/\n?? tasks/V25-03-PARSERS/\n?? tasks/V25-04-MATRIX/\n?? tasks/V25-05-PG-POC/\n?? tasks/V25-06-SAMPLE/\n?? tasks/V25-07-BROWSER/\n?? tasks/V25-08-REGRESSION/\n",
+  "module_roots": {
+    "backend/txbuddy": [
+      "__pycache__",
+      "core",
+      "deliverables",
+      "governance",
+      "parsing",
+      "pilot",
+      "repository",
+      "security",
+      "storage"
+    ],
+    "frontend/src": [
+      "components",
+      "pages"
+    ]
+  },
+  "production_accepted": false
+}

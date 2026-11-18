@@ -1,0 +1,36 @@
+{
+  "title": "招标文件字段Schema",
+  "type": "object",
+  "required": [
+    "project_name",
+    "tender_no",
+    "bid_deadline",
+    "pricing_standard_clause",
+    "source_ref"
+  ],
+  "properties": {
+    "project_name": {
+      "type": "string"
+    },
+    "tender_no": {
+      "type": "string"
+    },
+    "bid_deadline": {
+      "type": "string"
+    },
+    "pricing_standard_clause": {
+      "type": "string"
+    },
+    "qualification_requirements": {
+      "type": "array"
+    },
+    "boq_file_refs": {
+      "type": "array"
+    },
+    "source_ref": {
+      "type": "string"
+    }
+  },
+  "x-confidence-threshold": 0.9,
+  "x-human-confirmation-required": true
+}

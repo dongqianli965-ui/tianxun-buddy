@@ -1,0 +1,382 @@
+........FFFFFFFFFF..FFFFFFFFF...F....                                    [100%]
+================================== FAILURES ===================================
+___ test_real_api_decision_permission_matrix[APPROVE-REVIEWED-viewer-False] ___
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335C9F980>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+role = 'viewer', allowed = False, decision = 'APPROVE', status = 'REVIEWED'
+
+    @pytest.mark.parametrize('role,allowed', [('viewer', False), ('editor', False), ('reviewer', True), ('owner', True)])
+    @pytest.mark.parametrize('decision,status', [('APPROVE', 'REVIEWED'), ('RETURN', 'RETURNED')])
+    def test_real_api_decision_permission_matrix(acl_review, role, allowed, decision, status):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+                               headers=headers[role], json=decision_body(submitted, decision))
+>       assert response.status_code == (200 if allowed else 403), response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 403
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:74: AssertionError
+___ test_real_api_decision_permission_matrix[APPROVE-REVIEWED-editor-False] ___
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335C9C530>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+role = 'editor', allowed = False, decision = 'APPROVE', status = 'REVIEWED'
+
+    @pytest.mark.parametrize('role,allowed', [('viewer', False), ('editor', False), ('reviewer', True), ('owner', True)])
+    @pytest.mark.parametrize('decision,status', [('APPROVE', 'REVIEWED'), ('RETURN', 'RETURNED')])
+    def test_real_api_decision_permission_matrix(acl_review, role, allowed, decision, status):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+                               headers=headers[role], json=decision_body(submitted, decision))
+>       assert response.status_code == (200 if allowed else 403), response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 403
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:74: AssertionError
+__ test_real_api_decision_permission_matrix[APPROVE-REVIEWED-reviewer-True] ___
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335C9FDA0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+role = 'reviewer', allowed = True, decision = 'APPROVE', status = 'REVIEWED'
+
+    @pytest.mark.parametrize('role,allowed', [('viewer', False), ('editor', False), ('reviewer', True), ('owner', True)])
+    @pytest.mark.parametrize('decision,status', [('APPROVE', 'REVIEWED'), ('RETURN', 'RETURNED')])
+    def test_real_api_decision_permission_matrix(acl_review, role, allowed, decision, status):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+                               headers=headers[role], json=decision_body(submitted, decision))
+>       assert response.status_code == (200 if allowed else 403), response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 200
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:74: AssertionError
+____ test_real_api_decision_permission_matrix[APPROVE-REVIEWED-owner-True] ____
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335C41D60>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+role = 'owner', allowed = True, decision = 'APPROVE', status = 'REVIEWED'
+
+    @pytest.mark.parametrize('role,allowed', [('viewer', False), ('editor', False), ('reviewer', True), ('owner', True)])
+    @pytest.mark.parametrize('decision,status', [('APPROVE', 'REVIEWED'), ('RETURN', 'RETURNED')])
+    def test_real_api_decision_permission_matrix(acl_review, role, allowed, decision, status):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+                               headers=headers[role], json=decision_body(submitted, decision))
+>       assert response.status_code == (200 if allowed else 403), response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 200
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:74: AssertionError
+___ test_real_api_decision_permission_matrix[RETURN-RETURNED-viewer-False] ____
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335CC57F0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+role = 'viewer', allowed = False, decision = 'RETURN', status = 'RETURNED'
+
+    @pytest.mark.parametrize('role,allowed', [('viewer', False), ('editor', False), ('reviewer', True), ('owner', True)])
+    @pytest.mark.parametrize('decision,status', [('APPROVE', 'REVIEWED'), ('RETURN', 'RETURNED')])
+    def test_real_api_decision_permission_matrix(acl_review, role, allowed, decision, status):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+                               headers=headers[role], json=decision_body(submitted, decision))
+>       assert response.status_code == (200 if allowed else 403), response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 403
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:74: AssertionError
+___ test_real_api_decision_permission_matrix[RETURN-RETURNED-editor-False] ____
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335CC7800>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+role = 'editor', allowed = False, decision = 'RETURN', status = 'RETURNED'
+
+    @pytest.mark.parametrize('role,allowed', [('viewer', False), ('editor', False), ('reviewer', True), ('owner', True)])
+    @pytest.mark.parametrize('decision,status', [('APPROVE', 'REVIEWED'), ('RETURN', 'RETURNED')])
+    def test_real_api_decision_permission_matrix(acl_review, role, allowed, decision, status):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+                               headers=headers[role], json=decision_body(submitted, decision))
+>       assert response.status_code == (200 if allowed else 403), response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 403
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:74: AssertionError
+___ test_real_api_decision_permission_matrix[RETURN-RETURNED-reviewer-True] ___
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335C9F7D0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+role = 'reviewer', allowed = True, decision = 'RETURN', status = 'RETURNED'
+
+    @pytest.mark.parametrize('role,allowed', [('viewer', False), ('editor', False), ('reviewer', True), ('owner', True)])
+    @pytest.mark.parametrize('decision,status', [('APPROVE', 'REVIEWED'), ('RETURN', 'RETURNED')])
+    def test_real_api_decision_permission_matrix(acl_review, role, allowed, decision, status):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+                               headers=headers[role], json=decision_body(submitted, decision))
+>       assert response.status_code == (200 if allowed else 403), response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 200
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:74: AssertionError
+____ test_real_api_decision_permission_matrix[RETURN-RETURNED-owner-True] _____
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335CFEFF0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+role = 'owner', allowed = True, decision = 'RETURN', status = 'RETURNED'
+
+    @pytest.mark.parametrize('role,allowed', [('viewer', False), ('editor', False), ('reviewer', True), ('owner', True)])
+    @pytest.mark.parametrize('decision,status', [('APPROVE', 'REVIEWED'), ('RETURN', 'RETURNED')])
+    def test_real_api_decision_permission_matrix(acl_review, role, allowed, decision, status):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+                               headers=headers[role], json=decision_body(submitted, decision))
+>       assert response.status_code == (200 if allowed else 403), response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 200
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:74: AssertionError
+_____________ test_editor_cannot_approve_by_forging_legacy_status _____________
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335CC7DD0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+
+    def test_editor_cannot_approve_by_forging_legacy_status(acl_review):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/reviews',
+            headers=headers['editor'], json=legacy_body(submitted, review_status='REVIEWED', human_confirmed=True))
+>       assert response.status_code == 403, response.text
+E       AssertionError: {"page_id":"ocr-c8c82342172a524a563be168e08d013d-p1","document_id":"ocr-c8c82342172a524a563be168e08d013d","page_number":1,"image_sha256":"56cf4b9c2df38a23a08969de8c30d3ef7638331421510ad4e2fbf66b19865b9b","image_width":100,"image_height":160,"original_text":"TEST_ONLY ԭʼʶ��1","confidence":0.8,"project_id":"V426-ACL","source_path":"TEST_ONLY.pdf","source_file_sha256":"0ece3178345d3dca52c997ec829945f4e0c261074b9b17c4b7e77fcce2963b5b","OCR_engine":"TEST_ONLY_OCR/1","tokens":[{"bbox":[[1,2],[50,2],[50,20],[1,20]],"confidence":0.8,"page":1,"text":"TEST_ONLY ԭʼʶ��1"}],"version":2,"corrected_text":"TEST_ONLY ԭʼʶ��1","structured_fields":{},"reviewer_id":"editor","reviewed_at":"2026-11-16T13:41:37.266100+00:00","review_status":"REVIEWED","change_history":[{"event_id":"orev-30d51ee22e584417aaa7314f9171aa4a","page_id":"ocr-c8c82342172a524a563be168e08d013d-p1","version":1,"corrected_text":"TEST_ONLY ԭʼʶ��1","reviewer_id":"editor","reviewed_at":"2026-11-16T13:41:37.227341+00:00","review_status":"IN_REVIEW","reason":"TEST_ONLY API authorization check","human_confirmed":0,"previous_event_sha256":"","event_sha256":"cf3995ca64ada4e83f534b56803f1b4030ec38e0c27193322bff568a52e70213","structured_fields":{}},{"event_id":"orev-f1e3728df28f4614ace11505b870ea76","page_id":"ocr-c8c82342172a524a563be168e08d013d-p1","version":2,"corrected_text":"TEST_ONLY ԭʼʶ��1","reviewer_id":"editor","reviewed_at":"2026-11-16T13:41:37.266100+00:00","review_status":"REVIEWED","reason":"TEST_ONLY API authorization check","human_confirmed":1,"previous_event_sha256":"cf3995ca64ada4e83f534b56803f1b4030ec38e0c27193322bff568a52e70213","event_sha256":"d7a0bd184d0a1ed944f8b47334a7399692a1dbf84519d61f5de8f0e3015c188e","structured_fields":{}}],"formal_usable":false,"image_url":"/v1/governance/ocr/pages/ocr-c8c82342172a524a563be168e08d013d-p1/image","history_chain_valid":true}
+E       assert 200 == 403
+E        +  where 200 = <Response [200 OK]>.status_code
+
+tests\test_v426_ocr_acl.py:90: AssertionError
+__________ test_reviewer_can_approve_legacy_submitted_exact_content ___________
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335CC4500>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+
+    def test_reviewer_can_approve_legacy_submitted_exact_content(acl_review):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/reviews',
+            headers=headers['reviewer'], json=legacy_body(submitted, review_status='REVIEWED', human_confirmed=True,
+                expected_content_sha256=submitted.get('content_sha256', '0' * 64)))
+>       assert response.status_code == 200, response.text
+E       AssertionError: {"detail":[{"type":"extra_forbidden","loc":["body","expected_content_sha256"],"msg":"Extra inputs are not permitted","input":"0000000000000000000000000000000000000000000000000000000000000000"}]}
+E       assert 422 == 200
+E        +  where 422 = <Response [422 Unprocessable Entity]>.status_code
+
+tests\test_v426_ocr_acl.py:100: AssertionError
+___ test_decision_endpoint_rejects_untrusted_fields[corrected_text-forged] ____
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335D91520>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+field = 'corrected_text', value = 'forged'
+
+    @pytest.mark.parametrize('field,value', [('corrected_text', 'forged'), ('reviewer_id', 'owner'),
+                                           ('professional', {'license_number': 'fake'}), ('review_status', 'REVIEWED')])
+    def test_decision_endpoint_rejects_untrusted_fields(acl_review, field, value):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+            headers=headers['reviewer'], json=decision_body(submitted, **{field: value}))
+>       assert response.status_code == 422, response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 422
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:124: AssertionError
+_____ test_decision_endpoint_rejects_untrusted_fields[reviewer_id-owner] ______
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335DFA4B0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+field = 'reviewer_id', value = 'owner'
+
+    @pytest.mark.parametrize('field,value', [('corrected_text', 'forged'), ('reviewer_id', 'owner'),
+                                           ('professional', {'license_number': 'fake'}), ('review_status', 'REVIEWED')])
+    def test_decision_endpoint_rejects_untrusted_fields(acl_review, field, value):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+            headers=headers['reviewer'], json=decision_body(submitted, **{field: value}))
+>       assert response.status_code == 422, response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 422
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:124: AssertionError
+____ test_decision_endpoint_rejects_untrusted_fields[professional-value2] _____
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335D935F0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+field = 'professional', value = {'license_number': 'fake'}
+
+    @pytest.mark.parametrize('field,value', [('corrected_text', 'forged'), ('reviewer_id', 'owner'),
+                                           ('professional', {'license_number': 'fake'}), ('review_status', 'REVIEWED')])
+    def test_decision_endpoint_rejects_untrusted_fields(acl_review, field, value):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+            headers=headers['reviewer'], json=decision_body(submitted, **{field: value}))
+>       assert response.status_code == 422, response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 422
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:124: AssertionError
+___ test_decision_endpoint_rejects_untrusted_fields[review_status-REVIEWED] ___
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335CFCBC0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+field = 'review_status', value = 'REVIEWED'
+
+    @pytest.mark.parametrize('field,value', [('corrected_text', 'forged'), ('reviewer_id', 'owner'),
+                                           ('professional', {'license_number': 'fake'}), ('review_status', 'REVIEWED')])
+    def test_decision_endpoint_rejects_untrusted_fields(acl_review, field, value):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+            headers=headers['reviewer'], json=decision_body(submitted, **{field: value}))
+>       assert response.status_code == 422, response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 422
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:124: AssertionError
+_____________ test_decision_requires_submitted_content_not_draft ______________
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335E01EB0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+
+    def test_decision_requires_submitted_content_not_draft(acl_review):
+        client, store, headers, original = acl_review
+        base = '/v1/governance/ocr/pages/' + original['page_id']
+        draft_response = client.post(base + '/drafts', headers=headers['editor'],
+            json={'expected_version': 0, 'corrected_text': 'TEST_ONLY draft', 'structured_fields': {}})
+>       assert draft_response.status_code == 200, draft_response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 200
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:133: AssertionError
+____________ test_decision_bound_to_exact_submitted_snapshot[hash] ____________
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335D92F00>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+kind = 'hash'
+
+    @pytest.mark.parametrize('kind', ['hash', 'version'])
+    def test_decision_bound_to_exact_submitted_snapshot(acl_review, kind):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        changes = {'expected_content_sha256': 'f' * 64} if kind == 'hash' else {'expected_version': 0}
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+            headers=headers['reviewer'], json=decision_body(submitted, **changes))
+>       assert response.status_code == 409, response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 409
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:149: AssertionError
+__________ test_decision_bound_to_exact_submitted_snapshot[version] ___________
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335D93BF0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+kind = 'version'
+
+    @pytest.mark.parametrize('kind', ['hash', 'version'])
+    def test_decision_bound_to_exact_submitted_snapshot(acl_review, kind):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        changes = {'expected_content_sha256': 'f' * 64} if kind == 'hash' else {'expected_version': 0}
+        response = client.post('/v1/governance/ocr/pages/' + original['page_id'] + '/decisions',
+            headers=headers['reviewer'], json=decision_body(submitted, **changes))
+>       assert response.status_code == 409, response.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 409
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:149: AssertionError
+_________ test_editing_approved_content_invalidates_previous_decision _________
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335DFA390>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+
+    def test_editing_approved_content_invalidates_previous_decision(acl_review):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        base = '/v1/governance/ocr/pages/' + original['page_id']
+        approved = client.post(base + '/decisions', headers=headers['reviewer'], json=decision_body(submitted))
+>       assert approved.status_code == 200, approved.text
+E       AssertionError: {"detail":"Not Found"}
+E       assert 404 == 200
+E        +  where 404 = <Response [404 Not Found]>.status_code
+
+tests\test_v426_ocr_acl.py:158: AssertionError
+_____ test_return_requires_reason_and_approval_requires_human_attestation _____
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335DFB860>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+
+    def test_return_requires_reason_and_approval_requires_human_attestation(acl_review):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        base = '/v1/governance/ocr/pages/' + original['page_id']
+>       assert client.post(base + '/decisions', headers=headers['reviewer'],
+            json=decision_body(submitted, 'RETURN', reason='   ')).status_code == 422
+E       AssertionError: assert 404 == 422
+E        +  where 404 = <Response [404 Not Found]>.status_code
+E        +    where <Response [404 Not Found]> = post(('/v1/governance/ocr/pages/ocr-c0e32446f2ed8fe5f5e35256bb3ca14d-p1' + '/decisions'), headers={'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTQ4NDAxMDksImlhdCI6MTc5NDgzNjUwOSwiaXNzIjo...ksInByb2plY3RzIjpbXSwicm9sZXMiOlsiZXN0aW1hdG9yIl0sInN1YiI6InJldmlld2VyIn0.dv9OHNIbh7IqtUNxWLWQ_m2FR1ZcQgZkiSDjgo-MxEI'}, json={'decision': 'RETURN', 'expected_content_sha256': '0000000000000000000000000000000000000000000000000000000000000000', 'expected_version': 1, 'human_confirmed': True, ...})
+E        +      where post = <starlette.testclient.TestClient object at 0x000001C335DFB860>.post
+E        +      and   {'decision': 'RETURN', 'expected_content_sha256': '0000000000000000000000000000000000000000000000000000000000000000', 'expected_version': 1, 'human_confirmed': True, ...} = decision_body({'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [{'corrected_text': 'TEST_ONLY ԭʼʶ��1', 'event_id': 'orev-8f50ed3ae...580a133e37f797586a7593c563c', 'human_confirmed': 0, ...}], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...}, 'RETURN', reason='   ')
+
+tests\test_v426_ocr_acl.py:173: AssertionError
+_____________ test_outsider_cannot_read_or_write_any_ocr_endpoint _____________
+
+acl_review = (<starlette.testclient.TestClient object at 0x000001C335E144D0>, <txbuddy.governance.ocr_review.ReviewStore object at ..., {'OCR_engine': 'TEST_ONLY_OCR/1', 'change_history': [], 'confidence': 0.8, 'corrected_text': 'TEST_ONLY ԭʼʶ��1', ...})
+
+    def test_outsider_cannot_read_or_write_any_ocr_endpoint(acl_review):
+        client, store, headers, original = acl_review
+        submitted = submit(acl_review)
+        base = '/v1/governance/ocr/pages/' + original['page_id']
+        for suffix in ('', '/image'):
+            assert client.get(base + suffix, headers=headers['outsider']).status_code == 403
+        assert client.get('/v1/governance/ocr/documents/' + original['document_id'], headers=headers['outsider']).status_code == 403
+        for suffix, body in (('/reviews', legacy_body(submitted)), ('/drafts', {
+                'expected_version': 1, 'corrected_text': 'cross project', 'structured_fields': {}}),
+                ('/submit', {'expected_version': 1, 'expected_content_sha256': submitted.get('content_sha256', '0' * 64)}),
+                ('/decisions', decision_body(submitted))):
+>           assert client.post(base + suffix, headers=headers['outsider'], json=body).status_code == 403
+E           AssertionError: assert 404 == 403
+E            +  where 404 = <Response [404 Not Found]>.status_code
+E            +    where <Response [404 Not Found]> = post(('/v1/governance/ocr/pages/ocr-7759aad92770e2ac1e7e08c5dab1b3d3-p1' + '/drafts'), headers={'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTQ4NDAxMTQsImlhdCI6MTc5NDgzNjUxNCwiaXNzIjo...QsInByb2plY3RzIjpbXSwicm9sZXMiOlsiZXN0aW1hdG9yIl0sInN1YiI6Im91dHNpZGVyIn0.ylD6a4YtAOn4CVNbyzEEeXd7MBcnZ4G8Q9SEgXiEnjA'}, json={'corrected_text': 'cross project', 'expected_version': 1, 'structured_fields': {}})
+E            +      where post = <starlette.testclient.TestClient object at 0x000001C335E144D0>.post
+
+tests\test_v426_ocr_acl.py:200: AssertionError
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  F:\ZHU-FISH\TIANXUN_BUDDY_V4\TianxunBuddy_V4_Execution_Starter\backend\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_v426_ocr_acl.py::test_real_api_decision_permission_matrix[APPROVE-REVIEWED-viewer-False]
+FAILED tests/test_v426_ocr_acl.py::test_real_api_decision_permission_matrix[APPROVE-REVIEWED-editor-False]
+FAILED tests/test_v426_ocr_acl.py::test_real_api_decision_permission_matrix[APPROVE-REVIEWED-reviewer-True]
+FAILED tests/test_v426_ocr_acl.py::test_real_api_decision_permission_matrix[APPROVE-REVIEWED-owner-True]
+FAILED tests/test_v426_ocr_acl.py::test_real_api_decision_permission_matrix[RETURN-RETURNED-viewer-False]
+FAILED tests/test_v426_ocr_acl.py::test_real_api_decision_permission_matrix[RETURN-RETURNED-editor-False]
+FAILED tests/test_v426_ocr_acl.py::test_real_api_decision_permission_matrix[RETURN-RETURNED-reviewer-True]
+FAILED tests/test_v426_ocr_acl.py::test_real_api_decision_permission_matrix[RETURN-RETURNED-owner-True]
+FAILED tests/test_v426_ocr_acl.py::test_editor_cannot_approve_by_forging_legacy_status
+FAILED tests/test_v426_ocr_acl.py::test_reviewer_can_approve_legacy_submitted_exact_content
+FAILED tests/test_v426_ocr_acl.py::test_decision_endpoint_rejects_untrusted_fields[corrected_text-forged]
+FAILED tests/test_v426_ocr_acl.py::test_decision_endpoint_rejects_untrusted_fields[reviewer_id-owner]
+FAILED tests/test_v426_ocr_acl.py::test_decision_endpoint_rejects_untrusted_fields[professional-value2]
+FAILED tests/test_v426_ocr_acl.py::test_decision_endpoint_rejects_untrusted_fields[review_status-REVIEWED]
+FAILED tests/test_v426_ocr_acl.py::test_decision_requires_submitted_content_not_draft
+FAILED tests/test_v426_ocr_acl.py::test_decision_bound_to_exact_submitted_snapshot[hash]
+FAILED tests/test_v426_ocr_acl.py::test_decision_bound_to_exact_submitted_snapshot[version]
+FAILED tests/test_v426_ocr_acl.py::test_editing_approved_content_invalidates_previous_decision
+FAILED tests/test_v426_ocr_acl.py::test_return_requires_reason_and_approval_requires_human_attestation
+FAILED tests/test_v426_ocr_acl.py::test_outsider_cannot_read_or_write_any_ocr_endpoint
+20 failed, 17 passed, 1 warning in 76.86s (0:01:16)

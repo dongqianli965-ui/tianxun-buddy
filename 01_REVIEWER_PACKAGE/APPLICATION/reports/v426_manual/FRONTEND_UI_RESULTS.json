@@ -1,0 +1,225 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.shell.config.ts"
+    ],
+    "configFile": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\playwright.shell.config.ts",
+    "rootDir": "F:/ZHU-FISH/TIANXUN_BUDDY_V4/TianxunBuddy_V4_Execution_Starter/frontend/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/ZHU-FISH/TIANXUN_BUDDY_V4/TianxunBuddy_V4_Execution_Starter/reports/v426/manual-ui-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/ZHU-FISH/TIANXUN_BUDDY_V4/TianxunBuddy_V4_Execution_Starter/frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "manual-shell.spec.ts"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\reports\\v426\\manual-ui-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\e2e",
+        "snapshotDir": "F:\\ZHU-FISH\\TIANXUN_BUDDY_V4\\TianxunBuddy_V4_Execution_Starter\\frontend\\e2e",
+        "testIgnore": [],
+        "testMatch": "manual-shell.spec.ts",
+        "timeout": 120000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../reports/v426_manual/FRONTEND_UI_RESULTS.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm.cmd run preview -- --host 127.0.0.1 --port 4173 --strictPort",
+      "url": "http://127.0.0.1:4173/",
+      "reuseExistingServer": false,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "manual-shell.spec.ts",
+      "file": "manual-shell.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "人工验收壳层显示真实环境与请求观察状态",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1888,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T17:59:07.027Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4cdf44edc943df13bdb7-7f2698d799b7331a5a2f",
+          "file": "manual-shell.spec.ts",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "项目创建后同步 Job ID，并在登出时清理活动项目",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1392,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T17:59:09.256Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4cdf44edc943df13bdb7-1cdd8fa35094f8552b06",
+          "file": "manual-shell.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "无效材料条件清空旧价格并保留可理解错误",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2811,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T17:59:10.660Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4cdf44edc943df13bdb7-2452144cd8e05e08ca5c",
+          "file": "manual-shell.spec.ts",
+          "line": 88,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-16T17:59:03.044Z",
+    "duration": 12123.722999999998,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
